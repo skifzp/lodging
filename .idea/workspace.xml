@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="83dc8a7e-6320-46e8-aa33-427423f86476" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="lodging" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2019-3-2\plugins\maven\lib\maven3" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1guNQNndPMLMjKZJo9eiacGzsHb" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/build.gradle" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.29898804" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+  </component>
+  <component name="RunManager" selected="Gradle.ContactAddressTest.testContactAddress">
+    <configuration name="ContactAddressTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;il.elpisor.lodging.tests.ContactAddressTest&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="ContactAddressTest.testContactAddress" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;il.elpisor.lodging.tests.ContactAddressTest.testContactAddress&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="ContactCreation" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;il.elpisor.lodging.tests.ContactCreation&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.ContactAddressTest.testContactAddress" />
+        <item itemvalue="Gradle.ContactAddressTest" />
+        <item itemvalue="Gradle.ContactCreation" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="83dc8a7e-6320-46e8-aa33-427423f86476" name="Default Changelist" comment="" />
+      <created>1598960504543</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1598960504543</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="448" y="210" key="#Notifications" timestamp="1598960821209">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="448" y="210" key="#Notifications/0.0.1536.864@0.0.1536.864" timestamp="1598960821209" />
+    <state x="134" y="94" width="1294" height="679" key="#Project_Structure" timestamp="1598960834987">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="134" y="94" width="1294" height="679" key="#Project_Structure/0.0.1536.864@0.0.1536.864" timestamp="1598960834987" />
+    <state x="496" y="65" key="FileChooserDialogImpl" timestamp="1598960600636">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="496" y="65" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1598960600636" />
+    <state width="1481" height="259" key="GridCell.Tab.0.bottom" timestamp="1598977217243">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1481" height="259" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1598977217243" />
+    <state width="1481" height="259" key="GridCell.Tab.0.center" timestamp="1598977217243">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1481" height="259" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1598977217243" />
+    <state width="1481" height="259" key="GridCell.Tab.0.left" timestamp="1598977217243">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1481" height="259" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1598977217243" />
+    <state width="1481" height="259" key="GridCell.Tab.0.right" timestamp="1598977217243">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1481" height="259" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1598977217243" />
+    <state width="1481" height="259" key="GridCell.Tab.1.bottom" timestamp="1598977217243">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1481" height="259" key="GridCell.Tab.1.bottom/0.0.1536.864@0.0.1536.864" timestamp="1598977217243" />
+    <state width="1481" height="259" key="GridCell.Tab.1.center" timestamp="1598977217243">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1481" height="259" key="GridCell.Tab.1.center/0.0.1536.864@0.0.1536.864" timestamp="1598977217243" />
+    <state width="1481" height="259" key="GridCell.Tab.1.left" timestamp="1598977217243">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1481" height="259" key="GridCell.Tab.1.left/0.0.1536.864@0.0.1536.864" timestamp="1598977217243" />
+    <state width="1481" height="259" key="GridCell.Tab.1.right" timestamp="1598977217243">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1481" height="259" key="GridCell.Tab.1.right/0.0.1536.864@0.0.1536.864" timestamp="1598977217243" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/il/elpisor/lodging/tests/ContactAddressTest.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/il/elpisor/lodging/tests/ContactAddressTest.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/il/elpisor/lodging/appmanager/ContactHelper.java</url>
+          <line>103</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

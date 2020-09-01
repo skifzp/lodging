@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="il.elpisor.lodging.tests.ContactAddressTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-09-01T16:26:52" hostname="doc" time="0.642">
+  <properties/>
+  <testcase name="testContactAddress" classname="il.elpisor.lodging.tests.ContactAddressTest" time="0.642"/>
+  <system-out><![CDATA[19:26:43.732 [Test worker] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.12.Final
+19:26:44.701 [Test worker] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+19:26:44.977 [Test worker] WARN  o.hibernate.orm.connections.pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+19:26:44.989 [Test worker] INFO  o.hibernate.orm.connections.pooling - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/lodging]
+19:26:44.989 [Test worker] INFO  o.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {user=root, password=}
+19:26:44.990 [Test worker] INFO  o.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+19:26:44.997 [Test worker] INFO  o.h.e.j.c.i.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 20 (min=1)
+19:26:45.359 [Test worker] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+19:26:47.044 [Test worker] INFO  org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@16b372b8] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+19:26:47.185 [Test worker] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+19:26:52.084 [Test worker] INFO  il.elpisor.lodging.tests.TestBase - Strated 'testContactAddress' with parameters: []
+Hibernate: select contactdat0_.id as id1_1_, contactdat0_.bday as bday2_1_, contactdat0_.bmonth as bmonth3_1_, contactdat0_.byear as byear4_1_, contactdat0_.company as company5_1_, contactdat0_.address as address6_1_, contactdat0_.email as email7_1_, contactdat0_.firstname as firstnam8_1_, contactdat0_.homepage as homepage9_1_, contactdat0_.lastname as lastnam10_1_, contactdat0_.middlename as middlen11_1_, contactdat0_.nickname as nicknam12_1_, contactdat0_.notes as notes13_1_, contactdat0_.photo as photo14_1_, contactdat0_.address2 as address15_1_, contactdat0_.email2 as email16_1_, contactdat0_.home as home17_1_, contactdat0_.mobile as mobile18_1_, contactdat0_.work as work19_1_, contactdat0_.email3 as email20_1_, contactdat0_.title as title21_1_ from addressbook contactdat0_ where deprecated='0000-00-00'
+Hibernate: select groups0_.id as id1_0_0_, groups0_.group_id as group_id2_0_0_, groupdata1_.group_id as group_id1_2_1_, groupdata1_.group_footer as group_fo2_2_1_, groupdata1_.group_header as group_he3_2_1_, groupdata1_.group_name as group_na4_2_1_ from address_in_groups groups0_ inner join group_list groupdata1_ on groups0_.group_id=groupdata1_.group_id where groups0_.id=?
+Hibernate: select contactdat0_.id as id1_1_, contactdat0_.bday as bday2_1_, contactdat0_.bmonth as bmonth3_1_, contactdat0_.byear as byear4_1_, contactdat0_.company as company5_1_, contactdat0_.address as address6_1_, contactdat0_.email as email7_1_, contactdat0_.firstname as firstnam8_1_, contactdat0_.homepage as homepage9_1_, contactdat0_.lastname as lastnam10_1_, contactdat0_.middlename as middlen11_1_, contactdat0_.nickname as nicknam12_1_, contactdat0_.notes as notes13_1_, contactdat0_.photo as photo14_1_, contactdat0_.address2 as address15_1_, contactdat0_.email2 as email16_1_, contactdat0_.home as home17_1_, contactdat0_.mobile as mobile18_1_, contactdat0_.work as work19_1_, contactdat0_.email3 as email20_1_, contactdat0_.title as title21_1_ from addressbook contactdat0_ where deprecated='0000-00-00'
+Hibernate: select groups0_.id as id1_0_0_, groups0_.group_id as group_id2_0_0_, groupdata1_.group_id as group_id1_2_1_, groupdata1_.group_footer as group_fo2_2_1_, groupdata1_.group_header as group_he3_2_1_, groupdata1_.group_name as group_na4_2_1_ from address_in_groups groups0_ inner join group_list groupdata1_ on groups0_.group_id=groupdata1_.group_id where groups0_.id=?
+19:26:53.409 [Test worker] INFO  il.elpisor.lodging.tests.TestBase - Finished 'testContactAddress' with parameters: []
+]]></system-out>
+  <system-err><![CDATA[1598977608729	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "c:\\Temp\\rust_mozprofilez8psN8"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1598977610838	Marionette	INFO	Listening on port 61501
+1598977610863	Marionette	WARN	TLS certificate errors will be ignored for this session
+Sep 01, 2020 7:26:50 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+</testsuite>

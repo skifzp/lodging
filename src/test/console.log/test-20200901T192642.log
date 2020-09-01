@@ -1,0 +1,929 @@
+1314 [Test worker] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider
+1365 [Test worker] DEBUG o.h.i.i.IntegratorServiceImpl - Adding Integrator [org.hibernate.cfg.beanvalidation.BeanValidationIntegrator].
+1368 [Test worker] DEBUG o.h.i.i.IntegratorServiceImpl - Adding Integrator [org.hibernate.secure.spi.JaccIntegrator].
+1386 [Test worker] DEBUG o.h.i.i.IntegratorServiceImpl - Adding Integrator [org.hibernate.cache.internal.CollectionCacheInvalidator].
+1560 [Test worker] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.12.Final
+1566 [Test worker] DEBUG org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+1966 [Test worker] DEBUG o.h.b.j.i.s.LocalXmlResourceResolver - Interpreting public/system identifier : [null] - [http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd]
+1966 [Test worker] DEBUG o.h.b.j.i.s.LocalXmlResourceResolver - Recognized hibernate-configuration identifier; attempting to resolve on classpath under org/hibernate/
+1971 [Test worker] DEBUG o.h.b.c.internal.JaxbCfgProcessor - cfg.xml document did not define namespaces; wrapping in custom event reader to introduce namespace information
+2434 [Test worker] DEBUG o.h.service.spi.ServiceBinding - Overriding existing service binding [org.hibernate.secure.spi.JaccService]
+2471 [Test worker] DEBUG o.h.c.i.RegionFactoryInitiator - Cannot default RegionFactory based on registered strategies as `[]` RegionFactory strategies were registered
+2475 [Test worker] DEBUG o.h.c.i.RegionFactoryInitiator - Cache region factory : org.hibernate.cache.internal.NoCachingRegionFactory
+2529 [Test worker] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2599 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration boolean -> org.hibernate.type.BooleanType@5a76e596
+2599 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration boolean -> org.hibernate.type.BooleanType@5a76e596
+2600 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Boolean -> org.hibernate.type.BooleanType@5a76e596
+2601 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration numeric_boolean -> org.hibernate.type.NumericBooleanType@6ca7541d
+2602 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration true_false -> org.hibernate.type.TrueFalseType@4d00e414
+2604 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration yes_no -> org.hibernate.type.YesNoType@47e26da7
+2606 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration byte -> org.hibernate.type.ByteType@3876f855
+2606 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration byte -> org.hibernate.type.ByteType@3876f855
+2606 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Byte -> org.hibernate.type.ByteType@3876f855
+2608 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration character -> org.hibernate.type.CharacterType@635854df
+2608 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration char -> org.hibernate.type.CharacterType@635854df
+2608 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Character -> org.hibernate.type.CharacterType@635854df
+2610 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration short -> org.hibernate.type.ShortType@3d19b7e
+2610 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration short -> org.hibernate.type.ShortType@3d19b7e
+2610 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Short -> org.hibernate.type.ShortType@3d19b7e
+2612 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration integer -> org.hibernate.type.IntegerType@6b937d23
+2613 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration int -> org.hibernate.type.IntegerType@6b937d23
+2613 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Integer -> org.hibernate.type.IntegerType@6b937d23
+2615 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration long -> org.hibernate.type.LongType@77a12dfe
+2615 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration long -> org.hibernate.type.LongType@77a12dfe
+2615 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Long -> org.hibernate.type.LongType@77a12dfe
+2617 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration float -> org.hibernate.type.FloatType@36e3541d
+2617 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration float -> org.hibernate.type.FloatType@36e3541d
+2617 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Float -> org.hibernate.type.FloatType@36e3541d
+2619 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration double -> org.hibernate.type.DoubleType@182bb593
+2619 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration double -> org.hibernate.type.DoubleType@182bb593
+2619 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Double -> org.hibernate.type.DoubleType@182bb593
+2620 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration big_decimal -> org.hibernate.type.BigDecimalType@33e5e1f6
+2620 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.math.BigDecimal -> org.hibernate.type.BigDecimalType@33e5e1f6
+2622 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration big_integer -> org.hibernate.type.BigIntegerType@793064b4
+2622 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.math.BigInteger -> org.hibernate.type.BigIntegerType@793064b4
+2624 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration string -> org.hibernate.type.StringType@1b9c77c2
+2624 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.String -> org.hibernate.type.StringType@1b9c77c2
+2625 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration nstring -> org.hibernate.type.StringNVarcharType@1b48de51
+2626 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration ncharacter -> org.hibernate.type.CharacterNCharType@51052a07
+2628 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration url -> org.hibernate.type.UrlType@38c66ce5
+2628 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.net.URL -> org.hibernate.type.UrlType@38c66ce5
+2630 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration Duration -> org.hibernate.type.DurationType@617e1fb7
+2630 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.time.Duration -> org.hibernate.type.DurationType@617e1fb7
+2643 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration Instant -> org.hibernate.type.InstantType@4224eab3
+2643 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.time.Instant -> org.hibernate.type.InstantType@4224eab3
+2645 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration LocalDateTime -> org.hibernate.type.LocalDateTimeType@52985102
+2646 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.time.LocalDateTime -> org.hibernate.type.LocalDateTimeType@52985102
+2648 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration LocalDate -> org.hibernate.type.LocalDateType@4b4b75f6
+2648 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.time.LocalDate -> org.hibernate.type.LocalDateType@4b4b75f6
+2650 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration LocalTime -> org.hibernate.type.LocalTimeType@6de474d9
+2650 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.time.LocalTime -> org.hibernate.type.LocalTimeType@6de474d9
+2653 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration OffsetDateTime -> org.hibernate.type.OffsetDateTimeType@2d6c741e
+2653 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.time.OffsetDateTime -> org.hibernate.type.OffsetDateTimeType@2d6c741e
+2656 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration OffsetTime -> org.hibernate.type.OffsetTimeType@57117af8
+2656 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.time.OffsetTime -> org.hibernate.type.OffsetTimeType@57117af8
+2661 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration ZonedDateTime -> org.hibernate.type.ZonedDateTimeType@324a3f7a
+2661 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.time.ZonedDateTime -> org.hibernate.type.ZonedDateTimeType@324a3f7a
+2664 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration date -> org.hibernate.type.DateType@536d4c48
+2664 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.sql.Date -> org.hibernate.type.DateType@536d4c48
+2666 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration time -> org.hibernate.type.TimeType@42188045
+2666 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.sql.Time -> org.hibernate.type.TimeType@42188045
+2668 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration timestamp -> org.hibernate.type.TimestampType@1bafad40
+2668 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.sql.Timestamp -> org.hibernate.type.TimestampType@1bafad40
+2668 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.util.Date -> org.hibernate.type.TimestampType@1bafad40
+2670 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration dbtimestamp -> org.hibernate.type.DbTimestampType@5051858b
+2672 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration calendar -> org.hibernate.type.CalendarType@113cd2d0
+2672 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.util.Calendar -> org.hibernate.type.CalendarType@113cd2d0
+2672 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.util.GregorianCalendar -> org.hibernate.type.CalendarType@113cd2d0
+2673 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration calendar_date -> org.hibernate.type.CalendarDateType@31906c37
+2674 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration calendar_time -> org.hibernate.type.CalendarTimeType@64708aeb
+2676 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration locale -> org.hibernate.type.LocaleType@4801431b
+2676 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.util.Locale -> org.hibernate.type.LocaleType@4801431b
+2678 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration currency -> org.hibernate.type.CurrencyType@5597ac9b
+2678 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.util.Currency -> org.hibernate.type.CurrencyType@5597ac9b
+2679 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration timezone -> org.hibernate.type.TimeZoneType@4a8b9c33
+2680 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.util.TimeZone -> org.hibernate.type.TimeZoneType@4a8b9c33
+2681 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration class -> org.hibernate.type.ClassType@45d972ca
+2681 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Class -> org.hibernate.type.ClassType@45d972ca
+2683 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration uuid-binary -> org.hibernate.type.UUIDBinaryType@60a46a3
+2683 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.util.UUID -> org.hibernate.type.UUIDBinaryType@60a46a3
+2684 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration uuid-char -> org.hibernate.type.UUIDCharType@550659f0
+2685 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration binary -> org.hibernate.type.BinaryType@7c2c8d6c
+2685 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration byte[] -> org.hibernate.type.BinaryType@7c2c8d6c
+2685 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration [B -> org.hibernate.type.BinaryType@7c2c8d6c
+2687 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration wrapper-binary -> org.hibernate.type.WrapperBinaryType@5cc7aaad
+2687 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration Byte[] -> org.hibernate.type.WrapperBinaryType@5cc7aaad
+2687 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration [Ljava.lang.Byte; -> org.hibernate.type.WrapperBinaryType@5cc7aaad
+2690 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration row_version -> org.hibernate.type.RowVersionType@74d5e833
+2691 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration image -> org.hibernate.type.ImageType@43bd5c99
+2693 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration characters -> org.hibernate.type.CharArrayType@36237244
+2693 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration char[] -> org.hibernate.type.CharArrayType@36237244
+2693 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration [C -> org.hibernate.type.CharArrayType@36237244
+2694 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration wrapper-characters -> org.hibernate.type.CharacterArrayType@1c061199
+2695 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration [Ljava.lang.Character; -> org.hibernate.type.CharacterArrayType@1c061199
+2695 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration Character[] -> org.hibernate.type.CharacterArrayType@1c061199
+2695 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration text -> org.hibernate.type.TextType@27289cd6
+2696 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration ntext -> org.hibernate.type.NTextType@2bd72551
+2698 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration blob -> org.hibernate.type.BlobType@350bfe99
+2698 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.sql.Blob -> org.hibernate.type.BlobType@350bfe99
+2699 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration materialized_blob -> org.hibernate.type.MaterializedBlobType@6e31cdec
+2701 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration clob -> org.hibernate.type.ClobType@63682cf7
+2701 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.sql.Clob -> org.hibernate.type.ClobType@63682cf7
+2704 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration nclob -> org.hibernate.type.NClobType@766153eb
+2704 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.sql.NClob -> org.hibernate.type.NClobType@766153eb
+2704 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration materialized_clob -> org.hibernate.type.MaterializedClobType@4b857ed2
+2705 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration materialized_nclob -> org.hibernate.type.MaterializedNClobType@f6c0db4
+2706 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration serializable -> org.hibernate.type.SerializableType@6a03be79
+2713 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration object -> org.hibernate.type.ObjectType@78fb025a
+2713 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Object -> org.hibernate.type.ObjectType@78fb025a
+2714 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration imm_date -> org.hibernate.type.AdaptedImmutableType@7559277d
+2714 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration imm_time -> org.hibernate.type.AdaptedImmutableType@3c1de9e0
+2714 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration imm_timestamp -> org.hibernate.type.AdaptedImmutableType@1c783629
+2714 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration imm_dbtimestamp -> org.hibernate.type.AdaptedImmutableType@71321153
+2714 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration imm_calendar -> org.hibernate.type.AdaptedImmutableType@4d6ca2c7
+2714 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration imm_calendar_date -> org.hibernate.type.AdaptedImmutableType@1e6d0063
+2714 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration imm_binary -> org.hibernate.type.AdaptedImmutableType@43f9a4f9
+2714 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration imm_serializable -> org.hibernate.type.AdaptedImmutableType@22208d5c
+2779 [Test worker] DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [uuid2] -> [org.hibernate.id.UUIDGenerator]
+2779 [Test worker] DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [guid] -> [org.hibernate.id.GUIDGenerator]
+2781 [Test worker] DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [uuid] -> [org.hibernate.id.UUIDHexGenerator]
+2781 [Test worker] DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [uuid.hex] -> [org.hibernate.id.UUIDHexGenerator]
+2782 [Test worker] DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [assigned] -> [org.hibernate.id.Assigned]
+2784 [Test worker] DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [identity] -> [org.hibernate.id.IdentityGenerator]
+2785 [Test worker] DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [select] -> [org.hibernate.id.SelectGenerator]
+2788 [Test worker] DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [sequence] -> [org.hibernate.id.enhanced.SequenceStyleGenerator]
+2791 [Test worker] DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [seqhilo] -> [org.hibernate.id.SequenceHiLoGenerator]
+2792 [Test worker] DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [increment] -> [org.hibernate.id.IncrementGenerator]
+2793 [Test worker] DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [foreign] -> [org.hibernate.id.ForeignGenerator]
+2795 [Test worker] DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [sequence-identity] -> [org.hibernate.id.SequenceIdentityGenerator]
+2795 [Test worker] DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [enhanced-sequence] -> [org.hibernate.id.enhanced.SequenceStyleGenerator]
+2797 [Test worker] DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [enhanced-table] -> [org.hibernate.id.enhanced.TableGenerator]
+2805 [Test worker] WARN  o.hibernate.orm.connections.pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2817 [Test worker] INFO  o.hibernate.orm.connections.pooling - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/lodging]
+2817 [Test worker] INFO  o.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {user=root, password=}
+2818 [Test worker] INFO  o.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+2825 [Test worker] DEBUG o.h.e.j.c.i.DriverManagerConnectionProviderImpl - Initializing Connection pool with 1 Connections
+2825 [Test worker] INFO  o.h.e.j.c.i.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 20 (min=1)
+3167 [Test worker] DEBUG o.h.e.j.e.i.JdbcEnvironmentInitiator - Database ->
+       name : MySQL
+    version : 5.5.5-10.4.11-MariaDB
+      major : 5
+      minor : 5
+3167 [Test worker] DEBUG o.h.e.j.e.i.JdbcEnvironmentInitiator - Driver ->
+       name : MySQL Connector/J
+    version : mysql-connector-java-8.0.19 (Revision: a0ca826f5cdf51a98356fdfb1bf251eb042f80bf)
+      major : 8
+      minor : 0
+3167 [Test worker] DEBUG o.h.e.j.e.i.JdbcEnvironmentInitiator - JDBC version : 4.2
+3187 [Test worker] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+3218 [Test worker] DEBUG o.h.e.j.e.s.IdentifierHelperBuilder - JDBC driver metadata reported database stores quoted identifiers in more than one case
+3225 [Test worker] DEBUG o.h.e.j.e.s.IdentifierHelperBuilder - IdentifierCaseStrategy for both quoted and unquoted identifiers was set to the same strategy [LOWER]; that will likely lead to problems in schema update and validation if using quoted identifiers
+3300 [Test worker] DEBUG o.h.boot.model.relational.Namespace - Created database namespace [logicalName=Name{catalog=null, schema=null}, physicalName=Name{catalog=null, schema=null}]
+3306 [Test worker] DEBUG o.h.t.spi.TypeConfiguration$Scope - Scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration@32961e44] to MetadataBuildingContext [org.hibernate.boot.internal.MetadataBuildingContextRootImpl@13d9fad0]
+3422 [Test worker] DEBUG org.hibernate.cfg.AnnotationBinder - Binding entity from annotated class: il.elpisor.lodging.model.GroupData
+3463 [Test worker] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3DiscriminatorColumn{logicalColumnName'DTYPE', discriminatorTypeName='string'}
+3472 [Test worker] DEBUG o.h.cfg.annotations.EntityBinder - Import with entity name GroupData
+3476 [Test worker] DEBUG o.h.cfg.annotations.EntityBinder - Bind entity il.elpisor.lodging.model.GroupData on table group_list
+3631 [Test worker] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(group_list), mappingColumn=group_id, insertable=true, updatable=true, unique=false}
+3637 [Test worker] DEBUG o.h.cfg.annotations.PropertyBinder - MetadataSourceProcessor property id with lazy=false
+3639 [Test worker] DEBUG o.h.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [il.elpisor.lodging.model.GroupData:id]
+3642 [Test worker] DEBUG o.h.c.annotations.SimpleValueBinder - building SimpleValue for id
+3644 [Test worker] DEBUG o.h.cfg.annotations.PropertyBinder - Building property id
+3647 [Test worker] DEBUG org.hibernate.cfg.BinderHelper - #makeIdGenerator(org.hibernate.mapping.SimpleValue([org.hibernate.mapping.Column(group_id)]), id, assigned, , ...)
+3651 [Test worker] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(group_list), mappingColumn=null, insertable=true, updatable=true, unique=false}
+3667 [Test worker] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(group_list), mappingColumn=element, insertable=true, updatable=true, unique=false}
+3668 [Test worker] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(group_list), mappingColumn=contacts_KEY, insertable=true, updatable=true, unique=false}
+3670 [Test worker] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3JoinColumn{logicalColumnName='contacts_KEY', referencedColumn='null', mappedBy='null'}
+3671 [Test worker] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3JoinColumn{logicalColumnName='null', referencedColumn='null', mappedBy='groups'}
+3671 [Test worker] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3JoinColumn{logicalColumnName='null', referencedColumn='null', mappedBy='groups'}
+3672 [Test worker] DEBUG o.h.c.annotations.CollectionBinder - Collection role: il.elpisor.lodging.model.GroupData.contacts
+3676 [Test worker] DEBUG o.h.cfg.annotations.PropertyBinder - Building property contacts
+3676 [Test worker] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(group_list), mappingColumn=group_footer, insertable=true, updatable=true, unique=false}
+3676 [Test worker] DEBUG o.h.cfg.annotations.PropertyBinder - MetadataSourceProcessor property footer with lazy=false
+3676 [Test worker] DEBUG o.h.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [il.elpisor.lodging.model.GroupData:footer]
+3676 [Test worker] DEBUG o.h.c.annotations.SimpleValueBinder - building SimpleValue for footer
+3676 [Test worker] DEBUG o.h.cfg.annotations.PropertyBinder - Building property footer
+3677 [Test worker] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(group_list), mappingColumn=group_header, insertable=true, updatable=true, unique=false}
+3677 [Test worker] DEBUG o.h.cfg.annotations.PropertyBinder - MetadataSourceProcessor property header with lazy=false
+3677 [Test worker] DEBUG o.h.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [il.elpisor.lodging.model.GroupData:header]
+3677 [Test worker] DEBUG o.h.c.annotations.SimpleValueBinder - building SimpleValue for header
+3677 [Test worker] DEBUG o.h.cfg.annotations.PropertyBinder - Building property header
+3678 [Test worker] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(group_list), mappingColumn=group_name, insertable=true, updatable=true, unique=false}
+3678 [Test worker] DEBUG o.h.cfg.annotations.PropertyBinder - MetadataSourceProcessor property name with lazy=false
+3678 [Test worker] DEBUG o.h.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [il.elpisor.lodging.model.GroupData:name]
+3678 [Test worker] DEBUG o.h.c.annotations.SimpleValueBinder - building SimpleValue for name
+3678 [Test worker] DEBUG o.h.cfg.annotations.PropertyBinder - Building property name
+3680 [Test worker] DEBUG org.hibernate.cfg.AnnotationBinder - Binding entity from annotated class: il.elpisor.lodging.model.ContactData
+3680 [Test worker] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3DiscriminatorColumn{logicalColumnName'DTYPE', discriminatorTypeName='string'}
+3680 [Test worker] DEBUG o.h.cfg.annotations.EntityBinder - Import with entity name ContactData
+3680 [Test worker] DEBUG o.h.cfg.annotations.EntityBinder - Bind entity il.elpisor.lodging.model.ContactData on table addressbook
+3693 [Test worker] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(addressbook), mappingColumn=id, insertable=true, updatable=true, unique=false}
+3693 [Test worker] DEBUG o.h.cfg.annotations.PropertyBinder - MetadataSourceProcessor property id with lazy=false
+3693 [Test worker] DEBUG o.h.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [il.elpisor.lodging.model.ContactData:id]
+3694 [Test worker] DEBUG o.h.c.annotations.SimpleValueBinder - building SimpleValue for id
+3694 [Test worker] DEBUG o.h.cfg.annotations.PropertyBinder - Building property id
+3694 [Test worker] DEBUG org.hibernate.cfg.BinderHelper - #makeIdGenerator(org.hibernate.mapping.SimpleValue([org.hibernate.mapping.Column(id)]), id, assigned, , ...)
+3694 [Test worker] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(addressbook), mappingColumn=bday, insertable=true, updatable=true, unique=false}
+3694 [Test worker] DEBUG o.h.cfg.annotations.PropertyBinder - MetadataSourceProcessor property BDay with lazy=false
+3694 [Test worker] DEBUG o.h.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [il.elpisor.lodging.model.ContactData:BDay]
+3694 [Test worker] DEBUG o.h.c.annotations.SimpleValueBinder - building SimpleValue for BDay
+3694 [Test worker] DEBUG o.h.cfg.annotations.PropertyBinder - Building property BDay
+3695 [Test worker] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(addressbook), mappingColumn=bmonth, insertable=true, updatable=true, unique=false}
+3695 [Test worker] DEBUG o.h.cfg.annotations.PropertyBinder - MetadataSourceProcessor property BMonth with lazy=false
+3695 [Test worker] DEBUG o.h.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [il.elpisor.lodging.model.ContactData:BMonth]
+3695 [Test worker] DEBUG o.h.c.annotations.SimpleValueBinder - building SimpleValue for BMonth
+3695 [Test worker] DEBUG o.h.cfg.annotations.PropertyBinder - Building property BMonth
+3695 [Test worker] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(addressbook), mappingColumn=byear, insertable=true, updatable=true, unique=false}
+3695 [Test worker] DEBUG o.h.cfg.annotations.PropertyBinder - MetadataSourceProcessor property BYear with lazy=false
+3695 [Test worker] DEBUG o.h.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [il.elpisor.lodging.model.ContactData:BYear]
+3695 [Test worker] DEBUG o.h.c.annotations.SimpleValueBinder - building SimpleValue for BYear
+3696 [Test worker] DEBUG o.h.cfg.annotations.PropertyBinder - Building property BYear
+3696 [Test worker] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(addressbook), mappingColumn=company, insertable=true, updatable=true, unique=false}
+3696 [Test worker] DEBUG o.h.cfg.annotations.PropertyBinder - MetadataSourceProcessor property companyName with lazy=false
+3696 [Test worker] DEBUG o.h.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [il.elpisor.lodging.model.ContactData:companyName]
+3696 [Test worker] DEBUG o.h.c.annotations.SimpleValueBinder - building SimpleValue for companyName
+3696 [Test worker] DEBUG o.h.cfg.annotations.PropertyBinder - Building property companyName
+3696 [Test worker] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(addressbook), mappingColumn=address, insertable=true, updatable=true, unique=false}
+3696 [Test worker] DEBUG o.h.cfg.annotations.PropertyBinder - MetadataSourceProcessor property firstAddress with lazy=false
+3697 [Test worker] DEBUG o.h.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [il.elpisor.lodging.model.ContactData:firstAddress]
+3697 [Test worker] DEBUG o.h.c.annotations.SimpleValueBinder - building SimpleValue for firstAddress
+3697 [Test worker] DEBUG o.h.cfg.annotations.PropertyBinder - Building property firstAddress
+3697 [Test worker] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(addressbook), mappingColumn=email, insertable=true, updatable=true, unique=false}
+3697 [Test worker] DEBUG o.h.cfg.annotations.PropertyBinder - MetadataSourceProcessor property firstEMail with lazy=false
+3697 [Test worker] DEBUG o.h.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [il.elpisor.lodging.model.ContactData:firstEMail]
+3697 [Test worker] DEBUG o.h.c.annotations.SimpleValueBinder - building SimpleValue for firstEMail
+3697 [Test worker] DEBUG o.h.cfg.annotations.PropertyBinder - Building property firstEMail
+3698 [Test worker] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(addressbook), mappingColumn=firstname, insertable=true, updatable=true, unique=false}
+3698 [Test worker] DEBUG o.h.cfg.annotations.PropertyBinder - MetadataSourceProcessor property firstName with lazy=false
+3698 [Test worker] DEBUG o.h.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [il.elpisor.lodging.model.ContactData:firstName]
+3698 [Test worker] DEBUG o.h.c.annotations.SimpleValueBinder - building SimpleValue for firstName
+3698 [Test worker] DEBUG o.h.cfg.annotations.PropertyBinder - Building property firstName
+3698 [Test worker] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(addressbook), mappingColumn=null, insertable=true, updatable=true, unique=false}
+3698 [Test worker] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(addressbook), mappingColumn=element, insertable=true, updatable=true, unique=false}
+3698 [Test worker] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(addressbook), mappingColumn=groups_KEY, insertable=true, updatable=true, unique=false}
+3699 [Test worker] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3JoinColumn{logicalColumnName='groups_KEY', referencedColumn='null', mappedBy='null'}
+3699 [Test worker] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3JoinColumn{logicalColumnName='id', referencedColumn='', mappedBy=''}
+3699 [Test worker] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3JoinColumn{logicalColumnName='group_id', referencedColumn='', mappedBy=''}
+3699 [Test worker] DEBUG o.h.c.annotations.CollectionBinder - Collection role: il.elpisor.lodging.model.ContactData.groups
+3699 [Test worker] DEBUG o.h.cfg.annotations.PropertyBinder - Building property groups
+3700 [Test worker] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(addressbook), mappingColumn=homepage, insertable=true, updatable=true, unique=false}
+3700 [Test worker] DEBUG o.h.cfg.annotations.PropertyBinder - MetadataSourceProcessor property homePage with lazy=false
+3700 [Test worker] DEBUG o.h.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [il.elpisor.lodging.model.ContactData:homePage]
+3700 [Test worker] DEBUG o.h.c.annotations.SimpleValueBinder - building SimpleValue for homePage
+3700 [Test worker] DEBUG o.h.cfg.annotations.PropertyBinder - Building property homePage
+3700 [Test worker] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(addressbook), mappingColumn=lastname, insertable=true, updatable=true, unique=false}
+3700 [Test worker] DEBUG o.h.cfg.annotations.PropertyBinder - MetadataSourceProcessor property lastName with lazy=false
+3700 [Test worker] DEBUG o.h.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [il.elpisor.lodging.model.ContactData:lastName]
+3700 [Test worker] DEBUG o.h.c.annotations.SimpleValueBinder - building SimpleValue for lastName
+3700 [Test worker] DEBUG o.h.cfg.annotations.PropertyBinder - Building property lastName
+3700 [Test worker] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(addressbook), mappingColumn=middlename, insertable=true, updatable=true, unique=false}
+3701 [Test worker] DEBUG o.h.cfg.annotations.PropertyBinder - MetadataSourceProcessor property middleName with lazy=false
+3701 [Test worker] DEBUG o.h.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [il.elpisor.lodging.model.ContactData:middleName]
+3701 [Test worker] DEBUG o.h.c.annotations.SimpleValueBinder - building SimpleValue for middleName
+3701 [Test worker] DEBUG o.h.cfg.annotations.PropertyBinder - Building property middleName
+3701 [Test worker] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(addressbook), mappingColumn=nickname, insertable=true, updatable=true, unique=false}
+3701 [Test worker] DEBUG o.h.cfg.annotations.PropertyBinder - MetadataSourceProcessor property nickName with lazy=false
+3701 [Test worker] DEBUG o.h.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [il.elpisor.lodging.model.ContactData:nickName]
+3701 [Test worker] DEBUG o.h.c.annotations.SimpleValueBinder - building SimpleValue for nickName
+3701 [Test worker] DEBUG o.h.cfg.annotations.PropertyBinder - Building property nickName
+3701 [Test worker] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(addressbook), mappingColumn=notes, insertable=true, updatable=true, unique=false}
+3702 [Test worker] DEBUG o.h.cfg.annotations.PropertyBinder - MetadataSourceProcessor property notes with lazy=false
+3702 [Test worker] DEBUG o.h.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [il.elpisor.lodging.model.ContactData:notes]
+3702 [Test worker] DEBUG o.h.c.annotations.SimpleValueBinder - building SimpleValue for notes
+3702 [Test worker] DEBUG o.h.cfg.annotations.PropertyBinder - Building property notes
+3702 [Test worker] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(addressbook), mappingColumn=photo, insertable=true, updatable=true, unique=false}
+3702 [Test worker] DEBUG o.h.cfg.annotations.PropertyBinder - MetadataSourceProcessor property photo with lazy=false
+3702 [Test worker] DEBUG o.h.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [il.elpisor.lodging.model.ContactData:photo]
+3702 [Test worker] DEBUG o.h.c.annotations.SimpleValueBinder - building SimpleValue for photo
+3702 [Test worker] DEBUG o.h.cfg.annotations.PropertyBinder - Building property photo
+3702 [Test worker] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(addressbook), mappingColumn=address2, insertable=true, updatable=true, unique=false}
+3703 [Test worker] DEBUG o.h.cfg.annotations.PropertyBinder - MetadataSourceProcessor property secondAddress with lazy=false
+3703 [Test worker] DEBUG o.h.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [il.elpisor.lodging.model.ContactData:secondAddress]
+3703 [Test worker] DEBUG o.h.c.annotations.SimpleValueBinder - building SimpleValue for secondAddress
+3703 [Test worker] DEBUG o.h.cfg.annotations.PropertyBinder - Building property secondAddress
+3703 [Test worker] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(addressbook), mappingColumn=email2, insertable=true, updatable=true, unique=false}
+3703 [Test worker] DEBUG o.h.cfg.annotations.PropertyBinder - MetadataSourceProcessor property secondEMail with lazy=false
+3703 [Test worker] DEBUG o.h.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [il.elpisor.lodging.model.ContactData:secondEMail]
+3703 [Test worker] DEBUG o.h.c.annotations.SimpleValueBinder - building SimpleValue for secondEMail
+3703 [Test worker] DEBUG o.h.cfg.annotations.PropertyBinder - Building property secondEMail
+3703 [Test worker] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(addressbook), mappingColumn=home, insertable=true, updatable=true, unique=false}
+3703 [Test worker] DEBUG o.h.cfg.annotations.PropertyBinder - MetadataSourceProcessor property telHome with lazy=false
+3703 [Test worker] DEBUG o.h.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [il.elpisor.lodging.model.ContactData:telHome]
+3703 [Test worker] DEBUG o.h.c.annotations.SimpleValueBinder - building SimpleValue for telHome
+3703 [Test worker] DEBUG o.h.cfg.annotations.PropertyBinder - Building property telHome
+3703 [Test worker] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(addressbook), mappingColumn=mobile, insertable=true, updatable=true, unique=false}
+3703 [Test worker] DEBUG o.h.cfg.annotations.PropertyBinder - MetadataSourceProcessor property telMobile with lazy=false
+3703 [Test worker] DEBUG o.h.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [il.elpisor.lodging.model.ContactData:telMobile]
+3704 [Test worker] DEBUG o.h.c.annotations.SimpleValueBinder - building SimpleValue for telMobile
+3704 [Test worker] DEBUG o.h.cfg.annotations.PropertyBinder - Building property telMobile
+3704 [Test worker] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(addressbook), mappingColumn=work, insertable=true, updatable=true, unique=false}
+3704 [Test worker] DEBUG o.h.cfg.annotations.PropertyBinder - MetadataSourceProcessor property telWork with lazy=false
+3704 [Test worker] DEBUG o.h.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [il.elpisor.lodging.model.ContactData:telWork]
+3704 [Test worker] DEBUG o.h.c.annotations.SimpleValueBinder - building SimpleValue for telWork
+3704 [Test worker] DEBUG o.h.cfg.annotations.PropertyBinder - Building property telWork
+3704 [Test worker] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(addressbook), mappingColumn=email3, insertable=true, updatable=true, unique=false}
+3704 [Test worker] DEBUG o.h.cfg.annotations.PropertyBinder - MetadataSourceProcessor property thirdEMail with lazy=false
+3704 [Test worker] DEBUG o.h.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [il.elpisor.lodging.model.ContactData:thirdEMail]
+3704 [Test worker] DEBUG o.h.c.annotations.SimpleValueBinder - building SimpleValue for thirdEMail
+3704 [Test worker] DEBUG o.h.cfg.annotations.PropertyBinder - Building property thirdEMail
+3704 [Test worker] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(addressbook), mappingColumn=title, insertable=true, updatable=true, unique=false}
+3704 [Test worker] DEBUG o.h.cfg.annotations.PropertyBinder - MetadataSourceProcessor property title with lazy=false
+3704 [Test worker] DEBUG o.h.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [il.elpisor.lodging.model.ContactData:title]
+3704 [Test worker] DEBUG o.h.c.annotations.SimpleValueBinder - building SimpleValue for title
+3704 [Test worker] DEBUG o.h.cfg.annotations.PropertyBinder - Building property title
+3706 [Test worker] DEBUG o.h.c.annotations.SimpleValueBinder - Starting fillSimpleValue for id
+3706 [Test worker] DEBUG o.h.c.annotations.SimpleValueBinder - Starting fillSimpleValue for footer
+3706 [Test worker] DEBUG o.h.c.annotations.SimpleValueBinder - Starting fillSimpleValue for header
+3706 [Test worker] DEBUG o.h.c.annotations.SimpleValueBinder - Starting fillSimpleValue for name
+3706 [Test worker] DEBUG o.h.c.annotations.SimpleValueBinder - Starting fillSimpleValue for id
+3706 [Test worker] DEBUG o.h.c.annotations.SimpleValueBinder - Starting fillSimpleValue for BDay
+3706 [Test worker] DEBUG o.h.c.annotations.SimpleValueBinder - Starting fillSimpleValue for BMonth
+3706 [Test worker] DEBUG o.h.c.annotations.SimpleValueBinder - Starting fillSimpleValue for BYear
+3706 [Test worker] DEBUG o.h.c.annotations.SimpleValueBinder - Starting fillSimpleValue for companyName
+3706 [Test worker] DEBUG o.h.c.annotations.SimpleValueBinder - Starting fillSimpleValue for firstAddress
+3706 [Test worker] DEBUG o.h.c.annotations.SimpleValueBinder - Starting fillSimpleValue for firstEMail
+3706 [Test worker] DEBUG o.h.c.annotations.SimpleValueBinder - Starting fillSimpleValue for firstName
+3706 [Test worker] DEBUG o.h.c.annotations.SimpleValueBinder - Starting fillSimpleValue for homePage
+3707 [Test worker] DEBUG o.h.c.annotations.SimpleValueBinder - Starting fillSimpleValue for lastName
+3707 [Test worker] DEBUG o.h.c.annotations.SimpleValueBinder - Starting fillSimpleValue for middleName
+3707 [Test worker] DEBUG o.h.c.annotations.SimpleValueBinder - Starting fillSimpleValue for nickName
+3707 [Test worker] DEBUG o.h.c.annotations.SimpleValueBinder - Starting fillSimpleValue for notes
+3707 [Test worker] DEBUG o.h.c.annotations.SimpleValueBinder - Starting fillSimpleValue for photo
+3707 [Test worker] DEBUG o.h.c.annotations.SimpleValueBinder - Starting fillSimpleValue for secondAddress
+3707 [Test worker] DEBUG o.h.c.annotations.SimpleValueBinder - Starting fillSimpleValue for secondEMail
+3707 [Test worker] DEBUG o.h.c.annotations.SimpleValueBinder - Starting fillSimpleValue for telHome
+3707 [Test worker] DEBUG o.h.c.annotations.SimpleValueBinder - Starting fillSimpleValue for telMobile
+3707 [Test worker] DEBUG o.h.c.annotations.SimpleValueBinder - Starting fillSimpleValue for telWork
+3707 [Test worker] DEBUG o.h.c.annotations.SimpleValueBinder - Starting fillSimpleValue for thirdEMail
+3707 [Test worker] DEBUG o.h.c.annotations.SimpleValueBinder - Starting fillSimpleValue for title
+3710 [Test worker] DEBUG org.hibernate.mapping.PrimaryKey - Forcing column [group_id] to be non-null as it is part of the primary key for table [group_list]
+3710 [Test worker] DEBUG org.hibernate.mapping.PrimaryKey - Forcing column [id] to be non-null as it is part of the primary key for table [addressbook]
+3710 [Test worker] DEBUG o.h.cfg.CollectionSecondPass - Second pass for collection: il.elpisor.lodging.model.ContactData.groups
+3710 [Test worker] DEBUG o.h.c.annotations.CollectionBinder - Binding as ManyToMany: il.elpisor.lodging.model.ContactData.groups
+3717 [Test worker] DEBUG org.hibernate.mapping.PrimaryKey - Forcing column [id] to be non-null as it is part of the primary key for table [address_in_groups]
+3717 [Test worker] DEBUG org.hibernate.mapping.PrimaryKey - Forcing column [group_id] to be non-null as it is part of the primary key for table [address_in_groups]
+3717 [Test worker] DEBUG o.h.cfg.CollectionSecondPass - Mapped collection key: id, element: group_id
+3717 [Test worker] DEBUG o.h.cfg.CollectionSecondPass - Second pass for collection: il.elpisor.lodging.model.GroupData.contacts
+3718 [Test worker] DEBUG o.h.c.annotations.CollectionBinder - Binding as ManyToMany: il.elpisor.lodging.model.GroupData.contacts
+3718 [Test worker] DEBUG o.h.cfg.annotations.TableBinder - Retrieving property il.elpisor.lodging.model.ContactData.groups
+3718 [Test worker] DEBUG o.h.cfg.CollectionSecondPass - Mapped collection key: group_id, element: id
+3718 [Test worker] DEBUG o.h.b.i.InFlightMetadataCollectorImpl - Resolving reference to class: il.elpisor.lodging.model.GroupData
+3721 [Test worker] DEBUG o.h.b.i.InFlightMetadataCollectorImpl - Resolving reference to class: il.elpisor.lodging.model.ContactData
+3722 [Test worker] DEBUG o.h.b.i.InFlightMetadataCollectorImpl - Resolving reference to class: il.elpisor.lodging.model.GroupData
+3722 [Test worker] DEBUG o.h.b.i.InFlightMetadataCollectorImpl - Resolving reference to class: il.elpisor.lodging.model.ContactData
+3791 [Test worker] DEBUG o.h.internal.SessionFactoryImpl - Building session factory
+3792 [Test worker] DEBUG org.hibernate.cfg.Settings - SessionFactory name : null
+3793 [Test worker] DEBUG org.hibernate.cfg.Settings - Automatic flush during beforeCompletion(): enabled
+3793 [Test worker] DEBUG org.hibernate.cfg.Settings - Automatic session close at end of transaction: disabled
+3793 [Test worker] DEBUG org.hibernate.cfg.Settings - Statistics: disabled
+3793 [Test worker] DEBUG org.hibernate.cfg.Settings - Deleted entity synthetic identifier rollback: disabled
+3793 [Test worker] DEBUG org.hibernate.cfg.Settings - Default entity-mode: pojo
+3793 [Test worker] DEBUG org.hibernate.cfg.Settings - Check Nullability in Core (should be disabled when Bean Validation is on): enabled
+3793 [Test worker] DEBUG org.hibernate.cfg.Settings - Allow initialization of lazy state outside session : disabled
+3793 [Test worker] DEBUG org.hibernate.cfg.Settings - Using BatchFetchStyle : LEGACY
+3793 [Test worker] DEBUG org.hibernate.cfg.Settings - Default batch fetch size: -1
+3793 [Test worker] DEBUG org.hibernate.cfg.Settings - Maximum outer join fetch depth: 2
+3793 [Test worker] DEBUG org.hibernate.cfg.Settings - Default null ordering: NONE
+3793 [Test worker] DEBUG org.hibernate.cfg.Settings - Order SQL updates by primary key: disabled
+3793 [Test worker] DEBUG org.hibernate.cfg.Settings - Order SQL inserts for batching: disabled
+3793 [Test worker] DEBUG org.hibernate.cfg.Settings - multi-tenancy strategy : NONE
+3793 [Test worker] DEBUG org.hibernate.cfg.Settings - JTA Track by Thread: enabled
+3793 [Test worker] DEBUG org.hibernate.cfg.Settings - Query language substitutions: {}
+3793 [Test worker] DEBUG org.hibernate.cfg.Settings - Named query checking : enabled
+3793 [Test worker] DEBUG org.hibernate.cfg.Settings - Second-level cache: disabled
+3793 [Test worker] DEBUG org.hibernate.cfg.Settings - Second-level query cache: disabled
+3793 [Test worker] DEBUG org.hibernate.cfg.Settings - Second-level query cache factory: null
+3793 [Test worker] DEBUG org.hibernate.cfg.Settings - Second-level cache region prefix: null
+3793 [Test worker] DEBUG org.hibernate.cfg.Settings - Optimize second-level cache for minimal puts: disabled
+3793 [Test worker] DEBUG org.hibernate.cfg.Settings - Structured second-level cache entries: disabled
+3793 [Test worker] DEBUG org.hibernate.cfg.Settings - Second-level cache direct-reference entries: disabled
+3793 [Test worker] DEBUG org.hibernate.cfg.Settings - Automatic eviction of collection cache: disabled
+3793 [Test worker] DEBUG org.hibernate.cfg.Settings - JDBC batch size: 15
+3794 [Test worker] DEBUG org.hibernate.cfg.Settings - JDBC batch updates for versioned data: enabled
+3794 [Test worker] DEBUG org.hibernate.cfg.Settings - Scrollable result sets: enabled
+3794 [Test worker] DEBUG org.hibernate.cfg.Settings - Wrap result sets: disabled
+3794 [Test worker] DEBUG org.hibernate.cfg.Settings - JDBC3 getGeneratedKeys(): enabled
+3794 [Test worker] DEBUG org.hibernate.cfg.Settings - JDBC result set fetch size: null
+3794 [Test worker] DEBUG org.hibernate.cfg.Settings - Connection release mode: AFTER_TRANSACTION
+3794 [Test worker] DEBUG org.hibernate.cfg.Settings - Generate SQL with comments: disabled
+3794 [Test worker] DEBUG org.hibernate.cfg.Settings - JPA compliance - query : disabled
+3794 [Test worker] DEBUG org.hibernate.cfg.Settings - JPA compliance - closed-handling : disabled
+3794 [Test worker] DEBUG org.hibernate.cfg.Settings - JPA compliance - lists : disabled
+3794 [Test worker] DEBUG org.hibernate.cfg.Settings - JPA compliance - transactions : disabled
+3928 [Test worker] DEBUG o.h.internal.SessionFactoryImpl - Session factory constructed with filter configurations : {}
+3928 [Test worker] DEBUG o.h.internal.SessionFactoryImpl - Instantiating session factory with properties: {sun.desktop=windows, awt.toolkit=sun.awt.windows.WToolkit, file.encoding.pkg=sun.io, java.specification.version=1.8, sun.cpu.isalist=amd64, sun.jnu.encoding=Cp1251, hibernate.dialect=org.hibernate.dialect.MySQLDialect, org.gradle.test.worker=5, java.class.path=C:\Users\Maksim\Documents\GitHub\lodging\build\classes\java\test;C:\Users\Maksim\Documents\GitHub\lodging\build\resources\test;C:\Users\Maksim\Documents\GitHub\lodging\build\classes\java\main;C:\Users\Maksim\Documents\GitHub\lodging\build\resources\main;C:\Users\Maksim\.gradle\caches\modules-2\files-2.1\io.qameta.allure\allure-testng\2.13.2\f86a00c499bffe9358370789636119673926ad55\allure-testng-2.13.2.jar;C:\Users\Maksim\.gradle\caches\modules-2\files-2.1\org.testng\testng\7.1.0\b0bcea778fb2899aeb4014c558babea8833d180a\testng-7.1.0.jar;C:\Users\Maksim\.gradle\caches\modules-2\files-2.1\org.seleniumhq.selenium\selenium-java\3.141.59\e8e20b741299cb8ffedbd2925a3ab69d08b41063\selenium-java-3.141.59.jar;C:\Users\Maksim\.gradle\caches\modules-2\files-2.1\org.hamcrest\hamcrest\2.2\1820c0968dba3a11a1b30669bb1f01978a91dedc\hamcrest-2.2.jar;C:\Users\Maksim\.gradle\caches\modules-2\files-2.1\com.beust\jcommander\1.78\a3927de9bd6f351429bcf763712c9890629d8f51\jcommander-1.78.jar;C:\Users\Maksim\.gradle\caches\modules-2\files-2.1\com.thoughtworks.xstream\xstream\1.4.11.1\6c120c45a8c480bb2fea5b56502e3993ddd74fd2\xstream-1.4.11.1.jar;C:\Users\Maksim\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.8.6\9180733b7df8542621dc12e21e87557e8c99b8cb\gson-2.8.6.jar;C:\Users\Maksim\.gradle\caches\modules-2\files-2.1\ch.qos.logback\logback-classic\1.2.3\7c4f3c474fb2c041d8028740440937705ebb473a\logback-classic-1.2.3.jar;C:\Users\Maksim\.gradle\caches\modules-2\files-2.1\mysql\mysql-connector-java\8.0.19\9af69ef0f68eae737351ff55c0ba6e23a06826a5\mysql-connector-java-8.0.19.jar;C:\Users\Maksim\.gradle\caches\modules-2\files-2.1\org.hibernate\hibernate-core\5.4.12.Final\7813daed21576920450443097d69823245d112d2\hibernate-core-5.4.12.Final.jar;C:\Users\Maksim\.gradle\caches\modules-2\files-2.1\com.google.inject\guice\4.1.0\faf9ee8ac09eafd1128091426dd367a8c0085d55\guice-4.1.0-no_aop.jar;C:\Users\Maksim\.gradle\caches\modules-2\files-2.1\org.yaml\snakeyaml\1.21\18775fdda48574784f40b47bf478ab0593f92e4d\snakeyaml-1.21.jar;C:\Users\Maksim\.gradle\caches\modules-2\files-2.1\org.seleniumhq.selenium\selenium-chrome-driver\3.141.59\67137314736c6a2f39a8aa59a562e9616ae5f77e\selenium-chrome-driver-3.141.59.jar;C:\Users\Maksim\.gradle\caches\modules-2\files-2.1\org.seleniumhq.selenium\selenium-edge-driver\3.141.59\fc09c66f2d0b33b0816d770761ad1d599ef0df29\selenium-edge-driver-3.141.59.jar;C:\Users\Maksim\.gradle\caches\modules-2\files-2.1\org.seleniumhq.selenium\selenium-firefox-driver\3.141.59\a99f2fe2a42747ed9809d4f62f51a9e1b336dde8\selenium-firefox-driver-3.141.59.jar;C:\Users\Maksim\.gradle\caches\modules-2\files-2.1\org.seleniumhq.selenium\selenium-ie-driver\3.141.59\677b9b414a3a9bb2aeea89042a7b326edeb13a82\selenium-ie-driver-3.141.59.jar;C:\Users\Maksim\.gradle\caches\modules-2\files-2.1\org.seleniumhq.selenium\selenium-opera-driver\3.141.59\6b11ed01182bfd8bb62ddeae34cf9eadd3cfc7ff\selenium-opera-driver-3.141.59.jar;C:\Users\Maksim\.gradle\caches\modules-2\files-2.1\org.seleniumhq.selenium\selenium-safari-driver\3.141.59\a32b5b88f46ea4b0356079f0d2e2217543923046\selenium-safari-driver-3.141.59.jar;C:\Users\Maksim\.gradle\caches\modules-2\files-2.1\org.seleniumhq.selenium\selenium-support\3.141.59\8735de5049acf0e761defc65ee5837d6541abaf5\selenium-support-3.141.59.jar;C:\Users\Maksim\.gradle\caches\modules-2\files-2.1\org.seleniumhq.selenium\selenium-remote-driver\3.141.59\1c79ca890c312ff9916bd95df4f0c5182ec722d8\selenium-remote-driver-3.141.59.jar;C:\Users\Maksim\.gradle\caches\modules-2\files-2.1\org.seleniumhq.selenium\selenium-api\3.141.59\e006ffd3aa7841e6e9125d9e6691b3a6b7592b05\selenium-api-3.141.59.jar;C:\Users\Maksim\.gradle\caches\modules-2\files-2.1\net.bytebuddy\byte-buddy\1.10.7\1eefb7dd1b032b33c773ca0a17d5cc9e6b56ea1a\byte-buddy-1.10.7.jar;C:\Users\Maksim\.gradle\caches\modules-2\files-2.1\org.apache.commons\commons-exec\1.3\8dfb9facd0830a27b1b5f29f84593f0aeee7773b\commons-exec-1.3.jar;C:\Users\Maksim\.gradle\caches\modules-2\files-2.1\com.google.guava\guava\25.0-jre\7319c34fa5866a85b6bad445adad69d402323129\guava-25.0-jre.jar;C:\Users\Maksim\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp\3.11.0\75966e05a49046ca2ae734e5626f28837a8d1e82\okhttp-3.11.0.jar;C:\Users\Maksim\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.14.0\102d7be47241d781ef95f1581d414b0943053130\okio-1.14.0.jar;C:\Users\Maksim\.gradle\caches\modules-2\files-2.1\xmlpull\xmlpull\1.1.3.1\2b8e230d2ab644e4ecaa94db7cdedbc40c805dfa\xmlpull-1.1.3.1.jar;C:\Users\Maksim\.gradle\caches\modules-2\files-2.1\xpp3\xpp3_min\1.1.4c\19d4e90b43059058f6e056f794f0ea4030d60b86\xpp3_min-1.1.4c.jar;C:\Users\Maksim\.gradle\caches\modules-2\files-2.1\ch.qos.logback\logback-core\1.2.3\864344400c3d4d92dfeb0a305dc87d953677c03c\logback-core-1.2.3.jar;C:\Users\Maksim\.gradle\caches\modules-2\files-2.1\io.qameta.allure\allure-java-commons\2.13.2\b5273f572e995db5ee1e98e2c1e5aaa0a73a2c0a\allure-java-commons-2.13.2.jar;C:\Users\Maksim\.gradle\caches\modules-2\files-2.1\org.slf4j\slf4j-api\1.7.30\b5a4b6d16ab13e34a88fae84c35cd5d68cac922c\slf4j-api-1.7.30.jar;C:\Users\Maksim\.gradle\caches\modules-2\files-2.1\com.google.protobuf\protobuf-java\3.6.1\d06d46ecfd92ec6d0f3b423b4cd81cb38d8b924\protobuf-java-3.6.1.jar;C:\Users\Maksim\.gradle\caches\modules-2\files-2.1\org.hibernate.common\hibernate-commons-annotations\5.1.0.Final\700aeedc4a2089816621948f0379e17cbd17d5db\hibernate-commons-annotations-5.1.0.Final.jar;C:\Users\Maksim\.gradle\caches\modules-2\files-2.1\org.jboss.logging\jboss-logging\3.3.2.Final\3789d00e859632e6c6206adc0c71625559e6e3b0\jboss-logging-3.3.2.Final.jar;C:\Users\Maksim\.gradle\caches\modules-2\files-2.1\javax.persistence\javax.persistence-api\2.2\25665ac8c0b62f50e6488173233239120fc52c96\javax.persistence-api-2.2.jar;C:\Users\Maksim\.gradle\caches\modules-2\files-2.1\org.javassist\javassist\3.24.0-GA\d7466fc2e3af7c023e95c510f06448ad29b225b3\javassist-3.24.0-GA.jar;C:\Users\Maksim\.gradle\caches\modules-2\files-2.1\antlr\antlr\2.7.7\83cd2cd674a217ade95a4bb83a8a14f351f48bd0\antlr-2.7.7.jar;C:\Users\Maksim\.gradle\caches\modules-2\files-2.1\org.jboss.spec.javax.transaction\jboss-transaction-api_1.2_spec\1.1.1.Final\a8485cab9484dda36e9a8c319e76b5cc18797b58\jboss-transaction-api_1.2_spec-1.1.1.Final.jar;C:\Users\Maksim\.gradle\caches\modules-2\files-2.1\org.jboss\jandex\2.1.1.Final\c89aa5564fea8b08b9b41f0bbcabb8fed0d89c0d\jandex-2.1.1.Final.jar;C:\Users\Maksim\.gradle\caches\modules-2\files-2.1\com.fasterxml\classmate\1.5.1\3fe0bed568c62df5e89f4f174c101eab25345b6c\classmate-1.5.1.jar;C:\Users\Maksim\.gradle\caches\modules-2\files-2.1\org.glassfish.jaxb\jaxb-runtime\2.3.1\dd6dda9da676a54c5b36ca2806ff95ee017d8738\jaxb-runtime-2.3.1.jar;C:\Users\Maksim\.gradle\caches\modules-2\files-2.1\javax.xml.bind\jaxb-api\2.3.1\8531ad5ac454cc2deb9d4d32c40c4d7451939b5d\jaxb-api-2.3.1.jar;C:\Users\Maksim\.gradle\caches\modules-2\files-2.1\javax.activation\javax.activation-api\1.2.0\85262acf3ca9816f9537ca47d5adeabaead7cb16\javax.activation-api-1.2.0.jar;C:\Users\Maksim\.gradle\caches\modules-2\files-2.1\org.dom4j\dom4j\2.1.1\3dce5dbb3571aa820c677fadd8349bfa8f00c199\dom4j-2.1.1.jar;C:\Users\Maksim\.gradle\caches\modules-2\files-2.1\javax.inject\javax.inject\1\6975da39a7040257bd51d21a231b76c915872d38\javax.inject-1.jar;C:\Users\Maksim\.gradle\caches\modules-2\files-2.1\aopalliance\aopalliance\1.0\235ba8b489512805ac13a8f9ea77a1ca5ebe3e8\aopalliance-1.0.jar;C:\Users\Maksim\.gradle\caches\modules-2\files-2.1\com.google.code.findbugs\jsr305\1.3.9\40719ea6961c0cb6afaeb6a921eaa1f6afd4cfdf\jsr305-1.3.9.jar;C:\Users\Maksim\.gradle\caches\modules-2\files-2.1\org.checkerframework\checker-compat-qual\2.0.0\fc89b03860d11d6213d0154a62bcd1c2f69b9efa\checker-compat-qual-2.0.0.jar;C:\Users\Maksim\.gradle\caches\modules-2\files-2.1\com.google.errorprone\error_prone_annotations\2.1.3\39b109f2cd352b2d71b52a3b5a1a9850e1dc304b\error_prone_annotations-2.1.3.jar;C:\Users\Maksim\.gradle\caches\modules-2\files-2.1\com.google.j2objc\j2objc-annotations\1.1\ed28ded51a8b1c6b112568def5f4b455e6809019\j2objc-annotations-1.1.jar;C:\Users\Maksim\.gradle\caches\modules-2\files-2.1\org.codehaus.mojo\animal-sniffer-annotations\1.14\775b7e22fb10026eed3f86e8dc556dfafe35f2d5\animal-sniffer-annotations-1.14.jar;C:\Users\Maksim\.gradle\caches\modules-2\files-2.1\org.glassfish.jaxb\txw2\2.3.1\a09d2c48d3285f206fafbffe0e50619284e92126\txw2-2.3.1.jar;C:\Users\Maksim\.gradle\caches\modules-2\files-2.1\com.sun.istack\istack-commons-runtime\3.0.7\c197c86ceec7318b1284bffb49b54226ca774003\istack-commons-runtime-3.0.7.jar;C:\Users\Maksim\.gradle\caches\modules-2\files-2.1\org.jvnet.staxex\stax-ex\1.8\8cc35f73da321c29973191f2cf143d29d26a1df7\stax-ex-1.8.jar;C:\Users\Maksim\.gradle\caches\modules-2\files-2.1\com.sun.xml.fastinfoset\FastInfoset\1.2.15\bb7b7ec0379982b97c62cd17465cb6d9155f68e8\FastInfoset-1.2.15.jar;C:\Users\Maksim\.gradle\caches\modules-2\files-2.1\io.qameta.allure\allure-model\2.13.2\885624a6c38501509be786d2d52f0855d7e57967\allure-model-2.13.2.jar;C:\Users\Maksim\.gradle\caches\modules-2\files-2.1\com.fasterxml.jackson.core\jackson-databind\2.9.8\11283f21cc480aa86c4df7a0a3243ec508372ed2\jackson-databind-2.9.8.jar;C:\Users\Maksim\.gradle\caches\modules-2\files-2.1\org.apache.tika\tika-core\1.20\85888f238720b062c551df5e2a9c943788010e33\tika-core-1.20.jar;C:\Users\Maksim\.gradle\caches\modules-2\files-2.1\org.jooq\joor-java-8\0.9.10\38c6c92afd1ae5e63ebd32f640f3e168c1bec0a9\joor-java-8-0.9.10.jar;C:\Users\Maksim\.gradle\caches\modules-2\files-2.1\com.fasterxml.jackson.core\jackson-annotations\2.9.0\7c10d545325e3a6e72e06381afe469fd40eb701\jackson-annotations-2.9.0.jar;C:\Users\Maksim\.gradle\caches\modules-2\files-2.1\com.fasterxml.jackson.core\jackson-core\2.9.8\f5a654e4675769c716e5b387830d19b501ca191\jackson-core-2.9.8.jar, java.vm.vendor=Oracle Corporation, sun.arch.data.model=64, hbm2ddl.auto=validate, user.variant=, java.vendor.url=http://java.oracle.com/, user.timezone=Asia/Jerusalem, hibernate.jdbc.time_zone=UTC, os.name=Windows 10, java.vm.specification.version=1.8, user.country=US, sun.java.launcher=SUN_STANDARD, sun.boot.library.path=C:\Program Files\java\jdk1.8.0_121\jre\bin, sun.java.command=worker.org.gradle.process.internal.worker.GradleWorkerMain 'Gradle Test Executor 5', allure.results.directory=C:\Users\Maksim\Documents\GitHub\lodging\build\allure-results, sun.cpu.endian=little, user.home=C:\Users\Maksim, user.language=en, java.specification.vendor=Oracle Corporation, org.gradle.native=false, java.home=C:\Program Files\java\jdk1.8.0_121\jre, file.separator=\, line.separator=
+, java.vm.specification.vendor=Oracle Corporation, java.specification.name=Java Platform API Specification, java.awt.graphicsenv=sun.awt.Win32GraphicsEnvironment, sun.boot.class.path=C:\Program Files\java\jdk1.8.0_121\jre\lib\resources.jar;C:\Program Files\java\jdk1.8.0_121\jre\lib\rt.jar;C:\Program Files\java\jdk1.8.0_121\jre\lib\sunrsasign.jar;C:\Program Files\java\jdk1.8.0_121\jre\lib\jsse.jar;C:\Program Files\java\jdk1.8.0_121\jre\lib\jce.jar;C:\Program Files\java\jdk1.8.0_121\jre\lib\charsets.jar;C:\Program Files\java\jdk1.8.0_121\jre\lib\jfr.jar;C:\Program Files\java\jdk1.8.0_121\jre\classes, hibernate.hbm2ddl.auto=validate, user.script=, sun.management.compiler=HotSpot 64-Bit Tiered Compilers, java.runtime.version=1.8.0_121-b13, user.name=Maksim, path.separator=;, hibernate.connection.username=****, os.version=10.0, java.endorsed.dirs=C:\Program Files\java\jdk1.8.0_121\jre\lib\endorsed, java.runtime.name=Java(TM) SE Runtime Environment, hibernate.connection.url=jdbc:mysql://localhost:3306/lodging, file.encoding=windows-1251, java.vm.name=Java HotSpot(TM) 64-Bit Server VM, hibernate.show_sql=true, show_sql=true, hibernate.connection.driver_class=com.mysql.cj.jdbc.Driver, java.vendor.url.bug=http://bugreport.sun.com/bugreport/, java.io.tmpdir=c:\Temp\, java.version=1.8.0_121, user.dir=C:\Users\Maksim\Documents\GitHub\lodging, os.arch=amd64, java.vm.specification.name=Java Virtual Machine Specification, hibernate.connection.password=****, java.awt.printerjob=sun.awt.windows.WPrinterJob, sun.os.patch.level=, hibernate.boot.CfgXmlAccessService.key=org.hibernate.boot.cfgxml.spi.LoadedConfig@77fce6f7, java.library.path=C:\Program Files\java\jdk1.8.0_121\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;c:\Program Files\java\jdk1.8.0_121\bin;c:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\HP\HP Performance Advisor;C:\Program Files\nodejs\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\WINDOWS\System32\OpenSSH\;C:\SoftWare\Git-Console\cmd;C:\SoftWare;C:\SoftWare\PICT\;C:\Users\Maksim\AppData\Roaming\npm;C:\Users\Maksim\AppData\Local\Microsoft\WindowsApps;C:\Users\Maksim\AppData\Local\GitHubDesktop\bin;C:\Program Files\Mozilla Firefox;c:\SoftWare\cygwin64\bin;;., java.vm.info=mixed mode, java.vendor=Oracle Corporation, java.vm.version=25.121-b13, hibernate.bytecode.use_reflection_optimizer=false, java.ext.dirs=C:\Program Files\java\jdk1.8.0_121\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext, sun.io.unicode.encoding=UnicodeLittle, java.class.version=52.0}
+3955 [Test worker] DEBUG o.h.secure.spi.JaccIntegrator - Skipping JACC integration as it was not enabled
+3956 [Test worker] DEBUG o.h.internal.SessionFactoryImpl - Instantiated session factory
+3956 [Test worker] DEBUG o.h.t.spi.TypeConfiguration$Scope - Scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration@32961e44] to SessionFactoryImpl [org.hibernate.internal.SessionFactoryImpl@5a7dd956]
+4044 [Test worker] DEBUG o.h.b.i.ClassLoaderAccessImpl - Not known whether passed class name [il.elpisor.lodging.model.GroupData] is safe
+4045 [Test worker] DEBUG o.h.b.i.ClassLoaderAccessImpl - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : il.elpisor.lodging.model.GroupData
+4081 [Test worker] DEBUG o.h.b.i.ClassLoaderAccessImpl - Not known whether passed class name [il.elpisor.lodging.model.GroupData] is safe
+4081 [Test worker] DEBUG o.h.b.i.ClassLoaderAccessImpl - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : il.elpisor.lodging.model.GroupData
+4541 [Test worker] DEBUG o.h.b.i.ClassLoaderAccessImpl - Not known whether passed class name [il.elpisor.lodging.model.ContactData] is safe
+4541 [Test worker] DEBUG o.h.b.i.ClassLoaderAccessImpl - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : il.elpisor.lodging.model.ContactData
+4542 [Test worker] DEBUG o.h.b.i.ClassLoaderAccessImpl - Not known whether passed class name [il.elpisor.lodging.model.ContactData] is safe
+4542 [Test worker] DEBUG o.h.b.i.ClassLoaderAccessImpl - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : il.elpisor.lodging.model.ContactData
+4600 [Test worker] DEBUG o.h.p.c.AbstractCollectionPersister - Static SQL for collection: il.elpisor.lodging.model.ContactData.groups
+4600 [Test worker] DEBUG o.h.p.c.AbstractCollectionPersister -  Row insert: insert into address_in_groups (id, group_id) values (?, ?)
+4600 [Test worker] DEBUG o.h.p.c.AbstractCollectionPersister -  Row update: update address_in_groups set group_id=? where id=? and group_id=?
+4601 [Test worker] DEBUG o.h.p.c.AbstractCollectionPersister -  Row delete: delete from address_in_groups where id=? and group_id=?
+4601 [Test worker] DEBUG o.h.p.c.AbstractCollectionPersister -  One-shot delete: delete from address_in_groups where id=?
+4601 [Test worker] DEBUG o.h.p.c.AbstractCollectionPersister - Static SQL for collection: il.elpisor.lodging.model.GroupData.contacts
+4601 [Test worker] DEBUG o.h.p.c.AbstractCollectionPersister -  Row insert: insert into address_in_groups (group_id, id) values (?, ?)
+4601 [Test worker] DEBUG o.h.p.c.AbstractCollectionPersister -  Row update: update address_in_groups set id=? where group_id=? and id=?
+4601 [Test worker] DEBUG o.h.p.c.AbstractCollectionPersister -  Row delete: delete from address_in_groups where group_id=? and id=?
+4601 [Test worker] DEBUG o.h.p.c.AbstractCollectionPersister -  One-shot delete: delete from address_in_groups where group_id=?
+4604 [Test worker] DEBUG o.h.p.e.AbstractEntityPersister - Static SQL for entity: il.elpisor.lodging.model.GroupData
+4604 [Test worker] DEBUG o.h.p.e.AbstractEntityPersister -  Version select: select group_id from group_list where group_id =?
+4604 [Test worker] DEBUG o.h.p.e.AbstractEntityPersister -  Snapshot select: select groupdata_.group_id, groupdata_.group_footer as group_fo2_2_, groupdata_.group_header as group_he3_2_, groupdata_.group_name as group_na4_2_ from group_list groupdata_ where groupdata_.group_id=?
+4604 [Test worker] DEBUG o.h.p.e.AbstractEntityPersister -  Insert 0: insert into group_list (group_footer, group_header, group_name, group_id) values (?, ?, ?, ?)
+4605 [Test worker] DEBUG o.h.p.e.AbstractEntityPersister -  Update 0: update group_list set group_footer=?, group_header=?, group_name=? where group_id=?
+4605 [Test worker] DEBUG o.h.p.e.AbstractEntityPersister -  Delete 0: delete from group_list where group_id=?
+4657 [Test worker] DEBUG o.h.l.p.b.i.spaces.QuerySpacesImpl - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@453d3000]
+4660 [Test worker] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : contacts
+4673 [Test worker] DEBUG o.h.l.p.b.i.spaces.QuerySpacesImpl - Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@504f1bb]
+4678 [Test worker] DEBUG o.h.l.p.b.i.spaces.QuerySpacesImpl - Adding QuerySpace : uid = <gen:2> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@33164a32]
+4680 [Test worker] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : contacts.BDay
+4680 [Test worker] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : contacts.BMonth
+4680 [Test worker] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : contacts.BYear
+4680 [Test worker] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : contacts.companyName
+4680 [Test worker] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : contacts.firstAddress
+4680 [Test worker] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : contacts.firstEMail
+4680 [Test worker] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : contacts.firstName
+4680 [Test worker] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : contacts.groups
+4680 [Test worker] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Property path deemed to be circular : contacts.groups
+4680 [Test worker] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : contacts.homePage
+4680 [Test worker] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : contacts.lastName
+4680 [Test worker] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : contacts.middleName
+4680 [Test worker] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : contacts.nickName
+4680 [Test worker] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : contacts.notes
+4680 [Test worker] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : contacts.photo
+4680 [Test worker] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : contacts.secondAddress
+4680 [Test worker] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : contacts.secondEMail
+4680 [Test worker] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : contacts.telHome
+4680 [Test worker] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : contacts.telMobile
+4680 [Test worker] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : contacts.telWork
+4680 [Test worker] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : contacts.thirdEMail
+4680 [Test worker] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : contacts.title
+4680 [Test worker] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : footer
+4680 [Test worker] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : header
+4680 [Test worker] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : name
+4680 [Test worker] DEBUG o.h.l.p.b.i.FetchStyleLoadPlanBuildingAssociationVisitationStrategy - Building LoadPlan...
+4709 [Test worker] DEBUG o.h.l.p.e.i.LoadQueryJoinAndFetchProcessor - processing queryspace <gen:0>
+4720 [Test worker] DEBUG o.h.l.p.b.spi.LoadPlanTreePrinter - LoadPlan(entity=il.elpisor.lodging.model.GroupData)
+    - Returns
+       - EntityReturnImpl(entity=il.elpisor.lodging.model.GroupData, querySpaceUid=<gen:0>, path=il.elpisor.lodging.model.GroupData)
+          - CollectionAttributeFetchImpl(collection=il.elpisor.lodging.model.GroupData.contacts, querySpaceUid=<gen:1>, path=il.elpisor.lodging.model.GroupData.contacts)
+             - (collection element) CollectionFetchableElementEntityGraph(entity=il.elpisor.lodging.model.ContactData, querySpaceUid=<gen:2>, path=il.elpisor.lodging.model.GroupData.contacts.<elements>)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=il.elpisor.lodging.model.GroupData)
+          - SQL table alias mapping - groupdata0_
+          - alias suffix - 0_
+          - suffixed key columns - {group_id1_2_0_}
+          - JOIN (JoinDefinedByMetadata(contacts)) : <gen:0> -> <gen:1>
+             - CollectionQuerySpaceImpl(uid=<gen:1>, collection=il.elpisor.lodging.model.GroupData.contacts)
+                - SQL table alias mapping - contacts1_
+                - alias suffix - 1_
+                - suffixed key columns - {group_id2_0_1_}
+                - entity-element alias suffix - 2_
+                - 2_entity-element suffixed key columns - id1_1_2_
+                - JOIN (JoinDefinedByMetadata(elements)) : <gen:1> -> <gen:2>
+                   - EntityQuerySpaceImpl(uid=<gen:2>, entity=il.elpisor.lodging.model.ContactData)
+                      - SQL table alias mapping - contactdat2_
+                      - alias suffix - 2_
+                      - suffixed key columns - {id1_1_2_}
+
+4724 [Test worker] DEBUG o.h.loader.entity.plan.EntityLoader - Static select for entity il.elpisor.lodging.model.GroupData [NONE]: select groupdata0_.group_id as group_id1_2_0_, groupdata0_.group_footer as group_fo2_2_0_, groupdata0_.group_header as group_he3_2_0_, groupdata0_.group_name as group_na4_2_0_, contacts1_.group_id as group_id2_0_1_, contactdat2_.id as id1_0_1_, contactdat2_.id as id1_1_2_, contactdat2_.bday as bday2_1_2_, contactdat2_.bmonth as bmonth3_1_2_, contactdat2_.byear as byear4_1_2_, contactdat2_.company as company5_1_2_, contactdat2_.address as address6_1_2_, contactdat2_.email as email7_1_2_, contactdat2_.firstname as firstnam8_1_2_, contactdat2_.homepage as homepage9_1_2_, contactdat2_.lastname as lastnam10_1_2_, contactdat2_.middlename as middlen11_1_2_, contactdat2_.nickname as nicknam12_1_2_, contactdat2_.notes as notes13_1_2_, contactdat2_.photo as photo14_1_2_, contactdat2_.address2 as address15_1_2_, contactdat2_.email2 as email16_1_2_, contactdat2_.home as home17_1_2_, contactdat2_.mobile as mobile18_1_2_, contactdat2_.work as work19_1_2_, contactdat2_.email3 as email20_1_2_, contactdat2_.title as title21_1_2_ from group_list groupdata0_ left outer join address_in_groups contacts1_ on groupdata0_.group_id=contacts1_.group_id left outer join addressbook contactdat2_ on contacts1_.id=contactdat2_.id where groupdata0_.group_id=?
+4724 [Test worker] DEBUG o.h.l.p.b.i.spaces.QuerySpacesImpl - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@439ba44e]
+4724 [Test worker] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : contacts
+4724 [Test worker] DEBUG o.h.l.p.b.i.spaces.QuerySpacesImpl - Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@4e374f4]
+4724 [Test worker] DEBUG o.h.l.p.b.i.spaces.QuerySpacesImpl - Adding QuerySpace : uid = <gen:2> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@7c6fa7b4]
+4724 [Test worker] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : contacts.BDay
+4724 [Test worker] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : contacts.BMonth
+4725 [Test worker] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : contacts.BYear
+4725 [Test worker] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : contacts.companyName
+4725 [Test worker] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : contacts.firstAddress
+4725 [Test worker] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : contacts.firstEMail
+4725 [Test worker] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : contacts.firstName
+4725 [Test worker] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : contacts.groups
+4725 [Test worker] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Property path deemed to be circular : contacts.groups
+4725 [Test worker] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : contacts.homePage
+4725 [Test worker] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : contacts.lastName
+4725 [Test worker] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : contacts.middleName
+4725 [Test worker] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : contacts.nickName
+4725 [Test worker] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : contacts.notes
+4725 [Test worker] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : contacts.photo
+4725 [Test worker] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : contacts.secondAddress
+4725 [Test worker] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : contacts.secondEMail
+4725 [Test worker] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : contacts.telHome
+4725 [Test worker] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : contacts.telMobile
+4725 [Test worker] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : contacts.telWork
+4725 [Test worker] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : contacts.thirdEMail
+4725 [Test worker] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : contacts.title
+4725 [Test worker] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : footer
+4725 [Test worker] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : header
+4726 [Test worker] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : name
+4726 [Test worker] DEBUG o.h.l.p.b.i.FetchStyleLoadPlanBuildingAssociationVisitationStrategy - Building LoadPlan...
+4726 [Test worker] DEBUG o.h.l.p.e.i.LoadQueryJoinAndFetchProcessor - processing queryspace <gen:0>
+4726 [Test worker] DEBUG o.h.l.p.b.spi.LoadPlanTreePrinter - LoadPlan(entity=il.elpisor.lodging.model.GroupData)
+    - Returns
+       - EntityReturnImpl(entity=il.elpisor.lodging.model.GroupData, querySpaceUid=<gen:0>, path=il.elpisor.lodging.model.GroupData)
+          - CollectionAttributeFetchImpl(collection=il.elpisor.lodging.model.GroupData.contacts, querySpaceUid=<gen:1>, path=il.elpisor.lodging.model.GroupData.contacts)
+             - (collection element) CollectionFetchableElementEntityGraph(entity=il.elpisor.lodging.model.ContactData, querySpaceUid=<gen:2>, path=il.elpisor.lodging.model.GroupData.contacts.<elements>)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=il.elpisor.lodging.model.GroupData)
+          - SQL table alias mapping - groupdata0_
+          - alias suffix - 0_
+          - suffixed key columns - {group_id1_2_0_}
+          - JOIN (JoinDefinedByMetadata(contacts)) : <gen:0> -> <gen:1>
+             - CollectionQuerySpaceImpl(uid=<gen:1>, collection=il.elpisor.lodging.model.GroupData.contacts)
+                - SQL table alias mapping - contacts1_
+                - alias suffix - 1_
+                - suffixed key columns - {group_id2_0_1_}
+                - entity-element alias suffix - 2_
+                - 2_entity-element suffixed key columns - id1_1_2_
+                - JOIN (JoinDefinedByMetadata(elements)) : <gen:1> -> <gen:2>
+                   - EntityQuerySpaceImpl(uid=<gen:2>, entity=il.elpisor.lodging.model.ContactData)
+                      - SQL table alias mapping - contactdat2_
+                      - alias suffix - 2_
+                      - suffixed key columns - {id1_1_2_}
+
+4726 [Test worker] DEBUG o.h.loader.entity.plan.EntityLoader - Static select for entity il.elpisor.lodging.model.GroupData [READ]: select groupdata0_.group_id as group_id1_2_0_, groupdata0_.group_footer as group_fo2_2_0_, groupdata0_.group_header as group_he3_2_0_, groupdata0_.group_name as group_na4_2_0_, contacts1_.group_id as group_id2_0_1_, contactdat2_.id as id1_0_1_, contactdat2_.id as id1_1_2_, contactdat2_.bday as bday2_1_2_, contactdat2_.bmonth as bmonth3_1_2_, contactdat2_.byear as byear4_1_2_, contactdat2_.company as company5_1_2_, contactdat2_.address as address6_1_2_, contactdat2_.email as email7_1_2_, contactdat2_.firstname as firstnam8_1_2_, contactdat2_.homepage as homepage9_1_2_, contactdat2_.lastname as lastnam10_1_2_, contactdat2_.middlename as middlen11_1_2_, contactdat2_.nickname as nicknam12_1_2_, contactdat2_.notes as notes13_1_2_, contactdat2_.photo as photo14_1_2_, contactdat2_.address2 as address15_1_2_, contactdat2_.email2 as email16_1_2_, contactdat2_.home as home17_1_2_, contactdat2_.mobile as mobile18_1_2_, contactdat2_.work as work19_1_2_, contactdat2_.email3 as email20_1_2_, contactdat2_.title as title21_1_2_ from group_list groupdata0_ left outer join address_in_groups contacts1_ on groupdata0_.group_id=contacts1_.group_id left outer join addressbook contactdat2_ on contacts1_.id=contactdat2_.id where groupdata0_.group_id=?
+4747 [Test worker] DEBUG org.hibernate.loader.Loader - Static select for action ACTION_MERGE on entity il.elpisor.lodging.model.GroupData: select groupdata0_.group_id as group_id1_2_0_, groupdata0_.group_footer as group_fo2_2_0_, groupdata0_.group_header as group_he3_2_0_, groupdata0_.group_name as group_na4_2_0_ from group_list groupdata0_ where groupdata0_.group_id=?
+4747 [Test worker] DEBUG org.hibernate.loader.Loader - Static select for action ACTION_REFRESH on entity il.elpisor.lodging.model.GroupData: select groupdata0_.group_id as group_id1_2_0_, groupdata0_.group_footer as group_fo2_2_0_, groupdata0_.group_header as group_he3_2_0_, groupdata0_.group_name as group_na4_2_0_ from group_list groupdata0_ where groupdata0_.group_id=?
+4747 [Test worker] DEBUG o.h.p.e.AbstractEntityPersister - Static SQL for entity: il.elpisor.lodging.model.ContactData
+4747 [Test worker] DEBUG o.h.p.e.AbstractEntityPersister -  Version select: select id from addressbook where id =?
+4747 [Test worker] DEBUG o.h.p.e.AbstractEntityPersister -  Snapshot select: select contactdat_.id, contactdat_.bday as bday2_1_, contactdat_.bmonth as bmonth3_1_, contactdat_.byear as byear4_1_, contactdat_.company as company5_1_, contactdat_.address as address6_1_, contactdat_.email as email7_1_, contactdat_.firstname as firstnam8_1_, contactdat_.homepage as homepage9_1_, contactdat_.lastname as lastnam10_1_, contactdat_.middlename as middlen11_1_, contactdat_.nickname as nicknam12_1_, contactdat_.notes as notes13_1_, contactdat_.photo as photo14_1_, contactdat_.address2 as address15_1_, contactdat_.email2 as email16_1_, contactdat_.home as home17_1_, contactdat_.mobile as mobile18_1_, contactdat_.work as work19_1_, contactdat_.email3 as email20_1_, contactdat_.title as title21_1_ from addressbook contactdat_ where contactdat_.id=?
+4748 [Test worker] DEBUG o.h.p.e.AbstractEntityPersister -  Insert 0: insert into addressbook (bday, bmonth, byear, company, address, email, firstname, homepage, lastname, middlename, nickname, notes, photo, address2, email2, home, mobile, work, email3, title, id) values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+4748 [Test worker] DEBUG o.h.p.e.AbstractEntityPersister -  Update 0: update addressbook set bday=?, bmonth=?, byear=?, company=?, address=?, email=?, firstname=?, homepage=?, lastname=?, middlename=?, nickname=?, notes=?, photo=?, address2=?, email2=?, home=?, mobile=?, work=?, email3=?, title=? where id=?
+4748 [Test worker] DEBUG o.h.p.e.AbstractEntityPersister -  Delete 0: delete from addressbook where id=?
+4748 [Test worker] DEBUG o.h.l.p.b.i.spaces.QuerySpacesImpl - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@61fd0510]
+4748 [Test worker] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : BDay
+4748 [Test worker] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : BMonth
+4748 [Test worker] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : BYear
+4748 [Test worker] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : companyName
+4748 [Test worker] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : firstAddress
+4748 [Test worker] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : firstEMail
+4748 [Test worker] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : firstName
+4748 [Test worker] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : groups
+4748 [Test worker] DEBUG o.h.l.p.b.i.spaces.QuerySpacesImpl - Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@6ca672cb]
+4748 [Test worker] DEBUG o.h.l.p.b.i.spaces.QuerySpacesImpl - Adding QuerySpace : uid = <gen:2> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@6b025cbf]
+4748 [Test worker] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : groups.contacts
+4748 [Test worker] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Property path deemed to be circular : groups.contacts
+4748 [Test worker] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : groups.footer
+4748 [Test worker] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : groups.header
+4748 [Test worker] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : groups.name
+4748 [Test worker] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : homePage
+4749 [Test worker] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : lastName
+4749 [Test worker] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : middleName
+4749 [Test worker] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : nickName
+4749 [Test worker] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : notes
+4749 [Test worker] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : photo
+4749 [Test worker] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : secondAddress
+4749 [Test worker] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : secondEMail
+4749 [Test worker] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : telHome
+4749 [Test worker] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : telMobile
+4749 [Test worker] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : telWork
+4749 [Test worker] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : thirdEMail
+4749 [Test worker] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : title
+4749 [Test worker] DEBUG o.h.l.p.b.i.FetchStyleLoadPlanBuildingAssociationVisitationStrategy - Building LoadPlan...
+4750 [Test worker] DEBUG o.h.l.p.e.i.LoadQueryJoinAndFetchProcessor - processing queryspace <gen:0>
+4750 [Test worker] DEBUG o.h.l.p.b.spi.LoadPlanTreePrinter - LoadPlan(entity=il.elpisor.lodging.model.ContactData)
+    - Returns
+       - EntityReturnImpl(entity=il.elpisor.lodging.model.ContactData, querySpaceUid=<gen:0>, path=il.elpisor.lodging.model.ContactData)
+          - CollectionAttributeFetchImpl(collection=il.elpisor.lodging.model.ContactData.groups, querySpaceUid=<gen:1>, path=il.elpisor.lodging.model.ContactData.groups)
+             - (collection element) CollectionFetchableElementEntityGraph(entity=il.elpisor.lodging.model.GroupData, querySpaceUid=<gen:2>, path=il.elpisor.lodging.model.ContactData.groups.<elements>)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=il.elpisor.lodging.model.ContactData)
+          - SQL table alias mapping - contactdat0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_1_0_}
+          - JOIN (JoinDefinedByMetadata(groups)) : <gen:0> -> <gen:1>
+             - CollectionQuerySpaceImpl(uid=<gen:1>, collection=il.elpisor.lodging.model.ContactData.groups)
+                - SQL table alias mapping - groups1_
+                - alias suffix - 1_
+                - suffixed key columns - {id1_0_1_}
+                - entity-element alias suffix - 2_
+                - 2_entity-element suffixed key columns - group_id1_2_2_
+                - JOIN (JoinDefinedByMetadata(elements)) : <gen:1> -> <gen:2>
+                   - EntityQuerySpaceImpl(uid=<gen:2>, entity=il.elpisor.lodging.model.GroupData)
+                      - SQL table alias mapping - groupdata2_
+                      - alias suffix - 2_
+                      - suffixed key columns - {group_id1_2_2_}
+
+4751 [Test worker] DEBUG o.h.loader.entity.plan.EntityLoader - Static select for entity il.elpisor.lodging.model.ContactData [NONE]: select contactdat0_.id as id1_1_0_, contactdat0_.bday as bday2_1_0_, contactdat0_.bmonth as bmonth3_1_0_, contactdat0_.byear as byear4_1_0_, contactdat0_.company as company5_1_0_, contactdat0_.address as address6_1_0_, contactdat0_.email as email7_1_0_, contactdat0_.firstname as firstnam8_1_0_, contactdat0_.homepage as homepage9_1_0_, contactdat0_.lastname as lastnam10_1_0_, contactdat0_.middlename as middlen11_1_0_, contactdat0_.nickname as nicknam12_1_0_, contactdat0_.notes as notes13_1_0_, contactdat0_.photo as photo14_1_0_, contactdat0_.address2 as address15_1_0_, contactdat0_.email2 as email16_1_0_, contactdat0_.home as home17_1_0_, contactdat0_.mobile as mobile18_1_0_, contactdat0_.work as work19_1_0_, contactdat0_.email3 as email20_1_0_, contactdat0_.title as title21_1_0_, groups1_.id as id1_0_1_, groupdata2_.group_id as group_id2_0_1_, groupdata2_.group_id as group_id1_2_2_, groupdata2_.group_footer as group_fo2_2_2_, groupdata2_.group_header as group_he3_2_2_, groupdata2_.group_name as group_na4_2_2_ from addressbook contactdat0_ left outer join address_in_groups groups1_ on contactdat0_.id=groups1_.id left outer join group_list groupdata2_ on groups1_.group_id=groupdata2_.group_id where contactdat0_.id=?
+4751 [Test worker] DEBUG o.h.l.p.b.i.spaces.QuerySpacesImpl - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@44e9194c]
+4751 [Test worker] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : BDay
+4751 [Test worker] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : BMonth
+4751 [Test worker] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : BYear
+4751 [Test worker] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : companyName
+4751 [Test worker] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : firstAddress
+4751 [Test worker] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : firstEMail
+4751 [Test worker] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : firstName
+4751 [Test worker] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : groups
+4751 [Test worker] DEBUG o.h.l.p.b.i.spaces.QuerySpacesImpl - Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@2f31507f]
+4751 [Test worker] DEBUG o.h.l.p.b.i.spaces.QuerySpacesImpl - Adding QuerySpace : uid = <gen:2> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@41a2d3c]
+4751 [Test worker] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : groups.contacts
+4751 [Test worker] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Property path deemed to be circular : groups.contacts
+4751 [Test worker] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : groups.footer
+4751 [Test worker] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : groups.header
+4751 [Test worker] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : groups.name
+4752 [Test worker] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : homePage
+4752 [Test worker] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : lastName
+4752 [Test worker] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : middleName
+4752 [Test worker] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : nickName
+4752 [Test worker] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : notes
+4752 [Test worker] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : photo
+4752 [Test worker] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : secondAddress
+4752 [Test worker] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : secondEMail
+4752 [Test worker] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : telHome
+4752 [Test worker] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : telMobile
+4752 [Test worker] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : telWork
+4752 [Test worker] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : thirdEMail
+4752 [Test worker] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : title
+4752 [Test worker] DEBUG o.h.l.p.b.i.FetchStyleLoadPlanBuildingAssociationVisitationStrategy - Building LoadPlan...
+4752 [Test worker] DEBUG o.h.l.p.e.i.LoadQueryJoinAndFetchProcessor - processing queryspace <gen:0>
+4753 [Test worker] DEBUG o.h.l.p.b.spi.LoadPlanTreePrinter - LoadPlan(entity=il.elpisor.lodging.model.ContactData)
+    - Returns
+       - EntityReturnImpl(entity=il.elpisor.lodging.model.ContactData, querySpaceUid=<gen:0>, path=il.elpisor.lodging.model.ContactData)
+          - CollectionAttributeFetchImpl(collection=il.elpisor.lodging.model.ContactData.groups, querySpaceUid=<gen:1>, path=il.elpisor.lodging.model.ContactData.groups)
+             - (collection element) CollectionFetchableElementEntityGraph(entity=il.elpisor.lodging.model.GroupData, querySpaceUid=<gen:2>, path=il.elpisor.lodging.model.ContactData.groups.<elements>)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=il.elpisor.lodging.model.ContactData)
+          - SQL table alias mapping - contactdat0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_1_0_}
+          - JOIN (JoinDefinedByMetadata(groups)) : <gen:0> -> <gen:1>
+             - CollectionQuerySpaceImpl(uid=<gen:1>, collection=il.elpisor.lodging.model.ContactData.groups)
+                - SQL table alias mapping - groups1_
+                - alias suffix - 1_
+                - suffixed key columns - {id1_0_1_}
+                - entity-element alias suffix - 2_
+                - 2_entity-element suffixed key columns - group_id1_2_2_
+                - JOIN (JoinDefinedByMetadata(elements)) : <gen:1> -> <gen:2>
+                   - EntityQuerySpaceImpl(uid=<gen:2>, entity=il.elpisor.lodging.model.GroupData)
+                      - SQL table alias mapping - groupdata2_
+                      - alias suffix - 2_
+                      - suffixed key columns - {group_id1_2_2_}
+
+4753 [Test worker] DEBUG o.h.loader.entity.plan.EntityLoader - Static select for entity il.elpisor.lodging.model.ContactData [READ]: select contactdat0_.id as id1_1_0_, contactdat0_.bday as bday2_1_0_, contactdat0_.bmonth as bmonth3_1_0_, contactdat0_.byear as byear4_1_0_, contactdat0_.company as company5_1_0_, contactdat0_.address as address6_1_0_, contactdat0_.email as email7_1_0_, contactdat0_.firstname as firstnam8_1_0_, contactdat0_.homepage as homepage9_1_0_, contactdat0_.lastname as lastnam10_1_0_, contactdat0_.middlename as middlen11_1_0_, contactdat0_.nickname as nicknam12_1_0_, contactdat0_.notes as notes13_1_0_, contactdat0_.photo as photo14_1_0_, contactdat0_.address2 as address15_1_0_, contactdat0_.email2 as email16_1_0_, contactdat0_.home as home17_1_0_, contactdat0_.mobile as mobile18_1_0_, contactdat0_.work as work19_1_0_, contactdat0_.email3 as email20_1_0_, contactdat0_.title as title21_1_0_, groups1_.id as id1_0_1_, groupdata2_.group_id as group_id2_0_1_, groupdata2_.group_id as group_id1_2_2_, groupdata2_.group_footer as group_fo2_2_2_, groupdata2_.group_header as group_he3_2_2_, groupdata2_.group_name as group_na4_2_2_ from addressbook contactdat0_ left outer join address_in_groups groups1_ on contactdat0_.id=groups1_.id left outer join group_list groupdata2_ on groups1_.group_id=groupdata2_.group_id where contactdat0_.id=?
+4753 [Test worker] DEBUG org.hibernate.loader.Loader - Static select for action ACTION_MERGE on entity il.elpisor.lodging.model.ContactData: select contactdat0_.id as id1_1_0_, contactdat0_.bday as bday2_1_0_, contactdat0_.bmonth as bmonth3_1_0_, contactdat0_.byear as byear4_1_0_, contactdat0_.company as company5_1_0_, contactdat0_.address as address6_1_0_, contactdat0_.email as email7_1_0_, contactdat0_.firstname as firstnam8_1_0_, contactdat0_.homepage as homepage9_1_0_, contactdat0_.lastname as lastnam10_1_0_, contactdat0_.middlename as middlen11_1_0_, contactdat0_.nickname as nicknam12_1_0_, contactdat0_.notes as notes13_1_0_, contactdat0_.photo as photo14_1_0_, contactdat0_.address2 as address15_1_0_, contactdat0_.email2 as email16_1_0_, contactdat0_.home as home17_1_0_, contactdat0_.mobile as mobile18_1_0_, contactdat0_.work as work19_1_0_, contactdat0_.email3 as email20_1_0_, contactdat0_.title as title21_1_0_ from addressbook contactdat0_ where contactdat0_.id=?
+4754 [Test worker] DEBUG org.hibernate.loader.Loader - Static select for action ACTION_REFRESH on entity il.elpisor.lodging.model.ContactData: select contactdat0_.id as id1_1_0_, contactdat0_.bday as bday2_1_0_, contactdat0_.bmonth as bmonth3_1_0_, contactdat0_.byear as byear4_1_0_, contactdat0_.company as company5_1_0_, contactdat0_.address as address6_1_0_, contactdat0_.email as email7_1_0_, contactdat0_.firstname as firstnam8_1_0_, contactdat0_.homepage as homepage9_1_0_, contactdat0_.lastname as lastnam10_1_0_, contactdat0_.middlename as middlen11_1_0_, contactdat0_.nickname as nicknam12_1_0_, contactdat0_.notes as notes13_1_0_, contactdat0_.photo as photo14_1_0_, contactdat0_.address2 as address15_1_0_, contactdat0_.email2 as email16_1_0_, contactdat0_.home as home17_1_0_, contactdat0_.mobile as mobile18_1_0_, contactdat0_.work as work19_1_0_, contactdat0_.email3 as email20_1_0_, contactdat0_.title as title21_1_0_ from addressbook contactdat0_ where contactdat0_.id=?
+4762 [Test worker] DEBUG o.h.l.p.b.i.spaces.QuerySpacesImpl - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@4ac5b003]
+4762 [Test worker] DEBUG o.h.l.p.b.i.spaces.QuerySpacesImpl - Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@6a76e7a0]
+4762 [Test worker] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : contacts
+4762 [Test worker] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Property path deemed to be circular : contacts
+4762 [Test worker] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : footer
+4762 [Test worker] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : header
+4762 [Test worker] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : name
+4762 [Test worker] DEBUG o.h.l.p.b.i.FetchStyleLoadPlanBuildingAssociationVisitationStrategy - Building LoadPlan...
+4765 [Test worker] DEBUG o.h.l.p.e.i.LoadQueryJoinAndFetchProcessor - processing queryspace <gen:0>
+4765 [Test worker] DEBUG o.h.l.p.b.spi.LoadPlanTreePrinter - LoadPlan(collection=il.elpisor.lodging.model.ContactData.groups)
+    - Returns
+       - CollectionReturnImpl(collection=il.elpisor.lodging.model.ContactData.groups, querySpaceUid=<gen:0>, path=[il.elpisor.lodging.model.ContactData.groups])
+          - (collection element) CollectionFetchableElementEntityGraph(entity=il.elpisor.lodging.model.GroupData, querySpaceUid=<gen:1>, path=[il.elpisor.lodging.model.ContactData.groups].<elements>)
+    - QuerySpaces
+       - CollectionQuerySpaceImpl(uid=<gen:0>, collection=il.elpisor.lodging.model.ContactData.groups)
+          - SQL table alias mapping - groups0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_0_0_}
+          - entity-element alias suffix - 1_
+          - 1_entity-element suffixed key columns - group_id1_2_1_
+          - JOIN (JoinDefinedByMetadata(elements)) : <gen:0> -> <gen:1>
+             - EntityQuerySpaceImpl(uid=<gen:1>, entity=il.elpisor.lodging.model.GroupData)
+                - SQL table alias mapping - groupdata1_
+                - alias suffix - 1_
+                - suffixed key columns - {group_id1_2_1_}
+
+4766 [Test worker] DEBUG o.h.l.c.plan.CollectionLoader - Static select for collection il.elpisor.lodging.model.ContactData.groups: select groups0_.id as id1_0_0_, groups0_.group_id as group_id2_0_0_, groupdata1_.group_id as group_id1_2_1_, groupdata1_.group_footer as group_fo2_2_1_, groupdata1_.group_header as group_he3_2_1_, groupdata1_.group_name as group_na4_2_1_ from address_in_groups groups0_ inner join group_list groupdata1_ on groups0_.group_id=groupdata1_.group_id where groups0_.id=?
+4766 [Test worker] DEBUG o.h.l.p.b.i.spaces.QuerySpacesImpl - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@3592697f]
+4766 [Test worker] DEBUG o.h.l.p.b.i.spaces.QuerySpacesImpl - Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@d511674]
+4766 [Test worker] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : BDay
+4766 [Test worker] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : BMonth
+4766 [Test worker] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : BYear
+4766 [Test worker] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : companyName
+4766 [Test worker] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : firstAddress
+4766 [Test worker] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : firstEMail
+4766 [Test worker] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : firstName
+4766 [Test worker] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : groups
+4766 [Test worker] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Property path deemed to be circular : groups
+4766 [Test worker] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : homePage
+4767 [Test worker] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : lastName
+4767 [Test worker] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : middleName
+4767 [Test worker] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : nickName
+4767 [Test worker] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : notes
+4767 [Test worker] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : photo
+4767 [Test worker] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : secondAddress
+4767 [Test worker] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : secondEMail
+4767 [Test worker] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : telHome
+4767 [Test worker] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : telMobile
+4767 [Test worker] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : telWork
+4767 [Test worker] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : thirdEMail
+4767 [Test worker] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : title
+4767 [Test worker] DEBUG o.h.l.p.b.i.FetchStyleLoadPlanBuildingAssociationVisitationStrategy - Building LoadPlan...
+4767 [Test worker] DEBUG o.h.l.p.e.i.LoadQueryJoinAndFetchProcessor - processing queryspace <gen:0>
+4768 [Test worker] DEBUG o.h.l.p.b.spi.LoadPlanTreePrinter - LoadPlan(collection=il.elpisor.lodging.model.GroupData.contacts)
+    - Returns
+       - CollectionReturnImpl(collection=il.elpisor.lodging.model.GroupData.contacts, querySpaceUid=<gen:0>, path=[il.elpisor.lodging.model.GroupData.contacts])
+          - (collection element) CollectionFetchableElementEntityGraph(entity=il.elpisor.lodging.model.ContactData, querySpaceUid=<gen:1>, path=[il.elpisor.lodging.model.GroupData.contacts].<elements>)
+    - QuerySpaces
+       - CollectionQuerySpaceImpl(uid=<gen:0>, collection=il.elpisor.lodging.model.GroupData.contacts)
+          - SQL table alias mapping - contacts0_
+          - alias suffix - 0_
+          - suffixed key columns - {group_id2_0_0_}
+          - entity-element alias suffix - 1_
+          - 1_entity-element suffixed key columns - id1_1_1_
+          - JOIN (JoinDefinedByMetadata(elements)) : <gen:0> -> <gen:1>
+             - EntityQuerySpaceImpl(uid=<gen:1>, entity=il.elpisor.lodging.model.ContactData)
+                - SQL table alias mapping - contactdat1_
+                - alias suffix - 1_
+                - suffixed key columns - {id1_1_1_}
+
+4768 [Test worker] DEBUG o.h.l.c.plan.CollectionLoader - Static select for collection il.elpisor.lodging.model.GroupData.contacts: select contacts0_.group_id as group_id2_0_0_, contacts0_.id as id1_0_0_, contactdat1_.id as id1_1_1_, contactdat1_.bday as bday2_1_1_, contactdat1_.bmonth as bmonth3_1_1_, contactdat1_.byear as byear4_1_1_, contactdat1_.company as company5_1_1_, contactdat1_.address as address6_1_1_, contactdat1_.email as email7_1_1_, contactdat1_.firstname as firstnam8_1_1_, contactdat1_.homepage as homepage9_1_1_, contactdat1_.lastname as lastnam10_1_1_, contactdat1_.middlename as middlen11_1_1_, contactdat1_.nickname as nicknam12_1_1_, contactdat1_.notes as notes13_1_1_, contactdat1_.photo as photo14_1_1_, contactdat1_.address2 as address15_1_1_, contactdat1_.email2 as email16_1_1_, contactdat1_.home as home17_1_1_, contactdat1_.mobile as mobile18_1_1_, contactdat1_.work as work19_1_1_, contactdat1_.email3 as email20_1_1_, contactdat1_.title as title21_1_1_ from address_in_groups contacts0_ inner join addressbook contactdat1_ on contacts0_.id=contactdat1_.id where contacts0_.group_id=?
+4872 [Test worker] INFO  o.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@16b372b8] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+5005 [Test worker] DEBUG o.h.e.t.j.p.i.JtaPlatformInitiator - No JtaPlatform was specified, checking resolver
+5006 [Test worker] DEBUG o.h.e.t.j.p.i.JtaPlatformResolverInitiator - No JtaPlatformResolver was specified, using default [org.hibernate.engine.transaction.jta.platform.internal.StandardJtaPlatformResolver]
+5013 [Test worker] DEBUG o.h.e.t.j.p.i.StandardJtaPlatformResolver - Could not resolve JtaPlatform, using default [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+5013 [Test worker] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+5015 [Test worker] DEBUG o.h.query.spi.NamedQueryRepository - Checking 0 named HQL queries
+5015 [Test worker] DEBUG o.h.query.spi.NamedQueryRepository - Checking 0 named SQL queries
+5031 [Test worker] DEBUG o.h.internal.SessionFactoryRegistry - Initializing SessionFactoryRegistry : org.hibernate.internal.SessionFactoryRegistry@675d808a
+5034 [Test worker] DEBUG o.h.internal.SessionFactoryRegistry - Registering SessionFactory: 39639bd5-f5cf-4310-9b32-5d25ee931c4b (<unnamed>)
+5034 [Test worker] DEBUG o.h.internal.SessionFactoryRegistry - Not binding SessionFactory to JNDI, no JNDI name configured
+9912 [Test worker] INFO  il.elpisor.lodging.tests.TestBase - Strated 'testContactAddress' with parameters: []
+10197 [Test worker] DEBUG o.h.s.internal.StatisticsInitiator - Statistics initialized [enabled=false]
+10213 [Test worker] DEBUG o.h.e.t.internal.TransactionImpl - On TransactionImpl creation, JpaCompliance#isJpaTransactionComplianceEnabled == false
+10213 [Test worker] DEBUG o.h.e.t.internal.TransactionImpl - begin
+10243 [Test worker] DEBUG o.h.h.i.QueryTranslatorFactoryInitiator - QueryTranslatorFactory: org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory@21ea06db
+10296 [Test worker] DEBUG o.h.h.i.ast.QueryTranslatorImpl - parse() - HQL: from il.elpisor.lodging.model.ContactData where deprecated = '0000-00-00'
+10307 [Test worker] DEBUG o.h.hql.internal.ast.ErrorTracker - throwQueryException() : no errors
+10321 [Test worker] DEBUG o.h.h.i.ast.QueryTranslatorImpl - --- HQL AST ---
+ \-[QUERY] Node: 'query'
+    +-[SELECT_FROM] Node: 'SELECT_FROM'
+    |  \-[FROM] Node: 'from'
+    |     \-[RANGE] Node: 'RANGE'
+    |        \-[DOT] Node: '.'
+    |           +-[DOT] Node: '.'
+    |           |  +-[DOT] Node: '.'
+    |           |  |  +-[DOT] Node: '.'
+    |           |  |  |  +-[IDENT] Node: 'il'
+    |           |  |  |  \-[IDENT] Node: 'elpisor'
+    |           |  |  \-[IDENT] Node: 'lodging'
+    |           |  \-[IDENT] Node: 'model'
+    |           \-[IDENT] Node: 'ContactData'
+    \-[WHERE] Node: 'where'
+       \-[EQ] Node: '='
+          +-[IDENT] Node: 'deprecated'
+          \-[QUOTED_STRING] Node: ''0000-00-00''
+
+10378 [Test worker] DEBUG o.h.h.i.antlr.HqlSqlBaseWalker - select << begin [level=1, statement=select]
+10406 [Test worker] DEBUG o.h.h.internal.ast.tree.FromElement - FromClause{level=1} : il.elpisor.lodging.model.ContactData (<no alias>) -> contactdat0_
+10419 [Test worker] DEBUG o.h.h.i.antlr.HqlSqlBaseWalker - select : finishing up [level=1, statement=select]
+10419 [Test worker] DEBUG o.h.hql.internal.ast.HqlSqlWalker - processQuery() :  ( SELECT ( FromClause{level=1} addressbook contactdat0_ ) ( where ( = deprecated '0000-00-00' ) ) )
+10434 [Test worker] DEBUG o.h.hql.internal.ast.HqlSqlWalker - Derived SELECT clause created.
+10438 [Test worker] DEBUG o.h.h.i.ast.util.JoinProcessor - Tables referenced from query nodes:
+ \-QueryNode
+    +-SelectClause
+    | referencedTables(entity ContactData): [addressbook]
+    |  +-SelectExpressionImpl
+    |  | persister: SingleTableEntityPersister(il.elpisor.lodging.model.ContactData)
+    |  \-SqlFragment
+    +-FromClause
+    |  \-FromElement
+    \-SqlNode
+       \-BinaryLogicOperatorNode
+          +-IdentNode
+          | persister: null
+          | originalText: deprecated
+          \-LiteralNode
+
+10443 [Test worker] DEBUG o.h.h.i.ast.util.JoinProcessor - Using FROM fragment [addressbook contactdat0_]
+10443 [Test worker] DEBUG o.h.h.i.antlr.HqlSqlBaseWalker - select >> end [level=1, statement=select]
+10444 [Test worker] DEBUG o.h.h.i.ast.QueryTranslatorImpl - --- SQL AST ---
+ \-[SELECT] QueryNode: 'SELECT'  querySpaces (addressbook)
+    +-[SELECT_CLAUSE] SelectClause: '{derived select clause}'
+    |  +-[SELECT_EXPR] SelectExpressionImpl: 'contactdat0_.id as id1_1_' {FromElement{explicit,not a collection join,not a fetch join,fetch non-lazy properties,classAlias=null,role=null,tableName=addressbook,tableAlias=contactdat0_,origin=null,columns={,className=il.elpisor.lodging.model.ContactData}}}
+    |  \-[SQL_TOKEN] SqlFragment: 'contactdat0_.bday as bday2_1_, contactdat0_.bmonth as bmonth3_1_, contactdat0_.byear as byear4_1_, contactdat0_.company as company5_1_, contactdat0_.address as address6_1_, contactdat0_.email as email7_1_, contactdat0_.firstname as firstnam8_1_, contactdat0_.homepage as homepage9_1_, contactdat0_.lastname as lastnam10_1_, contactdat0_.middlename as middlen11_1_, contactdat0_.nickname as nicknam12_1_, contactdat0_.notes as notes13_1_, contactdat0_.photo as photo14_1_, contactdat0_.address2 as address15_1_, contactdat0_.email2 as email16_1_, contactdat0_.home as home17_1_, contactdat0_.mobile as mobile18_1_, contactdat0_.work as work19_1_, contactdat0_.email3 as email20_1_, contactdat0_.title as title21_1_'
+    +-[FROM] FromClause: 'from' FromClause{level=1, fromElementCounter=1, fromElements=1, fromElementByClassAlias=[], fromElementByTableAlias=[contactdat0_], fromElementsByPath=[], collectionJoinFromElementsByPath=[], impliedElements=[]}
+    |  \-[FROM_FRAGMENT] FromElement: 'addressbook contactdat0_' FromElement{explicit,not a collection join,not a fetch join,fetch non-lazy properties,classAlias=null,role=null,tableName=addressbook,tableAlias=contactdat0_,origin=null,columns={,className=il.elpisor.lodging.model.ContactData}}
+    \-[WHERE] SqlNode: 'where'
+       \-[EQ] BinaryLogicOperatorNode: '='
+          +-[IDENT] IdentNode: 'deprecated' {originalText=deprecated}
+          \-[QUOTED_STRING] LiteralNode: ''0000-00-00''
+
+10444 [Test worker] DEBUG o.h.hql.internal.ast.ErrorTracker - throwQueryException() : no errors
+10455 [Test worker] DEBUG o.h.h.i.ast.QueryTranslatorImpl - HQL: from il.elpisor.lodging.model.ContactData where deprecated = '0000-00-00'
+10455 [Test worker] DEBUG o.h.h.i.ast.QueryTranslatorImpl - SQL: select contactdat0_.id as id1_1_, contactdat0_.bday as bday2_1_, contactdat0_.bmonth as bmonth3_1_, contactdat0_.byear as byear4_1_, contactdat0_.company as company5_1_, contactdat0_.address as address6_1_, contactdat0_.email as email7_1_, contactdat0_.firstname as firstnam8_1_, contactdat0_.homepage as homepage9_1_, contactdat0_.lastname as lastnam10_1_, contactdat0_.middlename as middlen11_1_, contactdat0_.nickname as nicknam12_1_, contactdat0_.notes as notes13_1_, contactdat0_.photo as photo14_1_, contactdat0_.address2 as address15_1_, contactdat0_.email2 as email16_1_, contactdat0_.home as home17_1_, contactdat0_.mobile as mobile18_1_, contactdat0_.work as work19_1_, contactdat0_.email3 as email20_1_, contactdat0_.title as title21_1_ from addressbook contactdat0_ where deprecated='0000-00-00'
+10455 [Test worker] DEBUG o.h.hql.internal.ast.ErrorTracker - throwQueryException() : no errors
+10477 [Test worker] DEBUG org.hibernate.SQL - select contactdat0_.id as id1_1_, contactdat0_.bday as bday2_1_, contactdat0_.bmonth as bmonth3_1_, contactdat0_.byear as byear4_1_, contactdat0_.company as company5_1_, contactdat0_.address as address6_1_, contactdat0_.email as email7_1_, contactdat0_.firstname as firstnam8_1_, contactdat0_.homepage as homepage9_1_, contactdat0_.lastname as lastnam10_1_, contactdat0_.middlename as middlen11_1_, contactdat0_.nickname as nicknam12_1_, contactdat0_.notes as notes13_1_, contactdat0_.photo as photo14_1_, contactdat0_.address2 as address15_1_, contactdat0_.email2 as email16_1_, contactdat0_.home as home17_1_, contactdat0_.mobile as mobile18_1_, contactdat0_.work as work19_1_, contactdat0_.email3 as email20_1_, contactdat0_.title as title21_1_ from addressbook contactdat0_ where deprecated='0000-00-00'
+10506 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 0
+10512 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[il.elpisor.lodging.model.ContactData#106]
+10526 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [il.elpisor.lodging.model.ContactData#106]
+10527 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `BDay` : value = 0
+10527 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`BDay`)  - enhanced for lazy-loading? - false
+10527 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `BMonth` : value = -
+10527 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`BMonth`)  - enhanced for lazy-loading? - false
+10527 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `BYear` : value = 
+10527 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`BYear`)  - enhanced for lazy-loading? - false
+10527 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `companyName` : value = 
+10527 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`companyName`)  - enhanced for lazy-loading? - false
+10527 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `firstAddress` : value = 
+10527 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`firstAddress`)  - enhanced for lazy-loading? - false
+10527 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `firstEMail` : value = 
+10527 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`firstEMail`)  - enhanced for lazy-loading? - false
+10527 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `firstName` : value = Modify_FirstName01
+10527 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`firstName`)  - enhanced for lazy-loading? - false
+10527 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `groups` : value = NOT NULL COLLECTION
+10527 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`groups`)  - enhanced for lazy-loading? - false
+10539 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `homePage` : value = 
+10540 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`homePage`)  - enhanced for lazy-loading? - false
+10540 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `lastName` : value = _LastName01
+10540 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`lastName`)  - enhanced for lazy-loading? - false
+10540 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `middleName` : value = _MiddleName01
+10540 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`middleName`)  - enhanced for lazy-loading? - false
+10540 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `nickName` : value = 
+10540 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`nickName`)  - enhanced for lazy-loading? - false
+10540 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `notes` : value = 
+10540 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`notes`)  - enhanced for lazy-loading? - false
+10540 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `photo` : value = 
+10540 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`photo`)  - enhanced for lazy-loading? - false
+10540 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `secondAddress` : value = 
+10540 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`secondAddress`)  - enhanced for lazy-loading? - false
+10540 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `secondEMail` : value = 
+10540 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`secondEMail`)  - enhanced for lazy-loading? - false
+10540 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `telHome` : value = 
+10540 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`telHome`)  - enhanced for lazy-loading? - false
+10540 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `telMobile` : value = 
+10540 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`telMobile`)  - enhanced for lazy-loading? - false
+10540 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `telWork` : value = 
+10540 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`telWork`)  - enhanced for lazy-loading? - false
+10540 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `thirdEMail` : value = 
+10540 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`thirdEMail`)  - enhanced for lazy-loading? - false
+10540 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `title` : value = 
+10540 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`title`)  - enhanced for lazy-loading? - false
+10541 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [il.elpisor.lodging.model.ContactData#106]
+10544 [Test worker] DEBUG o.h.l.c.p.AbstractLoadPlanBasedCollectionInitializer - Loading collection: [il.elpisor.lodging.model.ContactData.groups#106]
+10545 [Test worker] DEBUG org.hibernate.SQL - select groups0_.id as id1_0_0_, groups0_.group_id as group_id2_0_0_, groupdata1_.group_id as group_id1_2_1_, groupdata1_.group_footer as group_fo2_2_1_, groupdata1_.group_header as group_he3_2_1_, groupdata1_.group_name as group_na4_2_1_ from address_in_groups groups0_ inner join group_list groupdata1_ on groups0_.group_id=groupdata1_.group_id where groups0_.id=?
+10549 [Test worker] DEBUG o.h.l.p.e.p.i.ResultSetProcessorImpl - Preparing collection initializer : [il.elpisor.lodging.model.ContactData.groups#106]
+10553 [Test worker] DEBUG o.h.e.l.i.CollectionLoadContext - 1 collections were found in result set for role: il.elpisor.lodging.model.ContactData.groups
+10553 [Test worker] DEBUG o.h.e.l.i.CollectionLoadContext - Collection fully initialized: [il.elpisor.lodging.model.ContactData.groups#106]
+10553 [Test worker] DEBUG o.h.e.l.i.CollectionLoadContext - 1 collections initialized for role: il.elpisor.lodging.model.ContactData.groups
+10554 [Test worker] DEBUG o.h.l.c.p.AbstractLoadPlanBasedCollectionInitializer - Done loading collection
+10555 [Test worker] DEBUG o.h.e.t.internal.TransactionImpl - committing
+10555 [Test worker] DEBUG o.h.e.i.AbstractFlushingEventListener - Processing flush-time cascades
+10559 [Test worker] DEBUG o.h.e.i.AbstractFlushingEventListener - Dirty checking collections
+10568 [Test worker] DEBUG o.h.engine.internal.Collections - Collection found: [il.elpisor.lodging.model.ContactData.groups#106], was: [il.elpisor.lodging.model.ContactData.groups#106] (initialized)
+10569 [Test worker] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 insertions, 0 updates, 0 deletions to 1 objects
+10569 [Test worker] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 (re)creations, 0 updates, 0 removals to 1 collections
+10570 [Test worker] DEBUG o.h.internal.util.EntityPrinter - Listing entities:
+10571 [Test worker] DEBUG o.h.internal.util.EntityPrinter - il.elpisor.lodging.model.ContactData{lastName=_LastName01, notes=, BDay=0, firstEMail=, nickName=, companyName=, secondAddress=, groups=[], photo=, telWork=, title=, homePage=, BMonth=-, firstName=Modify_FirstName01, BYear=, telMobile=, middleName=_MiddleName01, secondEMail=, telHome=, id=106, firstAddress=, thirdEMail=}
+10573 [Test worker] DEBUG o.h.r.j.i.LogicalConnectionManagedImpl - Initiating JDBC connection release from afterTransaction
+10574 [Test worker] DEBUG o.h.r.j.i.LogicalConnectionManagedImpl - Initiating JDBC connection release from afterTransaction
+10616 [Test worker] DEBUG o.h.e.t.internal.TransactionImpl - On TransactionImpl creation, JpaCompliance#isJpaTransactionComplianceEnabled == false
+10616 [Test worker] DEBUG o.h.e.t.internal.TransactionImpl - begin
+10617 [Test worker] DEBUG org.hibernate.SQL - select contactdat0_.id as id1_1_, contactdat0_.bday as bday2_1_, contactdat0_.bmonth as bmonth3_1_, contactdat0_.byear as byear4_1_, contactdat0_.company as company5_1_, contactdat0_.address as address6_1_, contactdat0_.email as email7_1_, contactdat0_.firstname as firstnam8_1_, contactdat0_.homepage as homepage9_1_, contactdat0_.lastname as lastnam10_1_, contactdat0_.middlename as middlen11_1_, contactdat0_.nickname as nicknam12_1_, contactdat0_.notes as notes13_1_, contactdat0_.photo as photo14_1_, contactdat0_.address2 as address15_1_, contactdat0_.email2 as email16_1_, contactdat0_.home as home17_1_, contactdat0_.mobile as mobile18_1_, contactdat0_.work as work19_1_, contactdat0_.email3 as email20_1_, contactdat0_.title as title21_1_ from addressbook contactdat0_ where deprecated='0000-00-00'
+10618 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 0
+10618 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[il.elpisor.lodging.model.ContactData#106]
+10619 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [il.elpisor.lodging.model.ContactData#106]
+10619 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `BDay` : value = 0
+10619 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`BDay`)  - enhanced for lazy-loading? - false
+10619 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `BMonth` : value = -
+10619 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`BMonth`)  - enhanced for lazy-loading? - false
+10619 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `BYear` : value = 
+10619 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`BYear`)  - enhanced for lazy-loading? - false
+10619 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `companyName` : value = 
+10619 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`companyName`)  - enhanced for lazy-loading? - false
+10619 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `firstAddress` : value = 
+10619 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`firstAddress`)  - enhanced for lazy-loading? - false
+10619 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `firstEMail` : value = 
+10619 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`firstEMail`)  - enhanced for lazy-loading? - false
+10619 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `firstName` : value = Modify_FirstName01
+10619 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`firstName`)  - enhanced for lazy-loading? - false
+10619 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `groups` : value = NOT NULL COLLECTION
+10619 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`groups`)  - enhanced for lazy-loading? - false
+10619 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `homePage` : value = 
+10619 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`homePage`)  - enhanced for lazy-loading? - false
+10619 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `lastName` : value = _LastName01
+10619 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`lastName`)  - enhanced for lazy-loading? - false
+10619 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `middleName` : value = _MiddleName01
+10619 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`middleName`)  - enhanced for lazy-loading? - false
+10619 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `nickName` : value = 
+10619 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`nickName`)  - enhanced for lazy-loading? - false
+10619 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `notes` : value = 
+10619 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`notes`)  - enhanced for lazy-loading? - false
+10619 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `photo` : value = 
+10619 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`photo`)  - enhanced for lazy-loading? - false
+10620 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `secondAddress` : value = 
+10620 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`secondAddress`)  - enhanced for lazy-loading? - false
+10620 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `secondEMail` : value = 
+10620 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`secondEMail`)  - enhanced for lazy-loading? - false
+10620 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `telHome` : value = 
+10620 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`telHome`)  - enhanced for lazy-loading? - false
+10620 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `telMobile` : value = 
+10620 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`telMobile`)  - enhanced for lazy-loading? - false
+10620 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `telWork` : value = 
+10620 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`telWork`)  - enhanced for lazy-loading? - false
+10620 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `thirdEMail` : value = 
+10620 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`thirdEMail`)  - enhanced for lazy-loading? - false
+10620 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `title` : value = 
+10620 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`title`)  - enhanced for lazy-loading? - false
+10620 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [il.elpisor.lodging.model.ContactData#106]
+10620 [Test worker] DEBUG o.h.l.c.p.AbstractLoadPlanBasedCollectionInitializer - Loading collection: [il.elpisor.lodging.model.ContactData.groups#106]
+10620 [Test worker] DEBUG org.hibernate.SQL - select groups0_.id as id1_0_0_, groups0_.group_id as group_id2_0_0_, groupdata1_.group_id as group_id1_2_1_, groupdata1_.group_footer as group_fo2_2_1_, groupdata1_.group_header as group_he3_2_1_, groupdata1_.group_name as group_na4_2_1_ from address_in_groups groups0_ inner join group_list groupdata1_ on groups0_.group_id=groupdata1_.group_id where groups0_.id=?
+10621 [Test worker] DEBUG o.h.l.p.e.p.i.ResultSetProcessorImpl - Preparing collection initializer : [il.elpisor.lodging.model.ContactData.groups#106]
+10621 [Test worker] DEBUG o.h.e.l.i.CollectionLoadContext - 1 collections were found in result set for role: il.elpisor.lodging.model.ContactData.groups
+10621 [Test worker] DEBUG o.h.e.l.i.CollectionLoadContext - Collection fully initialized: [il.elpisor.lodging.model.ContactData.groups#106]
+10621 [Test worker] DEBUG o.h.e.l.i.CollectionLoadContext - 1 collections initialized for role: il.elpisor.lodging.model.ContactData.groups
+10621 [Test worker] DEBUG o.h.l.c.p.AbstractLoadPlanBasedCollectionInitializer - Done loading collection
+10621 [Test worker] DEBUG o.h.e.t.internal.TransactionImpl - committing
+10621 [Test worker] DEBUG o.h.e.i.AbstractFlushingEventListener - Processing flush-time cascades
+10621 [Test worker] DEBUG o.h.e.i.AbstractFlushingEventListener - Dirty checking collections
+10621 [Test worker] DEBUG o.h.engine.internal.Collections - Collection found: [il.elpisor.lodging.model.ContactData.groups#106], was: [il.elpisor.lodging.model.ContactData.groups#106] (initialized)
+10622 [Test worker] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 insertions, 0 updates, 0 deletions to 1 objects
+10622 [Test worker] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 (re)creations, 0 updates, 0 removals to 1 collections
+10622 [Test worker] DEBUG o.h.internal.util.EntityPrinter - Listing entities:
+10622 [Test worker] DEBUG o.h.internal.util.EntityPrinter - il.elpisor.lodging.model.ContactData{lastName=_LastName01, notes=, BDay=0, firstEMail=, nickName=, companyName=, secondAddress=, groups=[], photo=, telWork=, title=, homePage=, BMonth=-, firstName=Modify_FirstName01, BYear=, telMobile=, middleName=_MiddleName01, secondEMail=, telHome=, id=106, firstAddress=, thirdEMail=}
+10622 [Test worker] DEBUG o.h.r.j.i.LogicalConnectionManagedImpl - Initiating JDBC connection release from afterTransaction
+10622 [Test worker] DEBUG o.h.r.j.i.LogicalConnectionManagedImpl - Initiating JDBC connection release from afterTransaction
+11237 [Test worker] INFO  il.elpisor.lodging.tests.TestBase - Finished 'testContactAddress' with parameters: []

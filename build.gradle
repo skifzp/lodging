@@ -1,0 +1,77 @@
+buildscript {
+    repositories {
+        jcenter()
+    }
+    dependencies {
+        classpath 'io.qameta.allure:allure-gradle:2.8.1'
+    }
+}
+
+plugins {
+    id 'io.qameta.allure' version '2.8.1'
+}
+
+apply plugin: 'java'
+
+allure {
+    version = '2.9.0'
+    autoconfigure = true
+    aspectjweaver = true
+    allureJavaVersion = '2.13.2'
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile 'org.testng:testng:7.1.0'
+    compile 'org.seleniumhq.selenium:selenium-java:3.141.59'
+    compile 'org.hamcrest:hamcrest:2.2'
+    compile 'com.beust:jcommander:1.78'
+    compile 'com.thoughtworks.xstream:xstream:1.4.11.1'
+    compile 'com.google.code.gson:gson:2.8.6'
+    compile 'ch.qos.logback:logback-classic:1.2.3'
+    compile 'mysql:mysql-connector-java:8.0.19'
+    compile 'org.hibernate:hibernate-core:5.4.12.Final'
+}
+
+test {
+    useTestNG()
+}
+
+task testContacts(type: Test) {
+    useTestNG {
+        suites 'src/test/resources/testingContacts.xml'
+        if (project.hasProperty('browser')) {
+            systemProperty('browser', "$browser")
+        }
+        if (project.hasProperty('target')) {
+            systemProperty('target', "$target")
+        }
+        if (project.hasProperty('platform')) {
+            systemProperty('platform', "$platform")
+        }
+        if (project.hasProperty('verifyUI')) {
+            systemProperty('verifyUI', "$verifyUI")
+        }
+    }
+}
+
+task testGroups(type: Test) {
+    useTestNG {
+        suites 'src/test/resources/testingGroups.xml'
+        if (project.hasProperty('browser')) {
+            systemProperty('browser', "$browser")
+        }
+        if (project.hasProperty('target')) {
+            systemProperty('target', "$target")
+        }
+        if (project.hasProperty('platform')) {
+            systemProperty('platform', "$platform")
+        }
+        if (project.hasProperty('verifyUI')) {
+            systemProperty('verifyUI', "$verifyUI")
+        }
+    }
+}
