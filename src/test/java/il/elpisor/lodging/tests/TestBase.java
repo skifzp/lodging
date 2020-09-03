@@ -45,7 +45,7 @@ public class TestBase {
     //@AfterMethod(alwaysRun = true)
     @AfterClass(alwaysRun = true)
     public void tearDown() throws Exception {
-        //app().stop();
+        app().stop();
     }
 
     @BeforeMethod(alwaysRun = true)

@@ -4,11 +4,11 @@ import il.elpisor.lodging.model.ContactData;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
-import static java.util.stream.Collectors.joining;
 import static org.hamcrest.CoreMatchers.equalTo;
 import static org.hamcrest.MatcherAssert.assertThat;
 
 public class ContactPhoneTest extends TestBase {
+
     @BeforeMethod
     public void ensurePreconditions() {
         app().goTo().homePage();

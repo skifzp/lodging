@@ -1,0 +1,989 @@
+582  [TestNG-test=MultiCreatingContacts-1] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider
+606  [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.i.i.IntegratorServiceImpl - Adding Integrator [org.hibernate.cfg.beanvalidation.BeanValidationIntegrator].
+609  [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.i.i.IntegratorServiceImpl - Adding Integrator [org.hibernate.secure.spi.JaccIntegrator].
+616  [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.i.i.IntegratorServiceImpl - Adding Integrator [org.hibernate.cache.internal.CollectionCacheInvalidator].
+713  [TestNG-test=MultiCreatingContacts-1] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.12.Final
+715  [TestNG-test=MultiCreatingContacts-1] DEBUG org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+925  [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.b.j.i.s.LocalXmlResourceResolver - Interpreting public/system identifier : [null] - [http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd]
+925  [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.b.j.i.s.LocalXmlResourceResolver - Recognized hibernate-configuration identifier; attempting to resolve on classpath under org/hibernate/
+929  [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.b.c.internal.JaxbCfgProcessor - cfg.xml document did not define namespaces; wrapping in custom event reader to introduce namespace information
+1272 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.service.spi.ServiceBinding - Overriding existing service binding [org.hibernate.secure.spi.JaccService]
+1294 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.c.i.RegionFactoryInitiator - Cannot default RegionFactory based on registered strategies as `[]` RegionFactory strategies were registered
+1295 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.c.i.RegionFactoryInitiator - Cache region factory : org.hibernate.cache.internal.NoCachingRegionFactory
+1321 [TestNG-test=MultiCreatingContacts-1] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+1372 [TestNG-test=MultiCreatingContacts-1] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration boolean -> org.hibernate.type.BooleanType@57f2437f
+1373 [TestNG-test=MultiCreatingContacts-1] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration boolean -> org.hibernate.type.BooleanType@57f2437f
+1373 [TestNG-test=MultiCreatingContacts-1] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Boolean -> org.hibernate.type.BooleanType@57f2437f
+1373 [TestNG-test=MultiCreatingContacts-1] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration numeric_boolean -> org.hibernate.type.NumericBooleanType@1875c5e1
+1374 [TestNG-test=MultiCreatingContacts-1] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration true_false -> org.hibernate.type.TrueFalseType@48a27701
+1375 [TestNG-test=MultiCreatingContacts-1] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration yes_no -> org.hibernate.type.YesNoType@5ef232b4
+1377 [TestNG-test=MultiCreatingContacts-1] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration byte -> org.hibernate.type.ByteType@596e9b0b
+1377 [TestNG-test=MultiCreatingContacts-1] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration byte -> org.hibernate.type.ByteType@596e9b0b
+1377 [TestNG-test=MultiCreatingContacts-1] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Byte -> org.hibernate.type.ByteType@596e9b0b
+1379 [TestNG-test=MultiCreatingContacts-1] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration character -> org.hibernate.type.CharacterType@2fbeef20
+1379 [TestNG-test=MultiCreatingContacts-1] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration char -> org.hibernate.type.CharacterType@2fbeef20
+1379 [TestNG-test=MultiCreatingContacts-1] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Character -> org.hibernate.type.CharacterType@2fbeef20
+1380 [TestNG-test=MultiCreatingContacts-1] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration short -> org.hibernate.type.ShortType@2d450028
+1380 [TestNG-test=MultiCreatingContacts-1] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration short -> org.hibernate.type.ShortType@2d450028
+1380 [TestNG-test=MultiCreatingContacts-1] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Short -> org.hibernate.type.ShortType@2d450028
+1381 [TestNG-test=MultiCreatingContacts-1] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration integer -> org.hibernate.type.IntegerType@7c7da4e8
+1381 [TestNG-test=MultiCreatingContacts-1] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration int -> org.hibernate.type.IntegerType@7c7da4e8
+1381 [TestNG-test=MultiCreatingContacts-1] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Integer -> org.hibernate.type.IntegerType@7c7da4e8
+1382 [TestNG-test=MultiCreatingContacts-1] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration long -> org.hibernate.type.LongType@6abf961
+1382 [TestNG-test=MultiCreatingContacts-1] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration long -> org.hibernate.type.LongType@6abf961
+1382 [TestNG-test=MultiCreatingContacts-1] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Long -> org.hibernate.type.LongType@6abf961
+1384 [TestNG-test=MultiCreatingContacts-1] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration float -> org.hibernate.type.FloatType@759c26a3
+1384 [TestNG-test=MultiCreatingContacts-1] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration float -> org.hibernate.type.FloatType@759c26a3
+1384 [TestNG-test=MultiCreatingContacts-1] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Float -> org.hibernate.type.FloatType@759c26a3
+1385 [TestNG-test=MultiCreatingContacts-1] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration double -> org.hibernate.type.DoubleType@f93b3eb
+1385 [TestNG-test=MultiCreatingContacts-1] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration double -> org.hibernate.type.DoubleType@f93b3eb
+1385 [TestNG-test=MultiCreatingContacts-1] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Double -> org.hibernate.type.DoubleType@f93b3eb
+1386 [TestNG-test=MultiCreatingContacts-1] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration big_decimal -> org.hibernate.type.BigDecimalType@5011ef91
+1386 [TestNG-test=MultiCreatingContacts-1] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.math.BigDecimal -> org.hibernate.type.BigDecimalType@5011ef91
+1387 [TestNG-test=MultiCreatingContacts-1] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration big_integer -> org.hibernate.type.BigIntegerType@5a73490c
+1387 [TestNG-test=MultiCreatingContacts-1] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.math.BigInteger -> org.hibernate.type.BigIntegerType@5a73490c
+1388 [TestNG-test=MultiCreatingContacts-1] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration string -> org.hibernate.type.StringType@70f1ddaa
+1389 [TestNG-test=MultiCreatingContacts-1] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.String -> org.hibernate.type.StringType@70f1ddaa
+1389 [TestNG-test=MultiCreatingContacts-1] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration nstring -> org.hibernate.type.StringNVarcharType@50a374ee
+1390 [TestNG-test=MultiCreatingContacts-1] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration ncharacter -> org.hibernate.type.CharacterNCharType@53dabad2
+1392 [TestNG-test=MultiCreatingContacts-1] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration url -> org.hibernate.type.UrlType@19c90937
+1392 [TestNG-test=MultiCreatingContacts-1] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.net.URL -> org.hibernate.type.UrlType@19c90937
+1394 [TestNG-test=MultiCreatingContacts-1] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration Duration -> org.hibernate.type.DurationType@5ac302fd
+1394 [TestNG-test=MultiCreatingContacts-1] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.time.Duration -> org.hibernate.type.DurationType@5ac302fd
+1412 [TestNG-test=MultiCreatingContacts-1] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration Instant -> org.hibernate.type.InstantType@d503392
+1412 [TestNG-test=MultiCreatingContacts-1] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.time.Instant -> org.hibernate.type.InstantType@d503392
+1414 [TestNG-test=MultiCreatingContacts-1] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration LocalDateTime -> org.hibernate.type.LocalDateTimeType@78fbb56d
+1414 [TestNG-test=MultiCreatingContacts-1] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.time.LocalDateTime -> org.hibernate.type.LocalDateTimeType@78fbb56d
+1415 [TestNG-test=MultiCreatingContacts-1] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration LocalDate -> org.hibernate.type.LocalDateType@519db7ab
+1415 [TestNG-test=MultiCreatingContacts-1] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.time.LocalDate -> org.hibernate.type.LocalDateType@519db7ab
+1416 [TestNG-test=MultiCreatingContacts-1] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration LocalTime -> org.hibernate.type.LocalTimeType@3395e626
+1417 [TestNG-test=MultiCreatingContacts-1] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.time.LocalTime -> org.hibernate.type.LocalTimeType@3395e626
+1418 [TestNG-test=MultiCreatingContacts-1] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration OffsetDateTime -> org.hibernate.type.OffsetDateTimeType@472c182
+1418 [TestNG-test=MultiCreatingContacts-1] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.time.OffsetDateTime -> org.hibernate.type.OffsetDateTimeType@472c182
+1419 [TestNG-test=MultiCreatingContacts-1] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration OffsetTime -> org.hibernate.type.OffsetTimeType@30e5c816
+1419 [TestNG-test=MultiCreatingContacts-1] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.time.OffsetTime -> org.hibernate.type.OffsetTimeType@30e5c816
+1422 [TestNG-test=MultiCreatingContacts-1] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration ZonedDateTime -> org.hibernate.type.ZonedDateTimeType@5b653e1f
+1422 [TestNG-test=MultiCreatingContacts-1] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.time.ZonedDateTime -> org.hibernate.type.ZonedDateTimeType@5b653e1f
+1424 [TestNG-test=MultiCreatingContacts-1] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration date -> org.hibernate.type.DateType@d04458c
+1424 [TestNG-test=MultiCreatingContacts-1] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.sql.Date -> org.hibernate.type.DateType@d04458c
+1424 [TestNG-test=MultiCreatingContacts-1] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration time -> org.hibernate.type.TimeType@62fd9279
+1424 [TestNG-test=MultiCreatingContacts-1] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.sql.Time -> org.hibernate.type.TimeType@62fd9279
+1425 [TestNG-test=MultiCreatingContacts-1] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration timestamp -> org.hibernate.type.TimestampType@3c340977
+1425 [TestNG-test=MultiCreatingContacts-1] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.sql.Timestamp -> org.hibernate.type.TimestampType@3c340977
+1425 [TestNG-test=MultiCreatingContacts-1] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.util.Date -> org.hibernate.type.TimestampType@3c340977
+1427 [TestNG-test=MultiCreatingContacts-1] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration dbtimestamp -> org.hibernate.type.DbTimestampType@1c3011fb
+1428 [TestNG-test=MultiCreatingContacts-1] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration calendar -> org.hibernate.type.CalendarType@6a9a2669
+1428 [TestNG-test=MultiCreatingContacts-1] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.util.Calendar -> org.hibernate.type.CalendarType@6a9a2669
+1428 [TestNG-test=MultiCreatingContacts-1] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.util.GregorianCalendar -> org.hibernate.type.CalendarType@6a9a2669
+1429 [TestNG-test=MultiCreatingContacts-1] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration calendar_date -> org.hibernate.type.CalendarDateType@1c9407b0
+1429 [TestNG-test=MultiCreatingContacts-1] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration calendar_time -> org.hibernate.type.CalendarTimeType@268b2657
+1430 [TestNG-test=MultiCreatingContacts-1] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration locale -> org.hibernate.type.LocaleType@7db02012
+1430 [TestNG-test=MultiCreatingContacts-1] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.util.Locale -> org.hibernate.type.LocaleType@7db02012
+1431 [TestNG-test=MultiCreatingContacts-1] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration currency -> org.hibernate.type.CurrencyType@5578719a
+1431 [TestNG-test=MultiCreatingContacts-1] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.util.Currency -> org.hibernate.type.CurrencyType@5578719a
+1432 [TestNG-test=MultiCreatingContacts-1] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration timezone -> org.hibernate.type.TimeZoneType@42cb47f6
+1432 [TestNG-test=MultiCreatingContacts-1] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.util.TimeZone -> org.hibernate.type.TimeZoneType@42cb47f6
+1433 [TestNG-test=MultiCreatingContacts-1] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration class -> org.hibernate.type.ClassType@157f0297
+1433 [TestNG-test=MultiCreatingContacts-1] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Class -> org.hibernate.type.ClassType@157f0297
+1434 [TestNG-test=MultiCreatingContacts-1] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration uuid-binary -> org.hibernate.type.UUIDBinaryType@1cfdb263
+1434 [TestNG-test=MultiCreatingContacts-1] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.util.UUID -> org.hibernate.type.UUIDBinaryType@1cfdb263
+1434 [TestNG-test=MultiCreatingContacts-1] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration uuid-char -> org.hibernate.type.UUIDCharType@5e9edca3
+1435 [TestNG-test=MultiCreatingContacts-1] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration binary -> org.hibernate.type.BinaryType@55939d9e
+1435 [TestNG-test=MultiCreatingContacts-1] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration byte[] -> org.hibernate.type.BinaryType@55939d9e
+1435 [TestNG-test=MultiCreatingContacts-1] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration [B -> org.hibernate.type.BinaryType@55939d9e
+1436 [TestNG-test=MultiCreatingContacts-1] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration wrapper-binary -> org.hibernate.type.WrapperBinaryType@210980a6
+1436 [TestNG-test=MultiCreatingContacts-1] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration Byte[] -> org.hibernate.type.WrapperBinaryType@210980a6
+1436 [TestNG-test=MultiCreatingContacts-1] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration [Ljava.lang.Byte; -> org.hibernate.type.WrapperBinaryType@210980a6
+1437 [TestNG-test=MultiCreatingContacts-1] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration row_version -> org.hibernate.type.RowVersionType@798d20d9
+1438 [TestNG-test=MultiCreatingContacts-1] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration image -> org.hibernate.type.ImageType@5b6c7dc6
+1439 [TestNG-test=MultiCreatingContacts-1] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration characters -> org.hibernate.type.CharArrayType@73d87dc5
+1439 [TestNG-test=MultiCreatingContacts-1] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration char[] -> org.hibernate.type.CharArrayType@73d87dc5
+1439 [TestNG-test=MultiCreatingContacts-1] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration [C -> org.hibernate.type.CharArrayType@73d87dc5
+1440 [TestNG-test=MultiCreatingContacts-1] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration wrapper-characters -> org.hibernate.type.CharacterArrayType@4c54d392
+1440 [TestNG-test=MultiCreatingContacts-1] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration [Ljava.lang.Character; -> org.hibernate.type.CharacterArrayType@4c54d392
+1440 [TestNG-test=MultiCreatingContacts-1] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration Character[] -> org.hibernate.type.CharacterArrayType@4c54d392
+1440 [TestNG-test=MultiCreatingContacts-1] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration text -> org.hibernate.type.TextType@27d55a87
+1440 [TestNG-test=MultiCreatingContacts-1] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration ntext -> org.hibernate.type.NTextType@7b02e904
+1442 [TestNG-test=MultiCreatingContacts-1] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration blob -> org.hibernate.type.BlobType@70caa27e
+1442 [TestNG-test=MultiCreatingContacts-1] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.sql.Blob -> org.hibernate.type.BlobType@70caa27e
+1442 [TestNG-test=MultiCreatingContacts-1] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration materialized_blob -> org.hibernate.type.MaterializedBlobType@516055e9
+1444 [TestNG-test=MultiCreatingContacts-1] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration clob -> org.hibernate.type.ClobType@25d60d83
+1444 [TestNG-test=MultiCreatingContacts-1] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.sql.Clob -> org.hibernate.type.ClobType@25d60d83
+1445 [TestNG-test=MultiCreatingContacts-1] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration nclob -> org.hibernate.type.NClobType@79b5cf14
+1445 [TestNG-test=MultiCreatingContacts-1] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.sql.NClob -> org.hibernate.type.NClobType@79b5cf14
+1446 [TestNG-test=MultiCreatingContacts-1] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration materialized_clob -> org.hibernate.type.MaterializedClobType@4e3dfdba
+1446 [TestNG-test=MultiCreatingContacts-1] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration materialized_nclob -> org.hibernate.type.MaterializedNClobType@64565590
+1448 [TestNG-test=MultiCreatingContacts-1] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration serializable -> org.hibernate.type.SerializableType@76bb0031
+1452 [TestNG-test=MultiCreatingContacts-1] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration object -> org.hibernate.type.ObjectType@33292771
+1452 [TestNG-test=MultiCreatingContacts-1] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Object -> org.hibernate.type.ObjectType@33292771
+1453 [TestNG-test=MultiCreatingContacts-1] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration imm_date -> org.hibernate.type.AdaptedImmutableType@2bc031e6
+1453 [TestNG-test=MultiCreatingContacts-1] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration imm_time -> org.hibernate.type.AdaptedImmutableType@51288940
+1453 [TestNG-test=MultiCreatingContacts-1] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration imm_timestamp -> org.hibernate.type.AdaptedImmutableType@40e9bca4
+1453 [TestNG-test=MultiCreatingContacts-1] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration imm_dbtimestamp -> org.hibernate.type.AdaptedImmutableType@217f05b3
+1453 [TestNG-test=MultiCreatingContacts-1] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration imm_calendar -> org.hibernate.type.AdaptedImmutableType@b1a5f7b
+1453 [TestNG-test=MultiCreatingContacts-1] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration imm_calendar_date -> org.hibernate.type.AdaptedImmutableType@1eeda5d1
+1453 [TestNG-test=MultiCreatingContacts-1] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration imm_binary -> org.hibernate.type.AdaptedImmutableType@136c3634
+1453 [TestNG-test=MultiCreatingContacts-1] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration imm_serializable -> org.hibernate.type.AdaptedImmutableType@4a67eb77
+1490 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [uuid2] -> [org.hibernate.id.UUIDGenerator]
+1491 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [guid] -> [org.hibernate.id.GUIDGenerator]
+1493 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [uuid] -> [org.hibernate.id.UUIDHexGenerator]
+1493 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [uuid.hex] -> [org.hibernate.id.UUIDHexGenerator]
+1494 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [assigned] -> [org.hibernate.id.Assigned]
+1496 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [identity] -> [org.hibernate.id.IdentityGenerator]
+1497 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [select] -> [org.hibernate.id.SelectGenerator]
+1499 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [sequence] -> [org.hibernate.id.enhanced.SequenceStyleGenerator]
+1500 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [seqhilo] -> [org.hibernate.id.SequenceHiLoGenerator]
+1501 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [increment] -> [org.hibernate.id.IncrementGenerator]
+1502 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [foreign] -> [org.hibernate.id.ForeignGenerator]
+1502 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [sequence-identity] -> [org.hibernate.id.SequenceIdentityGenerator]
+1502 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [enhanced-sequence] -> [org.hibernate.id.enhanced.SequenceStyleGenerator]
+1504 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [enhanced-table] -> [org.hibernate.id.enhanced.TableGenerator]
+1512 [TestNG-test=MultiCreatingContacts-1] WARN  o.hibernate.orm.connections.pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+1521 [TestNG-test=MultiCreatingContacts-1] INFO  o.hibernate.orm.connections.pooling - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/lodging]
+1521 [TestNG-test=MultiCreatingContacts-1] INFO  o.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {user=root, password=}
+1522 [TestNG-test=MultiCreatingContacts-1] INFO  o.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+1525 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.e.j.c.i.DriverManagerConnectionProviderImpl - Initializing Connection pool with 1 Connections
+1526 [TestNG-test=MultiCreatingContacts-1] INFO  o.h.e.j.c.i.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 20 (min=1)
+1731 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.e.j.e.i.JdbcEnvironmentInitiator - Database ->
+       name : MySQL
+    version : 5.5.5-10.4.11-MariaDB
+      major : 5
+      minor : 5
+1731 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.e.j.e.i.JdbcEnvironmentInitiator - Driver ->
+       name : MySQL Connector/J
+    version : mysql-connector-java-8.0.19 (Revision: a0ca826f5cdf51a98356fdfb1bf251eb042f80bf)
+      major : 8
+      minor : 0
+1731 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.e.j.e.i.JdbcEnvironmentInitiator - JDBC version : 4.2
+1750 [TestNG-test=MultiCreatingContacts-1] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+1769 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.e.j.e.s.IdentifierHelperBuilder - JDBC driver metadata reported database stores quoted identifiers in more than one case
+1773 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.e.j.e.s.IdentifierHelperBuilder - IdentifierCaseStrategy for both quoted and unquoted identifiers was set to the same strategy [LOWER]; that will likely lead to problems in schema update and validation if using quoted identifiers
+1812 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.boot.model.relational.Namespace - Created database namespace [logicalName=Name{catalog=null, schema=null}, physicalName=Name{catalog=null, schema=null}]
+1816 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.t.spi.TypeConfiguration$Scope - Scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration@7afe9978] to MetadataBuildingContext [org.hibernate.boot.internal.MetadataBuildingContextRootImpl@5988c964]
+1888 [TestNG-test=MultiCreatingContacts-1] DEBUG org.hibernate.cfg.AnnotationBinder - Binding entity from annotated class: il.elpisor.lodging.model.GroupData
+1917 [TestNG-test=MultiCreatingContacts-1] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3DiscriminatorColumn{logicalColumnName'DTYPE', discriminatorTypeName='string'}
+1923 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.cfg.annotations.EntityBinder - Import with entity name GroupData
+1926 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.cfg.annotations.EntityBinder - Bind entity il.elpisor.lodging.model.GroupData on table group_list
+1957 [TestNG-test=MultiCreatingContacts-1] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(group_list), mappingColumn=group_id, insertable=true, updatable=true, unique=false}
+1961 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.cfg.annotations.PropertyBinder - MetadataSourceProcessor property id with lazy=false
+1964 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [il.elpisor.lodging.model.GroupData:id]
+1966 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.c.annotations.SimpleValueBinder - building SimpleValue for id
+1968 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.cfg.annotations.PropertyBinder - Building property id
+1972 [TestNG-test=MultiCreatingContacts-1] DEBUG org.hibernate.cfg.BinderHelper - #makeIdGenerator(org.hibernate.mapping.SimpleValue([org.hibernate.mapping.Column(group_id)]), id, assigned, , ...)
+1974 [TestNG-test=MultiCreatingContacts-1] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(group_list), mappingColumn=null, insertable=true, updatable=true, unique=false}
+1985 [TestNG-test=MultiCreatingContacts-1] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(group_list), mappingColumn=element, insertable=true, updatable=true, unique=false}
+1985 [TestNG-test=MultiCreatingContacts-1] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(group_list), mappingColumn=contacts_KEY, insertable=true, updatable=true, unique=false}
+1987 [TestNG-test=MultiCreatingContacts-1] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3JoinColumn{logicalColumnName='contacts_KEY', referencedColumn='null', mappedBy='null'}
+1988 [TestNG-test=MultiCreatingContacts-1] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3JoinColumn{logicalColumnName='null', referencedColumn='null', mappedBy='groups'}
+1988 [TestNG-test=MultiCreatingContacts-1] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3JoinColumn{logicalColumnName='null', referencedColumn='null', mappedBy='groups'}
+1989 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.c.annotations.CollectionBinder - Collection role: il.elpisor.lodging.model.GroupData.contacts
+1992 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.cfg.annotations.PropertyBinder - Building property contacts
+1993 [TestNG-test=MultiCreatingContacts-1] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(group_list), mappingColumn=group_footer, insertable=true, updatable=true, unique=false}
+1993 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.cfg.annotations.PropertyBinder - MetadataSourceProcessor property footer with lazy=false
+1993 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [il.elpisor.lodging.model.GroupData:footer]
+1993 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.c.annotations.SimpleValueBinder - building SimpleValue for footer
+1993 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.cfg.annotations.PropertyBinder - Building property footer
+1994 [TestNG-test=MultiCreatingContacts-1] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(group_list), mappingColumn=group_header, insertable=true, updatable=true, unique=false}
+1994 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.cfg.annotations.PropertyBinder - MetadataSourceProcessor property header with lazy=false
+1994 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [il.elpisor.lodging.model.GroupData:header]
+1994 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.c.annotations.SimpleValueBinder - building SimpleValue for header
+1994 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.cfg.annotations.PropertyBinder - Building property header
+1994 [TestNG-test=MultiCreatingContacts-1] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(group_list), mappingColumn=group_name, insertable=true, updatable=true, unique=false}
+1994 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.cfg.annotations.PropertyBinder - MetadataSourceProcessor property name with lazy=false
+1994 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [il.elpisor.lodging.model.GroupData:name]
+1994 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.c.annotations.SimpleValueBinder - building SimpleValue for name
+1994 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.cfg.annotations.PropertyBinder - Building property name
+1996 [TestNG-test=MultiCreatingContacts-1] DEBUG org.hibernate.cfg.AnnotationBinder - Binding entity from annotated class: il.elpisor.lodging.model.ContactData
+1996 [TestNG-test=MultiCreatingContacts-1] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3DiscriminatorColumn{logicalColumnName'DTYPE', discriminatorTypeName='string'}
+1996 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.cfg.annotations.EntityBinder - Import with entity name ContactData
+1996 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.cfg.annotations.EntityBinder - Bind entity il.elpisor.lodging.model.ContactData on table addressbook
+2004 [TestNG-test=MultiCreatingContacts-1] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(addressbook), mappingColumn=id, insertable=true, updatable=true, unique=false}
+2005 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.cfg.annotations.PropertyBinder - MetadataSourceProcessor property id with lazy=false
+2005 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [il.elpisor.lodging.model.ContactData:id]
+2005 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.c.annotations.SimpleValueBinder - building SimpleValue for id
+2005 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.cfg.annotations.PropertyBinder - Building property id
+2005 [TestNG-test=MultiCreatingContacts-1] DEBUG org.hibernate.cfg.BinderHelper - #makeIdGenerator(org.hibernate.mapping.SimpleValue([org.hibernate.mapping.Column(id)]), id, assigned, , ...)
+2005 [TestNG-test=MultiCreatingContacts-1] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(addressbook), mappingColumn=bday, insertable=true, updatable=true, unique=false}
+2005 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.cfg.annotations.PropertyBinder - MetadataSourceProcessor property BDay with lazy=false
+2005 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [il.elpisor.lodging.model.ContactData:BDay]
+2005 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.c.annotations.SimpleValueBinder - building SimpleValue for BDay
+2005 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.cfg.annotations.PropertyBinder - Building property BDay
+2005 [TestNG-test=MultiCreatingContacts-1] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(addressbook), mappingColumn=bmonth, insertable=true, updatable=true, unique=false}
+2005 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.cfg.annotations.PropertyBinder - MetadataSourceProcessor property BMonth with lazy=false
+2005 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [il.elpisor.lodging.model.ContactData:BMonth]
+2005 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.c.annotations.SimpleValueBinder - building SimpleValue for BMonth
+2006 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.cfg.annotations.PropertyBinder - Building property BMonth
+2006 [TestNG-test=MultiCreatingContacts-1] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(addressbook), mappingColumn=byear, insertable=true, updatable=true, unique=false}
+2006 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.cfg.annotations.PropertyBinder - MetadataSourceProcessor property BYear with lazy=false
+2006 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [il.elpisor.lodging.model.ContactData:BYear]
+2006 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.c.annotations.SimpleValueBinder - building SimpleValue for BYear
+2006 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.cfg.annotations.PropertyBinder - Building property BYear
+2006 [TestNG-test=MultiCreatingContacts-1] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(addressbook), mappingColumn=company, insertable=true, updatable=true, unique=false}
+2006 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.cfg.annotations.PropertyBinder - MetadataSourceProcessor property companyName with lazy=false
+2006 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [il.elpisor.lodging.model.ContactData:companyName]
+2006 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.c.annotations.SimpleValueBinder - building SimpleValue for companyName
+2006 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.cfg.annotations.PropertyBinder - Building property companyName
+2006 [TestNG-test=MultiCreatingContacts-1] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(addressbook), mappingColumn=address, insertable=true, updatable=true, unique=false}
+2006 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.cfg.annotations.PropertyBinder - MetadataSourceProcessor property firstAddress with lazy=false
+2007 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [il.elpisor.lodging.model.ContactData:firstAddress]
+2007 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.c.annotations.SimpleValueBinder - building SimpleValue for firstAddress
+2007 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.cfg.annotations.PropertyBinder - Building property firstAddress
+2007 [TestNG-test=MultiCreatingContacts-1] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(addressbook), mappingColumn=email, insertable=true, updatable=true, unique=false}
+2007 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.cfg.annotations.PropertyBinder - MetadataSourceProcessor property firstEMail with lazy=false
+2007 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [il.elpisor.lodging.model.ContactData:firstEMail]
+2007 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.c.annotations.SimpleValueBinder - building SimpleValue for firstEMail
+2007 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.cfg.annotations.PropertyBinder - Building property firstEMail
+2007 [TestNG-test=MultiCreatingContacts-1] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(addressbook), mappingColumn=firstname, insertable=true, updatable=true, unique=false}
+2007 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.cfg.annotations.PropertyBinder - MetadataSourceProcessor property firstName with lazy=false
+2007 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [il.elpisor.lodging.model.ContactData:firstName]
+2007 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.c.annotations.SimpleValueBinder - building SimpleValue for firstName
+2007 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.cfg.annotations.PropertyBinder - Building property firstName
+2007 [TestNG-test=MultiCreatingContacts-1] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(addressbook), mappingColumn=null, insertable=true, updatable=true, unique=false}
+2008 [TestNG-test=MultiCreatingContacts-1] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(addressbook), mappingColumn=element, insertable=true, updatable=true, unique=false}
+2008 [TestNG-test=MultiCreatingContacts-1] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(addressbook), mappingColumn=groups_KEY, insertable=true, updatable=true, unique=false}
+2008 [TestNG-test=MultiCreatingContacts-1] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3JoinColumn{logicalColumnName='groups_KEY', referencedColumn='null', mappedBy='null'}
+2008 [TestNG-test=MultiCreatingContacts-1] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3JoinColumn{logicalColumnName='id', referencedColumn='', mappedBy=''}
+2008 [TestNG-test=MultiCreatingContacts-1] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3JoinColumn{logicalColumnName='group_id', referencedColumn='', mappedBy=''}
+2008 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.c.annotations.CollectionBinder - Collection role: il.elpisor.lodging.model.ContactData.groups
+2008 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.cfg.annotations.PropertyBinder - Building property groups
+2008 [TestNG-test=MultiCreatingContacts-1] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(addressbook), mappingColumn=homepage, insertable=true, updatable=true, unique=false}
+2008 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.cfg.annotations.PropertyBinder - MetadataSourceProcessor property homePage with lazy=false
+2008 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [il.elpisor.lodging.model.ContactData:homePage]
+2008 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.c.annotations.SimpleValueBinder - building SimpleValue for homePage
+2009 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.cfg.annotations.PropertyBinder - Building property homePage
+2009 [TestNG-test=MultiCreatingContacts-1] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(addressbook), mappingColumn=lastname, insertable=true, updatable=true, unique=false}
+2009 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.cfg.annotations.PropertyBinder - MetadataSourceProcessor property lastName with lazy=false
+2009 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [il.elpisor.lodging.model.ContactData:lastName]
+2009 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.c.annotations.SimpleValueBinder - building SimpleValue for lastName
+2009 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.cfg.annotations.PropertyBinder - Building property lastName
+2009 [TestNG-test=MultiCreatingContacts-1] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(addressbook), mappingColumn=middlename, insertable=true, updatable=true, unique=false}
+2009 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.cfg.annotations.PropertyBinder - MetadataSourceProcessor property middleName with lazy=false
+2009 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [il.elpisor.lodging.model.ContactData:middleName]
+2009 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.c.annotations.SimpleValueBinder - building SimpleValue for middleName
+2009 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.cfg.annotations.PropertyBinder - Building property middleName
+2009 [TestNG-test=MultiCreatingContacts-1] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(addressbook), mappingColumn=nickname, insertable=true, updatable=true, unique=false}
+2009 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.cfg.annotations.PropertyBinder - MetadataSourceProcessor property nickName with lazy=false
+2009 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [il.elpisor.lodging.model.ContactData:nickName]
+2010 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.c.annotations.SimpleValueBinder - building SimpleValue for nickName
+2010 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.cfg.annotations.PropertyBinder - Building property nickName
+2010 [TestNG-test=MultiCreatingContacts-1] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(addressbook), mappingColumn=notes, insertable=true, updatable=true, unique=false}
+2010 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.cfg.annotations.PropertyBinder - MetadataSourceProcessor property notes with lazy=false
+2010 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [il.elpisor.lodging.model.ContactData:notes]
+2010 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.c.annotations.SimpleValueBinder - building SimpleValue for notes
+2010 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.cfg.annotations.PropertyBinder - Building property notes
+2010 [TestNG-test=MultiCreatingContacts-1] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(addressbook), mappingColumn=photo, insertable=true, updatable=true, unique=false}
+2010 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.cfg.annotations.PropertyBinder - MetadataSourceProcessor property photo with lazy=false
+2010 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [il.elpisor.lodging.model.ContactData:photo]
+2010 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.c.annotations.SimpleValueBinder - building SimpleValue for photo
+2010 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.cfg.annotations.PropertyBinder - Building property photo
+2010 [TestNG-test=MultiCreatingContacts-1] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(addressbook), mappingColumn=address2, insertable=true, updatable=true, unique=false}
+2010 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.cfg.annotations.PropertyBinder - MetadataSourceProcessor property secondAddress with lazy=false
+2010 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [il.elpisor.lodging.model.ContactData:secondAddress]
+2010 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.c.annotations.SimpleValueBinder - building SimpleValue for secondAddress
+2011 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.cfg.annotations.PropertyBinder - Building property secondAddress
+2011 [TestNG-test=MultiCreatingContacts-1] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(addressbook), mappingColumn=email2, insertable=true, updatable=true, unique=false}
+2011 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.cfg.annotations.PropertyBinder - MetadataSourceProcessor property secondEMail with lazy=false
+2011 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [il.elpisor.lodging.model.ContactData:secondEMail]
+2011 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.c.annotations.SimpleValueBinder - building SimpleValue for secondEMail
+2011 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.cfg.annotations.PropertyBinder - Building property secondEMail
+2011 [TestNG-test=MultiCreatingContacts-1] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(addressbook), mappingColumn=home, insertable=true, updatable=true, unique=false}
+2011 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.cfg.annotations.PropertyBinder - MetadataSourceProcessor property telHome with lazy=false
+2011 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [il.elpisor.lodging.model.ContactData:telHome]
+2011 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.c.annotations.SimpleValueBinder - building SimpleValue for telHome
+2011 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.cfg.annotations.PropertyBinder - Building property telHome
+2011 [TestNG-test=MultiCreatingContacts-1] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(addressbook), mappingColumn=mobile, insertable=true, updatable=true, unique=false}
+2011 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.cfg.annotations.PropertyBinder - MetadataSourceProcessor property telMobile with lazy=false
+2011 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [il.elpisor.lodging.model.ContactData:telMobile]
+2011 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.c.annotations.SimpleValueBinder - building SimpleValue for telMobile
+2011 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.cfg.annotations.PropertyBinder - Building property telMobile
+2012 [TestNG-test=MultiCreatingContacts-1] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(addressbook), mappingColumn=work, insertable=true, updatable=true, unique=false}
+2012 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.cfg.annotations.PropertyBinder - MetadataSourceProcessor property telWork with lazy=false
+2012 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [il.elpisor.lodging.model.ContactData:telWork]
+2012 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.c.annotations.SimpleValueBinder - building SimpleValue for telWork
+2012 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.cfg.annotations.PropertyBinder - Building property telWork
+2012 [TestNG-test=MultiCreatingContacts-1] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(addressbook), mappingColumn=email3, insertable=true, updatable=true, unique=false}
+2012 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.cfg.annotations.PropertyBinder - MetadataSourceProcessor property thirdEMail with lazy=false
+2012 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [il.elpisor.lodging.model.ContactData:thirdEMail]
+2012 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.c.annotations.SimpleValueBinder - building SimpleValue for thirdEMail
+2012 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.cfg.annotations.PropertyBinder - Building property thirdEMail
+2012 [TestNG-test=MultiCreatingContacts-1] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(addressbook), mappingColumn=title, insertable=true, updatable=true, unique=false}
+2012 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.cfg.annotations.PropertyBinder - MetadataSourceProcessor property title with lazy=false
+2012 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [il.elpisor.lodging.model.ContactData:title]
+2012 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.c.annotations.SimpleValueBinder - building SimpleValue for title
+2012 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.cfg.annotations.PropertyBinder - Building property title
+2014 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.c.annotations.SimpleValueBinder - Starting fillSimpleValue for id
+2014 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.c.annotations.SimpleValueBinder - Starting fillSimpleValue for footer
+2014 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.c.annotations.SimpleValueBinder - Starting fillSimpleValue for header
+2014 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.c.annotations.SimpleValueBinder - Starting fillSimpleValue for name
+2014 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.c.annotations.SimpleValueBinder - Starting fillSimpleValue for id
+2014 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.c.annotations.SimpleValueBinder - Starting fillSimpleValue for BDay
+2014 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.c.annotations.SimpleValueBinder - Starting fillSimpleValue for BMonth
+2014 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.c.annotations.SimpleValueBinder - Starting fillSimpleValue for BYear
+2014 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.c.annotations.SimpleValueBinder - Starting fillSimpleValue for companyName
+2014 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.c.annotations.SimpleValueBinder - Starting fillSimpleValue for firstAddress
+2014 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.c.annotations.SimpleValueBinder - Starting fillSimpleValue for firstEMail
+2014 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.c.annotations.SimpleValueBinder - Starting fillSimpleValue for firstName
+2014 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.c.annotations.SimpleValueBinder - Starting fillSimpleValue for homePage
+2014 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.c.annotations.SimpleValueBinder - Starting fillSimpleValue for lastName
+2014 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.c.annotations.SimpleValueBinder - Starting fillSimpleValue for middleName
+2014 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.c.annotations.SimpleValueBinder - Starting fillSimpleValue for nickName
+2014 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.c.annotations.SimpleValueBinder - Starting fillSimpleValue for notes
+2014 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.c.annotations.SimpleValueBinder - Starting fillSimpleValue for photo
+2014 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.c.annotations.SimpleValueBinder - Starting fillSimpleValue for secondAddress
+2015 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.c.annotations.SimpleValueBinder - Starting fillSimpleValue for secondEMail
+2015 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.c.annotations.SimpleValueBinder - Starting fillSimpleValue for telHome
+2015 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.c.annotations.SimpleValueBinder - Starting fillSimpleValue for telMobile
+2015 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.c.annotations.SimpleValueBinder - Starting fillSimpleValue for telWork
+2015 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.c.annotations.SimpleValueBinder - Starting fillSimpleValue for thirdEMail
+2015 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.c.annotations.SimpleValueBinder - Starting fillSimpleValue for title
+2016 [TestNG-test=MultiCreatingContacts-1] DEBUG org.hibernate.mapping.PrimaryKey - Forcing column [group_id] to be non-null as it is part of the primary key for table [group_list]
+2016 [TestNG-test=MultiCreatingContacts-1] DEBUG org.hibernate.mapping.PrimaryKey - Forcing column [id] to be non-null as it is part of the primary key for table [addressbook]
+2016 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.cfg.CollectionSecondPass - Second pass for collection: il.elpisor.lodging.model.ContactData.groups
+2016 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.c.annotations.CollectionBinder - Binding as ManyToMany: il.elpisor.lodging.model.ContactData.groups
+2023 [TestNG-test=MultiCreatingContacts-1] DEBUG org.hibernate.mapping.PrimaryKey - Forcing column [id] to be non-null as it is part of the primary key for table [address_in_groups]
+2023 [TestNG-test=MultiCreatingContacts-1] DEBUG org.hibernate.mapping.PrimaryKey - Forcing column [group_id] to be non-null as it is part of the primary key for table [address_in_groups]
+2023 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.cfg.CollectionSecondPass - Mapped collection key: id, element: group_id
+2023 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.cfg.CollectionSecondPass - Second pass for collection: il.elpisor.lodging.model.GroupData.contacts
+2024 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.c.annotations.CollectionBinder - Binding as ManyToMany: il.elpisor.lodging.model.GroupData.contacts
+2024 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.cfg.annotations.TableBinder - Retrieving property il.elpisor.lodging.model.ContactData.groups
+2024 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.cfg.CollectionSecondPass - Mapped collection key: group_id, element: id
+2025 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.b.i.InFlightMetadataCollectorImpl - Resolving reference to class: il.elpisor.lodging.model.GroupData
+2028 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.b.i.InFlightMetadataCollectorImpl - Resolving reference to class: il.elpisor.lodging.model.ContactData
+2030 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.b.i.InFlightMetadataCollectorImpl - Resolving reference to class: il.elpisor.lodging.model.GroupData
+2030 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.b.i.InFlightMetadataCollectorImpl - Resolving reference to class: il.elpisor.lodging.model.ContactData
+2075 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.internal.SessionFactoryImpl - Building session factory
+2076 [TestNG-test=MultiCreatingContacts-1] DEBUG org.hibernate.cfg.Settings - SessionFactory name : null
+2076 [TestNG-test=MultiCreatingContacts-1] DEBUG org.hibernate.cfg.Settings - Automatic flush during beforeCompletion(): enabled
+2076 [TestNG-test=MultiCreatingContacts-1] DEBUG org.hibernate.cfg.Settings - Automatic session close at end of transaction: disabled
+2076 [TestNG-test=MultiCreatingContacts-1] DEBUG org.hibernate.cfg.Settings - Statistics: disabled
+2076 [TestNG-test=MultiCreatingContacts-1] DEBUG org.hibernate.cfg.Settings - Deleted entity synthetic identifier rollback: disabled
+2076 [TestNG-test=MultiCreatingContacts-1] DEBUG org.hibernate.cfg.Settings - Default entity-mode: pojo
+2076 [TestNG-test=MultiCreatingContacts-1] DEBUG org.hibernate.cfg.Settings - Check Nullability in Core (should be disabled when Bean Validation is on): enabled
+2076 [TestNG-test=MultiCreatingContacts-1] DEBUG org.hibernate.cfg.Settings - Allow initialization of lazy state outside session : disabled
+2076 [TestNG-test=MultiCreatingContacts-1] DEBUG org.hibernate.cfg.Settings - Using BatchFetchStyle : LEGACY
+2076 [TestNG-test=MultiCreatingContacts-1] DEBUG org.hibernate.cfg.Settings - Default batch fetch size: -1
+2076 [TestNG-test=MultiCreatingContacts-1] DEBUG org.hibernate.cfg.Settings - Maximum outer join fetch depth: 2
+2076 [TestNG-test=MultiCreatingContacts-1] DEBUG org.hibernate.cfg.Settings - Default null ordering: NONE
+2076 [TestNG-test=MultiCreatingContacts-1] DEBUG org.hibernate.cfg.Settings - Order SQL updates by primary key: disabled
+2077 [TestNG-test=MultiCreatingContacts-1] DEBUG org.hibernate.cfg.Settings - Order SQL inserts for batching: disabled
+2077 [TestNG-test=MultiCreatingContacts-1] DEBUG org.hibernate.cfg.Settings - multi-tenancy strategy : NONE
+2077 [TestNG-test=MultiCreatingContacts-1] DEBUG org.hibernate.cfg.Settings - JTA Track by Thread: enabled
+2077 [TestNG-test=MultiCreatingContacts-1] DEBUG org.hibernate.cfg.Settings - Query language substitutions: {}
+2077 [TestNG-test=MultiCreatingContacts-1] DEBUG org.hibernate.cfg.Settings - Named query checking : enabled
+2077 [TestNG-test=MultiCreatingContacts-1] DEBUG org.hibernate.cfg.Settings - Second-level cache: disabled
+2077 [TestNG-test=MultiCreatingContacts-1] DEBUG org.hibernate.cfg.Settings - Second-level query cache: disabled
+2077 [TestNG-test=MultiCreatingContacts-1] DEBUG org.hibernate.cfg.Settings - Second-level query cache factory: null
+2077 [TestNG-test=MultiCreatingContacts-1] DEBUG org.hibernate.cfg.Settings - Second-level cache region prefix: null
+2077 [TestNG-test=MultiCreatingContacts-1] DEBUG org.hibernate.cfg.Settings - Optimize second-level cache for minimal puts: disabled
+2077 [TestNG-test=MultiCreatingContacts-1] DEBUG org.hibernate.cfg.Settings - Structured second-level cache entries: disabled
+2077 [TestNG-test=MultiCreatingContacts-1] DEBUG org.hibernate.cfg.Settings - Second-level cache direct-reference entries: disabled
+2077 [TestNG-test=MultiCreatingContacts-1] DEBUG org.hibernate.cfg.Settings - Automatic eviction of collection cache: disabled
+2077 [TestNG-test=MultiCreatingContacts-1] DEBUG org.hibernate.cfg.Settings - JDBC batch size: 15
+2077 [TestNG-test=MultiCreatingContacts-1] DEBUG org.hibernate.cfg.Settings - JDBC batch updates for versioned data: enabled
+2077 [TestNG-test=MultiCreatingContacts-1] DEBUG org.hibernate.cfg.Settings - Scrollable result sets: enabled
+2077 [TestNG-test=MultiCreatingContacts-1] DEBUG org.hibernate.cfg.Settings - Wrap result sets: disabled
+2077 [TestNG-test=MultiCreatingContacts-1] DEBUG org.hibernate.cfg.Settings - JDBC3 getGeneratedKeys(): enabled
+2077 [TestNG-test=MultiCreatingContacts-1] DEBUG org.hibernate.cfg.Settings - JDBC result set fetch size: null
+2077 [TestNG-test=MultiCreatingContacts-1] DEBUG org.hibernate.cfg.Settings - Connection release mode: AFTER_TRANSACTION
+2077 [TestNG-test=MultiCreatingContacts-1] DEBUG org.hibernate.cfg.Settings - Generate SQL with comments: disabled
+2077 [TestNG-test=MultiCreatingContacts-1] DEBUG org.hibernate.cfg.Settings - JPA compliance - query : disabled
+2077 [TestNG-test=MultiCreatingContacts-1] DEBUG org.hibernate.cfg.Settings - JPA compliance - closed-handling : disabled
+2077 [TestNG-test=MultiCreatingContacts-1] DEBUG org.hibernate.cfg.Settings - JPA compliance - lists : disabled
+2077 [TestNG-test=MultiCreatingContacts-1] DEBUG org.hibernate.cfg.Settings - JPA compliance - transactions : disabled
+2203 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.internal.SessionFactoryImpl - Session factory constructed with filter configurations : {}
+2203 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.internal.SessionFactoryImpl - Instantiating session factory with properties: {sun.desktop=windows, awt.toolkit=sun.awt.windows.WToolkit, file.encoding.pkg=sun.io, java.specification.version=1.8, sun.cpu.isalist=amd64, sun.jnu.encoding=Cp1251, hibernate.dialect=org.hibernate.dialect.MySQLDialect, java.class.path=C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2019-3-2\lib\idea_rt.jar;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2019-3-2\plugins\testng\lib\testng-rt.jar;C:\Program Files\java\jdk1.8.0_121\jre\lib\charsets.jar;C:\Program Files\java\jdk1.8.0_121\jre\lib\deploy.jar;C:\Program Files\java\jdk1.8.0_121\jre\lib\ext\access-bridge-64.jar;C:\Program Files\java\jdk1.8.0_121\jre\lib\ext\cldrdata.jar;C:\Program Files\java\jdk1.8.0_121\jre\lib\ext\dnsns.jar;C:\Program Files\java\jdk1.8.0_121\jre\lib\ext\jaccess.jar;C:\Program Files\java\jdk1.8.0_121\jre\lib\ext\jfxrt.jar;C:\Program Files\java\jdk1.8.0_121\jre\lib\ext\localedata.jar;C:\Program Files\java\jdk1.8.0_121\jre\lib\ext\nashorn.jar;C:\Program Files\java\jdk1.8.0_121\jre\lib\ext\sunec.jar;C:\Program Files\java\jdk1.8.0_121\jre\lib\ext\sunjce_provider.jar;C:\Program Files\java\jdk1.8.0_121\jre\lib\ext\sunmscapi.jar;C:\Program Files\java\jdk1.8.0_121\jre\lib\ext\sunpkcs11.jar;C:\Program Files\java\jdk1.8.0_121\jre\lib\ext\zipfs.jar;C:\Program Files\java\jdk1.8.0_121\jre\lib\javaws.jar;C:\Program Files\java\jdk1.8.0_121\jre\lib\jce.jar;C:\Program Files\java\jdk1.8.0_121\jre\lib\jfr.jar;C:\Program Files\java\jdk1.8.0_121\jre\lib\jfxswt.jar;C:\Program Files\java\jdk1.8.0_121\jre\lib\jsse.jar;C:\Program Files\java\jdk1.8.0_121\jre\lib\management-agent.jar;C:\Program Files\java\jdk1.8.0_121\jre\lib\plugin.jar;C:\Program Files\java\jdk1.8.0_121\jre\lib\resources.jar;C:\Program Files\java\jdk1.8.0_121\jre\lib\rt.jar;C:\Users\Maksim\Documents\GitHub\lodging\build\classes\java\test;C:\Users\Maksim\Documents\GitHub\lodging\build\resources\test;C:\Users\Maksim\.gradle\caches\modules-2\files-2.1\org.testng\testng\7.1.0\b0bcea778fb2899aeb4014c558babea8833d180a\testng-7.1.0.jar;C:\Users\Maksim\.gradle\caches\modules-2\files-2.1\org.seleniumhq.selenium\selenium-java\3.141.59\e8e20b741299cb8ffedbd2925a3ab69d08b41063\selenium-java-3.141.59.jar;C:\Users\Maksim\.gradle\caches\modules-2\files-2.1\org.hamcrest\hamcrest\2.2\1820c0968dba3a11a1b30669bb1f01978a91dedc\hamcrest-2.2.jar;C:\Users\Maksim\.gradle\caches\modules-2\files-2.1\com.beust\jcommander\1.78\a3927de9bd6f351429bcf763712c9890629d8f51\jcommander-1.78.jar;C:\Users\Maksim\.gradle\caches\modules-2\files-2.1\com.thoughtworks.xstream\xstream\1.4.11.1\6c120c45a8c480bb2fea5b56502e3993ddd74fd2\xstream-1.4.11.1.jar;C:\Users\Maksim\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.8.6\9180733b7df8542621dc12e21e87557e8c99b8cb\gson-2.8.6.jar;C:\Users\Maksim\.gradle\caches\modules-2\files-2.1\ch.qos.logback\logback-classic\1.2.3\7c4f3c474fb2c041d8028740440937705ebb473a\logback-classic-1.2.3.jar;C:\Users\Maksim\.gradle\caches\modules-2\files-2.1\mysql\mysql-connector-java\8.0.19\9af69ef0f68eae737351ff55c0ba6e23a06826a5\mysql-connector-java-8.0.19.jar;C:\Users\Maksim\.gradle\caches\modules-2\files-2.1\org.hibernate\hibernate-core\5.4.12.Final\7813daed21576920450443097d69823245d112d2\hibernate-core-5.4.12.Final.jar;C:\Users\Maksim\.gradle\caches\modules-2\files-2.1\io.qameta.allure\allure-testng\2.13.2\f86a00c499bffe9358370789636119673926ad55\allure-testng-2.13.2.jar;C:\Users\Maksim\.gradle\caches\modules-2\files-2.1\com.google.inject\guice\4.1.0\faf9ee8ac09eafd1128091426dd367a8c0085d55\guice-4.1.0-no_aop.jar;C:\Users\Maksim\.gradle\caches\modules-2\files-2.1\org.yaml\snakeyaml\1.21\18775fdda48574784f40b47bf478ab0593f92e4d\snakeyaml-1.21.jar;C:\Users\Maksim\.gradle\caches\modules-2\files-2.1\org.seleniumhq.selenium\selenium-chrome-driver\3.141.59\67137314736c6a2f39a8aa59a562e9616ae5f77e\selenium-chrome-driver-3.141.59.jar;C:\Users\Maksim\.gradle\caches\modules-2\files-2.1\org.seleniumhq.selenium\selenium-edge-driver\3.141.59\fc09c66f2d0b33b0816d770761ad1d599ef0df29\selenium-edge-driver-3.141.59.jar;C:\Users\Maksim\.gradle\caches\modules-2\files-2.1\org.seleniumhq.selenium\selenium-firefox-driver\3.141.59\a99f2fe2a42747ed9809d4f62f51a9e1b336dde8\selenium-firefox-driver-3.141.59.jar;C:\Users\Maksim\.gradle\caches\modules-2\files-2.1\org.seleniumhq.selenium\selenium-ie-driver\3.141.59\677b9b414a3a9bb2aeea89042a7b326edeb13a82\selenium-ie-driver-3.141.59.jar;C:\Users\Maksim\.gradle\caches\modules-2\files-2.1\org.seleniumhq.selenium\selenium-opera-driver\3.141.59\6b11ed01182bfd8bb62ddeae34cf9eadd3cfc7ff\selenium-opera-driver-3.141.59.jar;C:\Users\Maksim\.gradle\caches\modules-2\files-2.1\org.seleniumhq.selenium\selenium-safari-driver\3.141.59\a32b5b88f46ea4b0356079f0d2e2217543923046\selenium-safari-driver-3.141.59.jar;C:\Users\Maksim\.gradle\caches\modules-2\files-2.1\org.seleniumhq.selenium\selenium-support\3.141.59\8735de5049acf0e761defc65ee5837d6541abaf5\selenium-support-3.141.59.jar;C:\Users\Maksim\.gradle\caches\modules-2\files-2.1\org.seleniumhq.selenium\selenium-remote-driver\3.141.59\1c79ca890c312ff9916bd95df4f0c5182ec722d8\selenium-remote-driver-3.141.59.jar;C:\Users\Maksim\.gradle\caches\modules-2\files-2.1\org.seleniumhq.selenium\selenium-api\3.141.59\e006ffd3aa7841e6e9125d9e6691b3a6b7592b05\selenium-api-3.141.59.jar;C:\Users\Maksim\.gradle\caches\modules-2\files-2.1\net.bytebuddy\byte-buddy\1.10.7\1eefb7dd1b032b33c773ca0a17d5cc9e6b56ea1a\byte-buddy-1.10.7.jar;C:\Users\Maksim\.gradle\caches\modules-2\files-2.1\org.apache.commons\commons-exec\1.3\8dfb9facd0830a27b1b5f29f84593f0aeee7773b\commons-exec-1.3.jar;C:\Users\Maksim\.gradle\caches\modules-2\files-2.1\com.google.guava\guava\25.0-jre\7319c34fa5866a85b6bad445adad69d402323129\guava-25.0-jre.jar;C:\Users\Maksim\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp\3.11.0\75966e05a49046ca2ae734e5626f28837a8d1e82\okhttp-3.11.0.jar;C:\Users\Maksim\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.14.0\102d7be47241d781ef95f1581d414b0943053130\okio-1.14.0.jar;C:\Users\Maksim\.gradle\caches\modules-2\files-2.1\xmlpull\xmlpull\1.1.3.1\2b8e230d2ab644e4ecaa94db7cdedbc40c805dfa\xmlpull-1.1.3.1.jar;C:\Users\Maksim\.gradle\caches\modules-2\files-2.1\xpp3\xpp3_min\1.1.4c\19d4e90b43059058f6e056f794f0ea4030d60b86\xpp3_min-1.1.4c.jar;C:\Users\Maksim\.gradle\caches\modules-2\files-2.1\ch.qos.logback\logback-core\1.2.3\864344400c3d4d92dfeb0a305dc87d953677c03c\logback-core-1.2.3.jar;C:\Users\Maksim\.gradle\caches\modules-2\files-2.1\org.slf4j\slf4j-api\1.7.30\b5a4b6d16ab13e34a88fae84c35cd5d68cac922c\slf4j-api-1.7.30.jar;C:\Users\Maksim\.gradle\caches\modules-2\files-2.1\com.google.protobuf\protobuf-java\3.6.1\d06d46ecfd92ec6d0f3b423b4cd81cb38d8b924\protobuf-java-3.6.1.jar;C:\Users\Maksim\.gradle\caches\modules-2\files-2.1\org.hibernate.common\hibernate-commons-annotations\5.1.0.Final\700aeedc4a2089816621948f0379e17cbd17d5db\hibernate-commons-annotations-5.1.0.Final.jar;C:\Users\Maksim\.gradle\caches\modules-2\files-2.1\org.jboss.logging\jboss-logging\3.3.2.Final\3789d00e859632e6c6206adc0c71625559e6e3b0\jboss-logging-3.3.2.Final.jar;C:\Users\Maksim\.gradle\caches\modules-2\files-2.1\javax.persistence\javax.persistence-api\2.2\25665ac8c0b62f50e6488173233239120fc52c96\javax.persistence-api-2.2.jar;C:\Users\Maksim\.gradle\caches\modules-2\files-2.1\org.javassist\javassist\3.24.0-GA\d7466fc2e3af7c023e95c510f06448ad29b225b3\javassist-3.24.0-GA.jar;C:\Users\Maksim\.gradle\caches\modules-2\files-2.1\antlr\antlr\2.7.7\83cd2cd674a217ade95a4bb83a8a14f351f48bd0\antlr-2.7.7.jar;C:\Users\Maksim\.gradle\caches\modules-2\files-2.1\org.jboss.spec.javax.transaction\jboss-transaction-api_1.2_spec\1.1.1.Final\a8485cab9484dda36e9a8c319e76b5cc18797b58\jboss-transaction-api_1.2_spec-1.1.1.Final.jar;C:\Users\Maksim\.gradle\caches\modules-2\files-2.1\org.jboss\jandex\2.1.1.Final\c89aa5564fea8b08b9b41f0bbcabb8fed0d89c0d\jandex-2.1.1.Final.jar;C:\Users\Maksim\.gradle\caches\modules-2\files-2.1\com.fasterxml\classmate\1.5.1\3fe0bed568c62df5e89f4f174c101eab25345b6c\classmate-1.5.1.jar;C:\Users\Maksim\.gradle\caches\modules-2\files-2.1\org.glassfish.jaxb\jaxb-runtime\2.3.1\dd6dda9da676a54c5b36ca2806ff95ee017d8738\jaxb-runtime-2.3.1.jar;C:\Users\Maksim\.gradle\caches\modules-2\files-2.1\javax.xml.bind\jaxb-api\2.3.1\8531ad5ac454cc2deb9d4d32c40c4d7451939b5d\jaxb-api-2.3.1.jar;C:\Users\Maksim\.gradle\caches\modules-2\files-2.1\javax.activation\javax.activation-api\1.2.0\85262acf3ca9816f9537ca47d5adeabaead7cb16\javax.activation-api-1.2.0.jar;C:\Users\Maksim\.gradle\caches\modules-2\files-2.1\org.dom4j\dom4j\2.1.1\3dce5dbb3571aa820c677fadd8349bfa8f00c199\dom4j-2.1.1.jar;C:\Users\Maksim\.gradle\caches\modules-2\files-2.1\io.qameta.allure\allure-java-commons\2.13.2\b5273f572e995db5ee1e98e2c1e5aaa0a73a2c0a\allure-java-commons-2.13.2.jar;C:\Users\Maksim\.gradle\caches\modules-2\files-2.1\javax.inject\javax.inject\1\6975da39a7040257bd51d21a231b76c915872d38\javax.inject-1.jar;C:\Users\Maksim\.gradle\caches\modules-2\files-2.1\aopalliance\aopalliance\1.0\235ba8b489512805ac13a8f9ea77a1ca5ebe3e8\aopalliance-1.0.jar;C:\Users\Maksim\.gradle\caches\modules-2\files-2.1\com.google.code.findbugs\jsr305\1.3.9\40719ea6961c0cb6afaeb6a921eaa1f6afd4cfdf\jsr305-1.3.9.jar;C:\Users\Maksim\.gradle\caches\modules-2\files-2.1\org.checkerframework\checker-compat-qual\2.0.0\fc89b03860d11d6213d0154a62bcd1c2f69b9efa\checker-compat-qual-2.0.0.jar;C:\Users\Maksim\.gradle\caches\modules-2\files-2.1\com.google.errorprone\error_prone_annotations\2.1.3\39b109f2cd352b2d71b52a3b5a1a9850e1dc304b\error_prone_annotations-2.1.3.jar;C:\Users\Maksim\.gradle\caches\modules-2\files-2.1\com.google.j2objc\j2objc-annotations\1.1\ed28ded51a8b1c6b112568def5f4b455e6809019\j2objc-annotations-1.1.jar;C:\Users\Maksim\.gradle\caches\modules-2\files-2.1\org.codehaus.mojo\animal-sniffer-annotations\1.14\775b7e22fb10026eed3f86e8dc556dfafe35f2d5\animal-sniffer-annotations-1.14.jar;C:\Users\Maksim\.gradle\caches\modules-2\files-2.1\org.glassfish.jaxb\txw2\2.3.1\a09d2c48d3285f206fafbffe0e50619284e92126\txw2-2.3.1.jar;C:\Users\Maksim\.gradle\caches\modules-2\files-2.1\com.sun.istack\istack-commons-runtime\3.0.7\c197c86ceec7318b1284bffb49b54226ca774003\istack-commons-runtime-3.0.7.jar;C:\Users\Maksim\.gradle\caches\modules-2\files-2.1\org.jvnet.staxex\stax-ex\1.8\8cc35f73da321c29973191f2cf143d29d26a1df7\stax-ex-1.8.jar;C:\Users\Maksim\.gradle\caches\modules-2\files-2.1\com.sun.xml.fastinfoset\FastInfoset\1.2.15\bb7b7ec0379982b97c62cd17465cb6d9155f68e8\FastInfoset-1.2.15.jar;C:\Users\Maksim\.gradle\caches\modules-2\files-2.1\io.qameta.allure\allure-model\2.13.2\885624a6c38501509be786d2d52f0855d7e57967\allure-model-2.13.2.jar;C:\Users\Maksim\.gradle\caches\modules-2\files-2.1\com.fasterxml.jackson.core\jackson-databind\2.9.8\11283f21cc480aa86c4df7a0a3243ec508372ed2\jackson-databind-2.9.8.jar;C:\Users\Maksim\.gradle\caches\modules-2\files-2.1\org.apache.tika\tika-core\1.20\85888f238720b062c551df5e2a9c943788010e33\tika-core-1.20.jar;C:\Users\Maksim\.gradle\caches\modules-2\files-2.1\org.jooq\joor-java-8\0.9.10\38c6c92afd1ae5e63ebd32f640f3e168c1bec0a9\joor-java-8-0.9.10.jar;C:\Users\Maksim\.gradle\caches\modules-2\files-2.1\com.fasterxml.jackson.core\jackson-annotations\2.9.0\7c10d545325e3a6e72e06381afe469fd40eb701\jackson-annotations-2.9.0.jar;C:\Users\Maksim\.gradle\caches\modules-2\files-2.1\com.fasterxml.jackson.core\jackson-core\2.9.8\f5a654e4675769c716e5b387830d19b501ca191\jackson-core-2.9.8.jar;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2019-3-2\plugins\testng\lib\jcommander-1.27.jar;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2019-3-2\lib\idea_rt.jar, java.vm.vendor=Oracle Corporation, sun.arch.data.model=64, idea.test.cyclic.buffer.size=1048576, hbm2ddl.auto=validate, user.variant=, java.vendor.url=http://java.oracle.com/, user.timezone=Asia/Jerusalem, hibernate.jdbc.time_zone=UTC, os.name=Windows 10, java.vm.specification.version=1.8, user.country=US, sun.java.launcher=SUN_STANDARD, sun.boot.library.path=C:\Program Files\Java\jdk1.8.0_121\jre\bin, sun.java.command=com.intellij.rt.testng.RemoteTestNGStarter -usedefaultlisteners false -socket53845 @w@C:\Temp\idea_working_dirs_testng.tmp -temp C:\Temp\idea_testng.tmp, sun.cpu.endian=little, user.home=C:\Users\Maksim, user.language=en, java.specification.vendor=Oracle Corporation, java.home=C:\Program Files\Java\jdk1.8.0_121\jre, file.separator=\, line.separator=
+, java.vm.specification.vendor=Oracle Corporation, java.specification.name=Java Platform API Specification, java.awt.graphicsenv=sun.awt.Win32GraphicsEnvironment, sun.boot.class.path=C:\Program Files\Java\jdk1.8.0_121\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_121\jre\classes, hibernate.hbm2ddl.auto=validate, user.script=, sun.management.compiler=HotSpot 64-Bit Tiered Compilers, java.runtime.version=1.8.0_121-b13, user.name=Maksim, path.separator=;, hibernate.connection.username=****, os.version=10.0, java.endorsed.dirs=C:\Program Files\Java\jdk1.8.0_121\jre\lib\endorsed, java.runtime.name=Java(TM) SE Runtime Environment, hibernate.connection.url=jdbc:mysql://localhost:3306/lodging, file.encoding=UTF-8, java.vm.name=Java HotSpot(TM) 64-Bit Server VM, hibernate.show_sql=true, show_sql=true, hibernate.connection.driver_class=com.mysql.cj.jdbc.Driver, java.vendor.url.bug=http://bugreport.sun.com/bugreport/, java.io.tmpdir=c:\Temp\, java.version=1.8.0_121, user.dir=C:\Users\Maksim\Documents\GitHub\lodging, os.arch=amd64, java.vm.specification.name=Java Virtual Machine Specification, hibernate.connection.password=****, java.awt.printerjob=sun.awt.windows.WPrinterJob, sun.os.patch.level=, hibernate.boot.CfgXmlAccessService.key=org.hibernate.boot.cfgxml.spi.LoadedConfig@58f9b0d, java.library.path=C:\Program Files\Java\jdk1.8.0_121\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;c:\Program Files\java\jdk1.8.0_121\bin;c:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\HP\HP Performance Advisor;C:\Program Files\nodejs\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\WINDOWS\System32\OpenSSH\;C:\SoftWare\Git-Console\cmd;C:\SoftWare;C:\SoftWare\PICT\;C:\Users\Maksim\AppData\Roaming\npm;C:\Users\Maksim\AppData\Local\Microsoft\WindowsApps;C:\Users\Maksim\AppData\Local\GitHubDesktop\bin;C:\Program Files\Mozilla Firefox;c:\SoftWare\cygwin64\bin;;., java.vm.info=mixed mode, java.vendor=Oracle Corporation, java.vm.version=25.121-b13, hibernate.bytecode.use_reflection_optimizer=false, java.ext.dirs=C:\Program Files\Java\jdk1.8.0_121\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext, sun.io.unicode.encoding=UnicodeLittle, java.class.version=52.0}
+2219 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.secure.spi.JaccIntegrator - Skipping JACC integration as it was not enabled
+2219 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.internal.SessionFactoryImpl - Instantiated session factory
+2220 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.t.spi.TypeConfiguration$Scope - Scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration@7afe9978] to SessionFactoryImpl [org.hibernate.internal.SessionFactoryImpl@3843a231]
+2283 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.b.i.ClassLoaderAccessImpl - Not known whether passed class name [il.elpisor.lodging.model.GroupData] is safe
+2283 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.b.i.ClassLoaderAccessImpl - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : il.elpisor.lodging.model.GroupData
+2312 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.b.i.ClassLoaderAccessImpl - Not known whether passed class name [il.elpisor.lodging.model.GroupData] is safe
+2312 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.b.i.ClassLoaderAccessImpl - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : il.elpisor.lodging.model.GroupData
+2592 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.b.i.ClassLoaderAccessImpl - Not known whether passed class name [il.elpisor.lodging.model.ContactData] is safe
+2592 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.b.i.ClassLoaderAccessImpl - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : il.elpisor.lodging.model.ContactData
+2593 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.b.i.ClassLoaderAccessImpl - Not known whether passed class name [il.elpisor.lodging.model.ContactData] is safe
+2593 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.b.i.ClassLoaderAccessImpl - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : il.elpisor.lodging.model.ContactData
+2649 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.p.c.AbstractCollectionPersister - Static SQL for collection: il.elpisor.lodging.model.ContactData.groups
+2649 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.p.c.AbstractCollectionPersister -  Row insert: insert into address_in_groups (id, group_id) values (?, ?)
+2649 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.p.c.AbstractCollectionPersister -  Row update: update address_in_groups set group_id=? where id=? and group_id=?
+2649 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.p.c.AbstractCollectionPersister -  Row delete: delete from address_in_groups where id=? and group_id=?
+2650 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.p.c.AbstractCollectionPersister -  One-shot delete: delete from address_in_groups where id=?
+2650 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.p.c.AbstractCollectionPersister - Static SQL for collection: il.elpisor.lodging.model.GroupData.contacts
+2650 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.p.c.AbstractCollectionPersister -  Row insert: insert into address_in_groups (group_id, id) values (?, ?)
+2650 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.p.c.AbstractCollectionPersister -  Row update: update address_in_groups set id=? where group_id=? and id=?
+2650 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.p.c.AbstractCollectionPersister -  Row delete: delete from address_in_groups where group_id=? and id=?
+2650 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.p.c.AbstractCollectionPersister -  One-shot delete: delete from address_in_groups where group_id=?
+2653 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.p.e.AbstractEntityPersister - Static SQL for entity: il.elpisor.lodging.model.GroupData
+2653 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.p.e.AbstractEntityPersister -  Version select: select group_id from group_list where group_id =?
+2653 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.p.e.AbstractEntityPersister -  Snapshot select: select groupdata_.group_id, groupdata_.group_footer as group_fo2_2_, groupdata_.group_header as group_he3_2_, groupdata_.group_name as group_na4_2_ from group_list groupdata_ where groupdata_.group_id=?
+2653 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.p.e.AbstractEntityPersister -  Insert 0: insert into group_list (group_footer, group_header, group_name, group_id) values (?, ?, ?, ?)
+2653 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.p.e.AbstractEntityPersister -  Update 0: update group_list set group_footer=?, group_header=?, group_name=? where group_id=?
+2653 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.p.e.AbstractEntityPersister -  Delete 0: delete from group_list where group_id=?
+2684 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.l.p.b.i.spaces.QuerySpacesImpl - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@21108e85]
+2685 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : contacts
+2691 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.l.p.b.i.spaces.QuerySpacesImpl - Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@1ffcce9b]
+2693 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.l.p.b.i.spaces.QuerySpacesImpl - Adding QuerySpace : uid = <gen:2> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@2c7908a4]
+2694 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : contacts.BDay
+2694 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : contacts.BMonth
+2694 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : contacts.BYear
+2695 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : contacts.companyName
+2695 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : contacts.firstAddress
+2695 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : contacts.firstEMail
+2695 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : contacts.firstName
+2695 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : contacts.groups
+2695 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Property path deemed to be circular : contacts.groups
+2695 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : contacts.homePage
+2695 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : contacts.lastName
+2695 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : contacts.middleName
+2695 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : contacts.nickName
+2695 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : contacts.notes
+2695 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : contacts.photo
+2695 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : contacts.secondAddress
+2695 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : contacts.secondEMail
+2695 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : contacts.telHome
+2695 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : contacts.telMobile
+2695 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : contacts.telWork
+2695 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : contacts.thirdEMail
+2695 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : contacts.title
+2695 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : footer
+2695 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : header
+2695 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : name
+2695 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.l.p.b.i.FetchStyleLoadPlanBuildingAssociationVisitationStrategy - Building LoadPlan...
+2710 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.l.p.e.i.LoadQueryJoinAndFetchProcessor - processing queryspace <gen:0>
+2716 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.l.p.b.spi.LoadPlanTreePrinter - LoadPlan(entity=il.elpisor.lodging.model.GroupData)
+    - Returns
+       - EntityReturnImpl(entity=il.elpisor.lodging.model.GroupData, querySpaceUid=<gen:0>, path=il.elpisor.lodging.model.GroupData)
+          - CollectionAttributeFetchImpl(collection=il.elpisor.lodging.model.GroupData.contacts, querySpaceUid=<gen:1>, path=il.elpisor.lodging.model.GroupData.contacts)
+             - (collection element) CollectionFetchableElementEntityGraph(entity=il.elpisor.lodging.model.ContactData, querySpaceUid=<gen:2>, path=il.elpisor.lodging.model.GroupData.contacts.<elements>)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=il.elpisor.lodging.model.GroupData)
+          - SQL table alias mapping - groupdata0_
+          - alias suffix - 0_
+          - suffixed key columns - {group_id1_2_0_}
+          - JOIN (JoinDefinedByMetadata(contacts)) : <gen:0> -> <gen:1>
+             - CollectionQuerySpaceImpl(uid=<gen:1>, collection=il.elpisor.lodging.model.GroupData.contacts)
+                - SQL table alias mapping - contacts1_
+                - alias suffix - 1_
+                - suffixed key columns - {group_id2_0_1_}
+                - entity-element alias suffix - 2_
+                - 2_entity-element suffixed key columns - id1_1_2_
+                - JOIN (JoinDefinedByMetadata(elements)) : <gen:1> -> <gen:2>
+                   - EntityQuerySpaceImpl(uid=<gen:2>, entity=il.elpisor.lodging.model.ContactData)
+                      - SQL table alias mapping - contactdat2_
+                      - alias suffix - 2_
+                      - suffixed key columns - {id1_1_2_}
+
+2718 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.loader.entity.plan.EntityLoader - Static select for entity il.elpisor.lodging.model.GroupData [NONE]: select groupdata0_.group_id as group_id1_2_0_, groupdata0_.group_footer as group_fo2_2_0_, groupdata0_.group_header as group_he3_2_0_, groupdata0_.group_name as group_na4_2_0_, contacts1_.group_id as group_id2_0_1_, contactdat2_.id as id1_0_1_, contactdat2_.id as id1_1_2_, contactdat2_.bday as bday2_1_2_, contactdat2_.bmonth as bmonth3_1_2_, contactdat2_.byear as byear4_1_2_, contactdat2_.company as company5_1_2_, contactdat2_.address as address6_1_2_, contactdat2_.email as email7_1_2_, contactdat2_.firstname as firstnam8_1_2_, contactdat2_.homepage as homepage9_1_2_, contactdat2_.lastname as lastnam10_1_2_, contactdat2_.middlename as middlen11_1_2_, contactdat2_.nickname as nicknam12_1_2_, contactdat2_.notes as notes13_1_2_, contactdat2_.photo as photo14_1_2_, contactdat2_.address2 as address15_1_2_, contactdat2_.email2 as email16_1_2_, contactdat2_.home as home17_1_2_, contactdat2_.mobile as mobile18_1_2_, contactdat2_.work as work19_1_2_, contactdat2_.email3 as email20_1_2_, contactdat2_.title as title21_1_2_ from group_list groupdata0_ left outer join address_in_groups contacts1_ on groupdata0_.group_id=contacts1_.group_id left outer join addressbook contactdat2_ on contacts1_.id=contactdat2_.id where groupdata0_.group_id=?
+2718 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.l.p.b.i.spaces.QuerySpacesImpl - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@7019aeb6]
+2718 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : contacts
+2718 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.l.p.b.i.spaces.QuerySpacesImpl - Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@5527495d]
+2718 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.l.p.b.i.spaces.QuerySpacesImpl - Adding QuerySpace : uid = <gen:2> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@6e04ce81]
+2718 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : contacts.BDay
+2718 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : contacts.BMonth
+2718 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : contacts.BYear
+2718 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : contacts.companyName
+2718 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : contacts.firstAddress
+2718 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : contacts.firstEMail
+2718 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : contacts.firstName
+2718 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : contacts.groups
+2718 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Property path deemed to be circular : contacts.groups
+2719 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : contacts.homePage
+2719 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : contacts.lastName
+2719 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : contacts.middleName
+2719 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : contacts.nickName
+2719 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : contacts.notes
+2719 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : contacts.photo
+2719 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : contacts.secondAddress
+2719 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : contacts.secondEMail
+2719 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : contacts.telHome
+2719 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : contacts.telMobile
+2719 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : contacts.telWork
+2719 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : contacts.thirdEMail
+2719 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : contacts.title
+2719 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : footer
+2719 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : header
+2719 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : name
+2719 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.l.p.b.i.FetchStyleLoadPlanBuildingAssociationVisitationStrategy - Building LoadPlan...
+2719 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.l.p.e.i.LoadQueryJoinAndFetchProcessor - processing queryspace <gen:0>
+2719 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.l.p.b.spi.LoadPlanTreePrinter - LoadPlan(entity=il.elpisor.lodging.model.GroupData)
+    - Returns
+       - EntityReturnImpl(entity=il.elpisor.lodging.model.GroupData, querySpaceUid=<gen:0>, path=il.elpisor.lodging.model.GroupData)
+          - CollectionAttributeFetchImpl(collection=il.elpisor.lodging.model.GroupData.contacts, querySpaceUid=<gen:1>, path=il.elpisor.lodging.model.GroupData.contacts)
+             - (collection element) CollectionFetchableElementEntityGraph(entity=il.elpisor.lodging.model.ContactData, querySpaceUid=<gen:2>, path=il.elpisor.lodging.model.GroupData.contacts.<elements>)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=il.elpisor.lodging.model.GroupData)
+          - SQL table alias mapping - groupdata0_
+          - alias suffix - 0_
+          - suffixed key columns - {group_id1_2_0_}
+          - JOIN (JoinDefinedByMetadata(contacts)) : <gen:0> -> <gen:1>
+             - CollectionQuerySpaceImpl(uid=<gen:1>, collection=il.elpisor.lodging.model.GroupData.contacts)
+                - SQL table alias mapping - contacts1_
+                - alias suffix - 1_
+                - suffixed key columns - {group_id2_0_1_}
+                - entity-element alias suffix - 2_
+                - 2_entity-element suffixed key columns - id1_1_2_
+                - JOIN (JoinDefinedByMetadata(elements)) : <gen:1> -> <gen:2>
+                   - EntityQuerySpaceImpl(uid=<gen:2>, entity=il.elpisor.lodging.model.ContactData)
+                      - SQL table alias mapping - contactdat2_
+                      - alias suffix - 2_
+                      - suffixed key columns - {id1_1_2_}
+
+2720 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.loader.entity.plan.EntityLoader - Static select for entity il.elpisor.lodging.model.GroupData [READ]: select groupdata0_.group_id as group_id1_2_0_, groupdata0_.group_footer as group_fo2_2_0_, groupdata0_.group_header as group_he3_2_0_, groupdata0_.group_name as group_na4_2_0_, contacts1_.group_id as group_id2_0_1_, contactdat2_.id as id1_0_1_, contactdat2_.id as id1_1_2_, contactdat2_.bday as bday2_1_2_, contactdat2_.bmonth as bmonth3_1_2_, contactdat2_.byear as byear4_1_2_, contactdat2_.company as company5_1_2_, contactdat2_.address as address6_1_2_, contactdat2_.email as email7_1_2_, contactdat2_.firstname as firstnam8_1_2_, contactdat2_.homepage as homepage9_1_2_, contactdat2_.lastname as lastnam10_1_2_, contactdat2_.middlename as middlen11_1_2_, contactdat2_.nickname as nicknam12_1_2_, contactdat2_.notes as notes13_1_2_, contactdat2_.photo as photo14_1_2_, contactdat2_.address2 as address15_1_2_, contactdat2_.email2 as email16_1_2_, contactdat2_.home as home17_1_2_, contactdat2_.mobile as mobile18_1_2_, contactdat2_.work as work19_1_2_, contactdat2_.email3 as email20_1_2_, contactdat2_.title as title21_1_2_ from group_list groupdata0_ left outer join address_in_groups contacts1_ on groupdata0_.group_id=contacts1_.group_id left outer join addressbook contactdat2_ on contacts1_.id=contactdat2_.id where groupdata0_.group_id=?
+2734 [TestNG-test=MultiCreatingContacts-1] DEBUG org.hibernate.loader.Loader - Static select for action ACTION_MERGE on entity il.elpisor.lodging.model.GroupData: select groupdata0_.group_id as group_id1_2_0_, groupdata0_.group_footer as group_fo2_2_0_, groupdata0_.group_header as group_he3_2_0_, groupdata0_.group_name as group_na4_2_0_ from group_list groupdata0_ where groupdata0_.group_id=?
+2734 [TestNG-test=MultiCreatingContacts-1] DEBUG org.hibernate.loader.Loader - Static select for action ACTION_REFRESH on entity il.elpisor.lodging.model.GroupData: select groupdata0_.group_id as group_id1_2_0_, groupdata0_.group_footer as group_fo2_2_0_, groupdata0_.group_header as group_he3_2_0_, groupdata0_.group_name as group_na4_2_0_ from group_list groupdata0_ where groupdata0_.group_id=?
+2734 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.p.e.AbstractEntityPersister - Static SQL for entity: il.elpisor.lodging.model.ContactData
+2734 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.p.e.AbstractEntityPersister -  Version select: select id from addressbook where id =?
+2734 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.p.e.AbstractEntityPersister -  Snapshot select: select contactdat_.id, contactdat_.bday as bday2_1_, contactdat_.bmonth as bmonth3_1_, contactdat_.byear as byear4_1_, contactdat_.company as company5_1_, contactdat_.address as address6_1_, contactdat_.email as email7_1_, contactdat_.firstname as firstnam8_1_, contactdat_.homepage as homepage9_1_, contactdat_.lastname as lastnam10_1_, contactdat_.middlename as middlen11_1_, contactdat_.nickname as nicknam12_1_, contactdat_.notes as notes13_1_, contactdat_.photo as photo14_1_, contactdat_.address2 as address15_1_, contactdat_.email2 as email16_1_, contactdat_.home as home17_1_, contactdat_.mobile as mobile18_1_, contactdat_.work as work19_1_, contactdat_.email3 as email20_1_, contactdat_.title as title21_1_ from addressbook contactdat_ where contactdat_.id=?
+2734 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.p.e.AbstractEntityPersister -  Insert 0: insert into addressbook (bday, bmonth, byear, company, address, email, firstname, homepage, lastname, middlename, nickname, notes, photo, address2, email2, home, mobile, work, email3, title, id) values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2734 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.p.e.AbstractEntityPersister -  Update 0: update addressbook set bday=?, bmonth=?, byear=?, company=?, address=?, email=?, firstname=?, homepage=?, lastname=?, middlename=?, nickname=?, notes=?, photo=?, address2=?, email2=?, home=?, mobile=?, work=?, email3=?, title=? where id=?
+2734 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.p.e.AbstractEntityPersister -  Delete 0: delete from addressbook where id=?
+2735 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.l.p.b.i.spaces.QuerySpacesImpl - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@21eaa4bd]
+2735 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : BDay
+2735 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : BMonth
+2735 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : BYear
+2735 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : companyName
+2735 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : firstAddress
+2735 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : firstEMail
+2735 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : firstName
+2735 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : groups
+2735 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.l.p.b.i.spaces.QuerySpacesImpl - Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@2761146e]
+2735 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.l.p.b.i.spaces.QuerySpacesImpl - Adding QuerySpace : uid = <gen:2> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@687fe0f3]
+2735 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : groups.contacts
+2735 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Property path deemed to be circular : groups.contacts
+2735 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : groups.footer
+2735 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : groups.header
+2735 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : groups.name
+2735 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : homePage
+2735 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : lastName
+2735 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : middleName
+2735 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : nickName
+2735 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : notes
+2735 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : photo
+2735 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : secondAddress
+2735 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : secondEMail
+2735 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : telHome
+2735 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : telMobile
+2735 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : telWork
+2735 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : thirdEMail
+2735 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : title
+2735 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.l.p.b.i.FetchStyleLoadPlanBuildingAssociationVisitationStrategy - Building LoadPlan...
+2735 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.l.p.e.i.LoadQueryJoinAndFetchProcessor - processing queryspace <gen:0>
+2735 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.l.p.b.spi.LoadPlanTreePrinter - LoadPlan(entity=il.elpisor.lodging.model.ContactData)
+    - Returns
+       - EntityReturnImpl(entity=il.elpisor.lodging.model.ContactData, querySpaceUid=<gen:0>, path=il.elpisor.lodging.model.ContactData)
+          - CollectionAttributeFetchImpl(collection=il.elpisor.lodging.model.ContactData.groups, querySpaceUid=<gen:1>, path=il.elpisor.lodging.model.ContactData.groups)
+             - (collection element) CollectionFetchableElementEntityGraph(entity=il.elpisor.lodging.model.GroupData, querySpaceUid=<gen:2>, path=il.elpisor.lodging.model.ContactData.groups.<elements>)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=il.elpisor.lodging.model.ContactData)
+          - SQL table alias mapping - contactdat0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_1_0_}
+          - JOIN (JoinDefinedByMetadata(groups)) : <gen:0> -> <gen:1>
+             - CollectionQuerySpaceImpl(uid=<gen:1>, collection=il.elpisor.lodging.model.ContactData.groups)
+                - SQL table alias mapping - groups1_
+                - alias suffix - 1_
+                - suffixed key columns - {id1_0_1_}
+                - entity-element alias suffix - 2_
+                - 2_entity-element suffixed key columns - group_id1_2_2_
+                - JOIN (JoinDefinedByMetadata(elements)) : <gen:1> -> <gen:2>
+                   - EntityQuerySpaceImpl(uid=<gen:2>, entity=il.elpisor.lodging.model.GroupData)
+                      - SQL table alias mapping - groupdata2_
+                      - alias suffix - 2_
+                      - suffixed key columns - {group_id1_2_2_}
+
+2735 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.loader.entity.plan.EntityLoader - Static select for entity il.elpisor.lodging.model.ContactData [NONE]: select contactdat0_.id as id1_1_0_, contactdat0_.bday as bday2_1_0_, contactdat0_.bmonth as bmonth3_1_0_, contactdat0_.byear as byear4_1_0_, contactdat0_.company as company5_1_0_, contactdat0_.address as address6_1_0_, contactdat0_.email as email7_1_0_, contactdat0_.firstname as firstnam8_1_0_, contactdat0_.homepage as homepage9_1_0_, contactdat0_.lastname as lastnam10_1_0_, contactdat0_.middlename as middlen11_1_0_, contactdat0_.nickname as nicknam12_1_0_, contactdat0_.notes as notes13_1_0_, contactdat0_.photo as photo14_1_0_, contactdat0_.address2 as address15_1_0_, contactdat0_.email2 as email16_1_0_, contactdat0_.home as home17_1_0_, contactdat0_.mobile as mobile18_1_0_, contactdat0_.work as work19_1_0_, contactdat0_.email3 as email20_1_0_, contactdat0_.title as title21_1_0_, groups1_.id as id1_0_1_, groupdata2_.group_id as group_id2_0_1_, groupdata2_.group_id as group_id1_2_2_, groupdata2_.group_footer as group_fo2_2_2_, groupdata2_.group_header as group_he3_2_2_, groupdata2_.group_name as group_na4_2_2_ from addressbook contactdat0_ left outer join address_in_groups groups1_ on contactdat0_.id=groups1_.id left outer join group_list groupdata2_ on groups1_.group_id=groupdata2_.group_id where contactdat0_.id=?
+2735 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.l.p.b.i.spaces.QuerySpacesImpl - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@72bdcbd0]
+2735 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : BDay
+2735 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : BMonth
+2735 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : BYear
+2735 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : companyName
+2735 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : firstAddress
+2735 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : firstEMail
+2735 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : firstName
+2735 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : groups
+2736 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.l.p.b.i.spaces.QuerySpacesImpl - Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@5ad96bad]
+2736 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.l.p.b.i.spaces.QuerySpacesImpl - Adding QuerySpace : uid = <gen:2> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@4647570]
+2736 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : groups.contacts
+2736 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Property path deemed to be circular : groups.contacts
+2736 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : groups.footer
+2736 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : groups.header
+2736 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : groups.name
+2736 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : homePage
+2736 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : lastName
+2736 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : middleName
+2736 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : nickName
+2736 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : notes
+2736 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : photo
+2736 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : secondAddress
+2736 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : secondEMail
+2736 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : telHome
+2736 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : telMobile
+2736 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : telWork
+2736 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : thirdEMail
+2736 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : title
+2736 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.l.p.b.i.FetchStyleLoadPlanBuildingAssociationVisitationStrategy - Building LoadPlan...
+2736 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.l.p.e.i.LoadQueryJoinAndFetchProcessor - processing queryspace <gen:0>
+2737 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.l.p.b.spi.LoadPlanTreePrinter - LoadPlan(entity=il.elpisor.lodging.model.ContactData)
+    - Returns
+       - EntityReturnImpl(entity=il.elpisor.lodging.model.ContactData, querySpaceUid=<gen:0>, path=il.elpisor.lodging.model.ContactData)
+          - CollectionAttributeFetchImpl(collection=il.elpisor.lodging.model.ContactData.groups, querySpaceUid=<gen:1>, path=il.elpisor.lodging.model.ContactData.groups)
+             - (collection element) CollectionFetchableElementEntityGraph(entity=il.elpisor.lodging.model.GroupData, querySpaceUid=<gen:2>, path=il.elpisor.lodging.model.ContactData.groups.<elements>)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=il.elpisor.lodging.model.ContactData)
+          - SQL table alias mapping - contactdat0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_1_0_}
+          - JOIN (JoinDefinedByMetadata(groups)) : <gen:0> -> <gen:1>
+             - CollectionQuerySpaceImpl(uid=<gen:1>, collection=il.elpisor.lodging.model.ContactData.groups)
+                - SQL table alias mapping - groups1_
+                - alias suffix - 1_
+                - suffixed key columns - {id1_0_1_}
+                - entity-element alias suffix - 2_
+                - 2_entity-element suffixed key columns - group_id1_2_2_
+                - JOIN (JoinDefinedByMetadata(elements)) : <gen:1> -> <gen:2>
+                   - EntityQuerySpaceImpl(uid=<gen:2>, entity=il.elpisor.lodging.model.GroupData)
+                      - SQL table alias mapping - groupdata2_
+                      - alias suffix - 2_
+                      - suffixed key columns - {group_id1_2_2_}
+
+2737 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.loader.entity.plan.EntityLoader - Static select for entity il.elpisor.lodging.model.ContactData [READ]: select contactdat0_.id as id1_1_0_, contactdat0_.bday as bday2_1_0_, contactdat0_.bmonth as bmonth3_1_0_, contactdat0_.byear as byear4_1_0_, contactdat0_.company as company5_1_0_, contactdat0_.address as address6_1_0_, contactdat0_.email as email7_1_0_, contactdat0_.firstname as firstnam8_1_0_, contactdat0_.homepage as homepage9_1_0_, contactdat0_.lastname as lastnam10_1_0_, contactdat0_.middlename as middlen11_1_0_, contactdat0_.nickname as nicknam12_1_0_, contactdat0_.notes as notes13_1_0_, contactdat0_.photo as photo14_1_0_, contactdat0_.address2 as address15_1_0_, contactdat0_.email2 as email16_1_0_, contactdat0_.home as home17_1_0_, contactdat0_.mobile as mobile18_1_0_, contactdat0_.work as work19_1_0_, contactdat0_.email3 as email20_1_0_, contactdat0_.title as title21_1_0_, groups1_.id as id1_0_1_, groupdata2_.group_id as group_id2_0_1_, groupdata2_.group_id as group_id1_2_2_, groupdata2_.group_footer as group_fo2_2_2_, groupdata2_.group_header as group_he3_2_2_, groupdata2_.group_name as group_na4_2_2_ from addressbook contactdat0_ left outer join address_in_groups groups1_ on contactdat0_.id=groups1_.id left outer join group_list groupdata2_ on groups1_.group_id=groupdata2_.group_id where contactdat0_.id=?
+2737 [TestNG-test=MultiCreatingContacts-1] DEBUG org.hibernate.loader.Loader - Static select for action ACTION_MERGE on entity il.elpisor.lodging.model.ContactData: select contactdat0_.id as id1_1_0_, contactdat0_.bday as bday2_1_0_, contactdat0_.bmonth as bmonth3_1_0_, contactdat0_.byear as byear4_1_0_, contactdat0_.company as company5_1_0_, contactdat0_.address as address6_1_0_, contactdat0_.email as email7_1_0_, contactdat0_.firstname as firstnam8_1_0_, contactdat0_.homepage as homepage9_1_0_, contactdat0_.lastname as lastnam10_1_0_, contactdat0_.middlename as middlen11_1_0_, contactdat0_.nickname as nicknam12_1_0_, contactdat0_.notes as notes13_1_0_, contactdat0_.photo as photo14_1_0_, contactdat0_.address2 as address15_1_0_, contactdat0_.email2 as email16_1_0_, contactdat0_.home as home17_1_0_, contactdat0_.mobile as mobile18_1_0_, contactdat0_.work as work19_1_0_, contactdat0_.email3 as email20_1_0_, contactdat0_.title as title21_1_0_ from addressbook contactdat0_ where contactdat0_.id=?
+2737 [TestNG-test=MultiCreatingContacts-1] DEBUG org.hibernate.loader.Loader - Static select for action ACTION_REFRESH on entity il.elpisor.lodging.model.ContactData: select contactdat0_.id as id1_1_0_, contactdat0_.bday as bday2_1_0_, contactdat0_.bmonth as bmonth3_1_0_, contactdat0_.byear as byear4_1_0_, contactdat0_.company as company5_1_0_, contactdat0_.address as address6_1_0_, contactdat0_.email as email7_1_0_, contactdat0_.firstname as firstnam8_1_0_, contactdat0_.homepage as homepage9_1_0_, contactdat0_.lastname as lastnam10_1_0_, contactdat0_.middlename as middlen11_1_0_, contactdat0_.nickname as nicknam12_1_0_, contactdat0_.notes as notes13_1_0_, contactdat0_.photo as photo14_1_0_, contactdat0_.address2 as address15_1_0_, contactdat0_.email2 as email16_1_0_, contactdat0_.home as home17_1_0_, contactdat0_.mobile as mobile18_1_0_, contactdat0_.work as work19_1_0_, contactdat0_.email3 as email20_1_0_, contactdat0_.title as title21_1_0_ from addressbook contactdat0_ where contactdat0_.id=?
+2741 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.l.p.b.i.spaces.QuerySpacesImpl - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@138cc161]
+2741 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.l.p.b.i.spaces.QuerySpacesImpl - Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@6dcd4222]
+2741 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : contacts
+2741 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Property path deemed to be circular : contacts
+2742 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : footer
+2742 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : header
+2742 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : name
+2742 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.l.p.b.i.FetchStyleLoadPlanBuildingAssociationVisitationStrategy - Building LoadPlan...
+2743 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.l.p.e.i.LoadQueryJoinAndFetchProcessor - processing queryspace <gen:0>
+2744 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.l.p.b.spi.LoadPlanTreePrinter - LoadPlan(collection=il.elpisor.lodging.model.ContactData.groups)
+    - Returns
+       - CollectionReturnImpl(collection=il.elpisor.lodging.model.ContactData.groups, querySpaceUid=<gen:0>, path=[il.elpisor.lodging.model.ContactData.groups])
+          - (collection element) CollectionFetchableElementEntityGraph(entity=il.elpisor.lodging.model.GroupData, querySpaceUid=<gen:1>, path=[il.elpisor.lodging.model.ContactData.groups].<elements>)
+    - QuerySpaces
+       - CollectionQuerySpaceImpl(uid=<gen:0>, collection=il.elpisor.lodging.model.ContactData.groups)
+          - SQL table alias mapping - groups0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_0_0_}
+          - entity-element alias suffix - 1_
+          - 1_entity-element suffixed key columns - group_id1_2_1_
+          - JOIN (JoinDefinedByMetadata(elements)) : <gen:0> -> <gen:1>
+             - EntityQuerySpaceImpl(uid=<gen:1>, entity=il.elpisor.lodging.model.GroupData)
+                - SQL table alias mapping - groupdata1_
+                - alias suffix - 1_
+                - suffixed key columns - {group_id1_2_1_}
+
+2744 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.l.c.plan.CollectionLoader - Static select for collection il.elpisor.lodging.model.ContactData.groups: select groups0_.id as id1_0_0_, groups0_.group_id as group_id2_0_0_, groupdata1_.group_id as group_id1_2_1_, groupdata1_.group_footer as group_fo2_2_1_, groupdata1_.group_header as group_he3_2_1_, groupdata1_.group_name as group_na4_2_1_ from address_in_groups groups0_ inner join group_list groupdata1_ on groups0_.group_id=groupdata1_.group_id where groups0_.id=?
+2744 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.l.p.b.i.spaces.QuerySpacesImpl - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@21716bd1]
+2744 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.l.p.b.i.spaces.QuerySpacesImpl - Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@70a4b8f7]
+2744 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : BDay
+2744 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : BMonth
+2744 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : BYear
+2744 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : companyName
+2744 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : firstAddress
+2744 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : firstEMail
+2744 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : firstName
+2745 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : groups
+2745 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Property path deemed to be circular : groups
+2745 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : homePage
+2745 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : lastName
+2745 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : middleName
+2745 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : nickName
+2745 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : notes
+2745 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : photo
+2745 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : secondAddress
+2745 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : secondEMail
+2745 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : telHome
+2745 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : telMobile
+2745 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : telWork
+2745 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : thirdEMail
+2745 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : title
+2745 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.l.p.b.i.FetchStyleLoadPlanBuildingAssociationVisitationStrategy - Building LoadPlan...
+2745 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.l.p.e.i.LoadQueryJoinAndFetchProcessor - processing queryspace <gen:0>
+2745 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.l.p.b.spi.LoadPlanTreePrinter - LoadPlan(collection=il.elpisor.lodging.model.GroupData.contacts)
+    - Returns
+       - CollectionReturnImpl(collection=il.elpisor.lodging.model.GroupData.contacts, querySpaceUid=<gen:0>, path=[il.elpisor.lodging.model.GroupData.contacts])
+          - (collection element) CollectionFetchableElementEntityGraph(entity=il.elpisor.lodging.model.ContactData, querySpaceUid=<gen:1>, path=[il.elpisor.lodging.model.GroupData.contacts].<elements>)
+    - QuerySpaces
+       - CollectionQuerySpaceImpl(uid=<gen:0>, collection=il.elpisor.lodging.model.GroupData.contacts)
+          - SQL table alias mapping - contacts0_
+          - alias suffix - 0_
+          - suffixed key columns - {group_id2_0_0_}
+          - entity-element alias suffix - 1_
+          - 1_entity-element suffixed key columns - id1_1_1_
+          - JOIN (JoinDefinedByMetadata(elements)) : <gen:0> -> <gen:1>
+             - EntityQuerySpaceImpl(uid=<gen:1>, entity=il.elpisor.lodging.model.ContactData)
+                - SQL table alias mapping - contactdat1_
+                - alias suffix - 1_
+                - suffixed key columns - {id1_1_1_}
+
+2745 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.l.c.plan.CollectionLoader - Static select for collection il.elpisor.lodging.model.GroupData.contacts: select contacts0_.group_id as group_id2_0_0_, contacts0_.id as id1_0_0_, contactdat1_.id as id1_1_1_, contactdat1_.bday as bday2_1_1_, contactdat1_.bmonth as bmonth3_1_1_, contactdat1_.byear as byear4_1_1_, contactdat1_.company as company5_1_1_, contactdat1_.address as address6_1_1_, contactdat1_.email as email7_1_1_, contactdat1_.firstname as firstnam8_1_1_, contactdat1_.homepage as homepage9_1_1_, contactdat1_.lastname as lastnam10_1_1_, contactdat1_.middlename as middlen11_1_1_, contactdat1_.nickname as nicknam12_1_1_, contactdat1_.notes as notes13_1_1_, contactdat1_.photo as photo14_1_1_, contactdat1_.address2 as address15_1_1_, contactdat1_.email2 as email16_1_1_, contactdat1_.home as home17_1_1_, contactdat1_.mobile as mobile18_1_1_, contactdat1_.work as work19_1_1_, contactdat1_.email3 as email20_1_1_, contactdat1_.title as title21_1_1_ from address_in_groups contacts0_ inner join addressbook contactdat1_ on contacts0_.id=contactdat1_.id where contacts0_.group_id=?
+2831 [TestNG-test=MultiCreatingContacts-1] INFO  o.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@60454e5f] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2967 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.e.t.j.p.i.JtaPlatformInitiator - No JtaPlatform was specified, checking resolver
+2967 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.e.t.j.p.i.JtaPlatformResolverInitiator - No JtaPlatformResolver was specified, using default [org.hibernate.engine.transaction.jta.platform.internal.StandardJtaPlatformResolver]
+2973 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.e.t.j.p.i.StandardJtaPlatformResolver - Could not resolve JtaPlatform, using default [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2973 [TestNG-test=MultiCreatingContacts-1] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2975 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.query.spi.NamedQueryRepository - Checking 0 named HQL queries
+2975 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.query.spi.NamedQueryRepository - Checking 0 named SQL queries
+2986 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.internal.SessionFactoryRegistry - Initializing SessionFactoryRegistry : org.hibernate.internal.SessionFactoryRegistry@1d51ac06
+2988 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.internal.SessionFactoryRegistry - Registering SessionFactory: 60f2b420-c468-4049-a1b5-2c95cdd89032 (<unnamed>)
+2988 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.internal.SessionFactoryRegistry - Not binding SessionFactory to JNDI, no JNDI name configured
+9655 [TestNG-test=MultiCreatingContacts-1] INFO  il.elpisor.lodging.tests.TestBase - Strated 'testCreationContact' with parameters: [ContactData{id=0, firstName='gen_first_name 1', lastName='gen_last_name 1', telMobile='null'}]
+9853 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.s.internal.StatisticsInitiator - Statistics initialized [enabled=false]
+9864 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.e.t.internal.TransactionImpl - On TransactionImpl creation, JpaCompliance#isJpaTransactionComplianceEnabled == false
+9864 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.e.t.internal.TransactionImpl - begin
+9881 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.h.i.QueryTranslatorFactoryInitiator - QueryTranslatorFactory: org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory@667cd8c6
+9914 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.h.i.ast.QueryTranslatorImpl - parse() - HQL: from il.elpisor.lodging.model.ContactData where deprecated = '0000-00-00'
+9919 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.hql.internal.ast.ErrorTracker - throwQueryException() : no errors
+9929 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.h.i.ast.QueryTranslatorImpl - --- HQL AST ---
+ \-[QUERY] Node: 'query'
+    +-[SELECT_FROM] Node: 'SELECT_FROM'
+    |  \-[FROM] Node: 'from'
+    |     \-[RANGE] Node: 'RANGE'
+    |        \-[DOT] Node: '.'
+    |           +-[DOT] Node: '.'
+    |           |  +-[DOT] Node: '.'
+    |           |  |  +-[DOT] Node: '.'
+    |           |  |  |  +-[IDENT] Node: 'il'
+    |           |  |  |  \-[IDENT] Node: 'elpisor'
+    |           |  |  \-[IDENT] Node: 'lodging'
+    |           |  \-[IDENT] Node: 'model'
+    |           \-[IDENT] Node: 'ContactData'
+    \-[WHERE] Node: 'where'
+       \-[EQ] Node: '='
+          +-[IDENT] Node: 'deprecated'
+          \-[QUOTED_STRING] Node: ''0000-00-00''
+
+9956 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.h.i.antlr.HqlSqlBaseWalker - select << begin [level=1, statement=select]
+9976 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.h.internal.ast.tree.FromElement - FromClause{level=1} : il.elpisor.lodging.model.ContactData (<no alias>) -> contactdat0_
+9983 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.h.i.antlr.HqlSqlBaseWalker - select : finishing up [level=1, statement=select]
+9983 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.hql.internal.ast.HqlSqlWalker - processQuery() :  ( SELECT ( FromClause{level=1} addressbook contactdat0_ ) ( where ( = deprecated '0000-00-00' ) ) )
+9993 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.hql.internal.ast.HqlSqlWalker - Derived SELECT clause created.
+9997 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.h.i.ast.util.JoinProcessor - Tables referenced from query nodes:
+ \-QueryNode
+    +-SelectClause
+    | referencedTables(entity ContactData): [addressbook]
+    |  +-SelectExpressionImpl
+    |  | persister: SingleTableEntityPersister(il.elpisor.lodging.model.ContactData)
+    |  \-SqlFragment
+    +-FromClause
+    |  \-FromElement
+    \-SqlNode
+       \-BinaryLogicOperatorNode
+          +-IdentNode
+          | persister: null
+          | originalText: deprecated
+          \-LiteralNode
+
+10001 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.h.i.ast.util.JoinProcessor - Using FROM fragment [addressbook contactdat0_]
+10001 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.h.i.antlr.HqlSqlBaseWalker - select >> end [level=1, statement=select]
+10001 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.h.i.ast.QueryTranslatorImpl - --- SQL AST ---
+ \-[SELECT] QueryNode: 'SELECT'  querySpaces (addressbook)
+    +-[SELECT_CLAUSE] SelectClause: '{derived select clause}'
+    |  +-[SELECT_EXPR] SelectExpressionImpl: 'contactdat0_.id as id1_1_' {FromElement{explicit,not a collection join,not a fetch join,fetch non-lazy properties,classAlias=null,role=null,tableName=addressbook,tableAlias=contactdat0_,origin=null,columns={,className=il.elpisor.lodging.model.ContactData}}}
+    |  \-[SQL_TOKEN] SqlFragment: 'contactdat0_.bday as bday2_1_, contactdat0_.bmonth as bmonth3_1_, contactdat0_.byear as byear4_1_, contactdat0_.company as company5_1_, contactdat0_.address as address6_1_, contactdat0_.email as email7_1_, contactdat0_.firstname as firstnam8_1_, contactdat0_.homepage as homepage9_1_, contactdat0_.lastname as lastnam10_1_, contactdat0_.middlename as middlen11_1_, contactdat0_.nickname as nicknam12_1_, contactdat0_.notes as notes13_1_, contactdat0_.photo as photo14_1_, contactdat0_.address2 as address15_1_, contactdat0_.email2 as email16_1_, contactdat0_.home as home17_1_, contactdat0_.mobile as mobile18_1_, contactdat0_.work as work19_1_, contactdat0_.email3 as email20_1_, contactdat0_.title as title21_1_'
+    +-[FROM] FromClause: 'from' FromClause{level=1, fromElementCounter=1, fromElements=1, fromElementByClassAlias=[], fromElementByTableAlias=[contactdat0_], fromElementsByPath=[], collectionJoinFromElementsByPath=[], impliedElements=[]}
+    |  \-[FROM_FRAGMENT] FromElement: 'addressbook contactdat0_' FromElement{explicit,not a collection join,not a fetch join,fetch non-lazy properties,classAlias=null,role=null,tableName=addressbook,tableAlias=contactdat0_,origin=null,columns={,className=il.elpisor.lodging.model.ContactData}}
+    \-[WHERE] SqlNode: 'where'
+       \-[EQ] BinaryLogicOperatorNode: '='
+          +-[IDENT] IdentNode: 'deprecated' {originalText=deprecated}
+          \-[QUOTED_STRING] LiteralNode: ''0000-00-00''
+
+10002 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.hql.internal.ast.ErrorTracker - throwQueryException() : no errors
+10012 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.h.i.ast.QueryTranslatorImpl - HQL: from il.elpisor.lodging.model.ContactData where deprecated = '0000-00-00'
+10012 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.h.i.ast.QueryTranslatorImpl - SQL: select contactdat0_.id as id1_1_, contactdat0_.bday as bday2_1_, contactdat0_.bmonth as bmonth3_1_, contactdat0_.byear as byear4_1_, contactdat0_.company as company5_1_, contactdat0_.address as address6_1_, contactdat0_.email as email7_1_, contactdat0_.firstname as firstnam8_1_, contactdat0_.homepage as homepage9_1_, contactdat0_.lastname as lastnam10_1_, contactdat0_.middlename as middlen11_1_, contactdat0_.nickname as nicknam12_1_, contactdat0_.notes as notes13_1_, contactdat0_.photo as photo14_1_, contactdat0_.address2 as address15_1_, contactdat0_.email2 as email16_1_, contactdat0_.home as home17_1_, contactdat0_.mobile as mobile18_1_, contactdat0_.work as work19_1_, contactdat0_.email3 as email20_1_, contactdat0_.title as title21_1_ from addressbook contactdat0_ where deprecated='0000-00-00'
+10012 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.hql.internal.ast.ErrorTracker - throwQueryException() : no errors
+10032 [TestNG-test=MultiCreatingContacts-1] DEBUG org.hibernate.SQL - select contactdat0_.id as id1_1_, contactdat0_.bday as bday2_1_, contactdat0_.bmonth as bmonth3_1_, contactdat0_.byear as byear4_1_, contactdat0_.company as company5_1_, contactdat0_.address as address6_1_, contactdat0_.email as email7_1_, contactdat0_.firstname as firstnam8_1_, contactdat0_.homepage as homepage9_1_, contactdat0_.lastname as lastnam10_1_, contactdat0_.middlename as middlen11_1_, contactdat0_.nickname as nicknam12_1_, contactdat0_.notes as notes13_1_, contactdat0_.photo as photo14_1_, contactdat0_.address2 as address15_1_, contactdat0_.email2 as email16_1_, contactdat0_.home as home17_1_, contactdat0_.mobile as mobile18_1_, contactdat0_.work as work19_1_, contactdat0_.email3 as email20_1_, contactdat0_.title as title21_1_ from addressbook contactdat0_ where deprecated='0000-00-00'
+10058 [TestNG-test=MultiCreatingContacts-1] DEBUG org.hibernate.loader.Loader - Result set row: 0
+10062 [TestNG-test=MultiCreatingContacts-1] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[il.elpisor.lodging.model.ContactData#106]
+10075 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [il.elpisor.lodging.model.ContactData#106]
+10076 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `BDay` : value = 0
+10076 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`BDay`)  - enhanced for lazy-loading? - false
+10076 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `BMonth` : value = -
+10076 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`BMonth`)  - enhanced for lazy-loading? - false
+10076 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `BYear` : value = 
+10076 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`BYear`)  - enhanced for lazy-loading? - false
+10076 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `companyName` : value = 
+10076 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`companyName`)  - enhanced for lazy-loading? - false
+10076 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `firstAddress` : value = 
+10076 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`firstAddress`)  - enhanced for lazy-loading? - false
+10077 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `firstEMail` : value = 
+10077 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`firstEMail`)  - enhanced for lazy-loading? - false
+10077 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `firstName` : value = Modify_FirstName01
+10077 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`firstName`)  - enhanced for lazy-loading? - false
+10077 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `groups` : value = NOT NULL COLLECTION
+10077 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`groups`)  - enhanced for lazy-loading? - false
+10089 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `homePage` : value = 
+10089 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`homePage`)  - enhanced for lazy-loading? - false
+10089 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `lastName` : value = _LastName01
+10089 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`lastName`)  - enhanced for lazy-loading? - false
+10089 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `middleName` : value = _MiddleName01
+10089 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`middleName`)  - enhanced for lazy-loading? - false
+10089 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `nickName` : value = 
+10089 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`nickName`)  - enhanced for lazy-loading? - false
+10089 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `notes` : value = 
+10089 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`notes`)  - enhanced for lazy-loading? - false
+10089 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `photo` : value = 
+10089 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`photo`)  - enhanced for lazy-loading? - false
+10089 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `secondAddress` : value = 
+10089 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`secondAddress`)  - enhanced for lazy-loading? - false
+10089 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `secondEMail` : value = 
+10089 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`secondEMail`)  - enhanced for lazy-loading? - false
+10089 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `telHome` : value = 
+10089 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`telHome`)  - enhanced for lazy-loading? - false
+10089 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `telMobile` : value = 
+10089 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`telMobile`)  - enhanced for lazy-loading? - false
+10089 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `telWork` : value = 
+10089 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`telWork`)  - enhanced for lazy-loading? - false
+10089 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `thirdEMail` : value = 
+10089 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`thirdEMail`)  - enhanced for lazy-loading? - false
+10089 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `title` : value = 
+10089 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`title`)  - enhanced for lazy-loading? - false
+10090 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [il.elpisor.lodging.model.ContactData#106]
+10093 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.l.c.p.AbstractLoadPlanBasedCollectionInitializer - Loading collection: [il.elpisor.lodging.model.ContactData.groups#106]
+10093 [TestNG-test=MultiCreatingContacts-1] DEBUG org.hibernate.SQL - select groups0_.id as id1_0_0_, groups0_.group_id as group_id2_0_0_, groupdata1_.group_id as group_id1_2_1_, groupdata1_.group_footer as group_fo2_2_1_, groupdata1_.group_header as group_he3_2_1_, groupdata1_.group_name as group_na4_2_1_ from address_in_groups groups0_ inner join group_list groupdata1_ on groups0_.group_id=groupdata1_.group_id where groups0_.id=?
+10096 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.l.p.e.p.i.ResultSetProcessorImpl - Preparing collection initializer : [il.elpisor.lodging.model.ContactData.groups#106]
+10100 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.e.l.i.CollectionLoadContext - 1 collections were found in result set for role: il.elpisor.lodging.model.ContactData.groups
+10100 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.e.l.i.CollectionLoadContext - Collection fully initialized: [il.elpisor.lodging.model.ContactData.groups#106]
+10100 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.e.l.i.CollectionLoadContext - 1 collections initialized for role: il.elpisor.lodging.model.ContactData.groups
+10101 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.l.c.p.AbstractLoadPlanBasedCollectionInitializer - Done loading collection
+10102 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.e.t.internal.TransactionImpl - committing
+10103 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.e.i.AbstractFlushingEventListener - Processing flush-time cascades
+10107 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.e.i.AbstractFlushingEventListener - Dirty checking collections
+10112 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.engine.internal.Collections - Collection found: [il.elpisor.lodging.model.ContactData.groups#106], was: [il.elpisor.lodging.model.ContactData.groups#106] (initialized)
+10114 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 insertions, 0 updates, 0 deletions to 1 objects
+10114 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 (re)creations, 0 updates, 0 removals to 1 collections
+10116 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.internal.util.EntityPrinter - Listing entities:
+10116 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.internal.util.EntityPrinter - il.elpisor.lodging.model.ContactData{lastName=_LastName01, notes=, BDay=0, firstEMail=, nickName=, companyName=, secondAddress=, groups=[], photo=, telWork=, title=, homePage=, BMonth=-, firstName=Modify_FirstName01, BYear=, telMobile=, middleName=_MiddleName01, secondEMail=, telHome=, id=106, firstAddress=, thirdEMail=}
+10119 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.r.j.i.LogicalConnectionManagedImpl - Initiating JDBC connection release from afterTransaction
+10119 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.r.j.i.LogicalConnectionManagedImpl - Initiating JDBC connection release from afterTransaction
+15099 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.e.t.internal.TransactionImpl - On TransactionImpl creation, JpaCompliance#isJpaTransactionComplianceEnabled == false
+15100 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.e.t.internal.TransactionImpl - begin
+15101 [TestNG-test=MultiCreatingContacts-1] DEBUG org.hibernate.SQL - select contactdat0_.id as id1_1_, contactdat0_.bday as bday2_1_, contactdat0_.bmonth as bmonth3_1_, contactdat0_.byear as byear4_1_, contactdat0_.company as company5_1_, contactdat0_.address as address6_1_, contactdat0_.email as email7_1_, contactdat0_.firstname as firstnam8_1_, contactdat0_.homepage as homepage9_1_, contactdat0_.lastname as lastnam10_1_, contactdat0_.middlename as middlen11_1_, contactdat0_.nickname as nicknam12_1_, contactdat0_.notes as notes13_1_, contactdat0_.photo as photo14_1_, contactdat0_.address2 as address15_1_, contactdat0_.email2 as email16_1_, contactdat0_.home as home17_1_, contactdat0_.mobile as mobile18_1_, contactdat0_.work as work19_1_, contactdat0_.email3 as email20_1_, contactdat0_.title as title21_1_ from addressbook contactdat0_ where deprecated='0000-00-00'
+15103 [TestNG-test=MultiCreatingContacts-1] DEBUG org.hibernate.loader.Loader - Result set row: 0
+15104 [TestNG-test=MultiCreatingContacts-1] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[il.elpisor.lodging.model.ContactData#106]
+15104 [TestNG-test=MultiCreatingContacts-1] DEBUG org.hibernate.loader.Loader - Result set row: 1
+15104 [TestNG-test=MultiCreatingContacts-1] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[il.elpisor.lodging.model.ContactData#110]
+15105 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [il.elpisor.lodging.model.ContactData#106]
+15105 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `BDay` : value = 0
+15105 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`BDay`)  - enhanced for lazy-loading? - false
+15105 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `BMonth` : value = -
+15105 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`BMonth`)  - enhanced for lazy-loading? - false
+15105 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `BYear` : value = 
+15105 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`BYear`)  - enhanced for lazy-loading? - false
+15105 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `companyName` : value = 
+15105 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`companyName`)  - enhanced for lazy-loading? - false
+15105 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `firstAddress` : value = 
+15105 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`firstAddress`)  - enhanced for lazy-loading? - false
+15105 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `firstEMail` : value = 
+15105 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`firstEMail`)  - enhanced for lazy-loading? - false
+15105 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `firstName` : value = Modify_FirstName01
+15105 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`firstName`)  - enhanced for lazy-loading? - false
+15105 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `groups` : value = NOT NULL COLLECTION
+15105 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`groups`)  - enhanced for lazy-loading? - false
+15105 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `homePage` : value = 
+15105 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`homePage`)  - enhanced for lazy-loading? - false
+15105 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `lastName` : value = _LastName01
+15105 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`lastName`)  - enhanced for lazy-loading? - false
+15106 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `middleName` : value = _MiddleName01
+15106 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`middleName`)  - enhanced for lazy-loading? - false
+15106 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `nickName` : value = 
+15106 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`nickName`)  - enhanced for lazy-loading? - false
+15106 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `notes` : value = 
+15106 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`notes`)  - enhanced for lazy-loading? - false
+15106 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `photo` : value = 
+15106 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`photo`)  - enhanced for lazy-loading? - false
+15106 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `secondAddress` : value = 
+15106 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`secondAddress`)  - enhanced for lazy-loading? - false
+15106 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `secondEMail` : value = 
+15106 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`secondEMail`)  - enhanced for lazy-loading? - false
+15106 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `telHome` : value = 
+15106 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`telHome`)  - enhanced for lazy-loading? - false
+15106 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `telMobile` : value = 
+15106 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`telMobile`)  - enhanced for lazy-loading? - false
+15106 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `telWork` : value = 
+15106 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`telWork`)  - enhanced for lazy-loading? - false
+15106 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `thirdEMail` : value = 
+15106 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`thirdEMail`)  - enhanced for lazy-loading? - false
+15106 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `title` : value = 
+15106 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`title`)  - enhanced for lazy-loading? - false
+15106 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [il.elpisor.lodging.model.ContactData#106]
+15107 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [il.elpisor.lodging.model.ContactData#110]
+15107 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `BDay` : value = 0
+15107 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`BDay`)  - enhanced for lazy-loading? - false
+15107 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `BMonth` : value = -
+15107 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`BMonth`)  - enhanced for lazy-loading? - false
+15107 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `BYear` : value = 
+15107 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`BYear`)  - enhanced for lazy-loading? - false
+15107 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `companyName` : value = 
+15107 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`companyName`)  - enhanced for lazy-loading? - false
+15107 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `firstAddress` : value = 
+15107 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`firstAddress`)  - enhanced for lazy-loading? - false
+15107 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `firstEMail` : value = 
+15107 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`firstEMail`)  - enhanced for lazy-loading? - false
+15107 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `firstName` : value = gen_first_name 1
+15107 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`firstName`)  - enhanced for lazy-loading? - false
+15107 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `groups` : value = NOT NULL COLLECTION
+15107 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`groups`)  - enhanced for lazy-loading? - false
+15107 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `homePage` : value = 
+15107 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`homePage`)  - enhanced for lazy-loading? - false
+15107 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `lastName` : value = gen_last_name 1
+15107 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`lastName`)  - enhanced for lazy-loading? - false
+15107 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `middleName` : value = 
+15107 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`middleName`)  - enhanced for lazy-loading? - false
+15107 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `nickName` : value = 
+15107 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`nickName`)  - enhanced for lazy-loading? - false
+15107 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `notes` : value = 
+15107 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`notes`)  - enhanced for lazy-loading? - false
+15107 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `photo` : value = 
+15108 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`photo`)  - enhanced for lazy-loading? - false
+15108 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `secondAddress` : value = 
+15108 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`secondAddress`)  - enhanced for lazy-loading? - false
+15108 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `secondEMail` : value = 
+15108 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`secondEMail`)  - enhanced for lazy-loading? - false
+15108 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `telHome` : value = 
+15108 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`telHome`)  - enhanced for lazy-loading? - false
+15108 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `telMobile` : value = 
+15108 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`telMobile`)  - enhanced for lazy-loading? - false
+15108 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `telWork` : value = 
+15108 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`telWork`)  - enhanced for lazy-loading? - false
+15108 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `thirdEMail` : value = 
+15108 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`thirdEMail`)  - enhanced for lazy-loading? - false
+15108 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `title` : value = 
+15108 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`title`)  - enhanced for lazy-loading? - false
+15108 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [il.elpisor.lodging.model.ContactData#110]
+15108 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.l.c.p.AbstractLoadPlanBasedCollectionInitializer - Loading collection: [il.elpisor.lodging.model.ContactData.groups#110]
+15108 [TestNG-test=MultiCreatingContacts-1] DEBUG org.hibernate.SQL - select groups0_.id as id1_0_0_, groups0_.group_id as group_id2_0_0_, groupdata1_.group_id as group_id1_2_1_, groupdata1_.group_footer as group_fo2_2_1_, groupdata1_.group_header as group_he3_2_1_, groupdata1_.group_name as group_na4_2_1_ from address_in_groups groups0_ inner join group_list groupdata1_ on groups0_.group_id=groupdata1_.group_id where groups0_.id=?
+15110 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.l.p.e.p.i.ResultSetProcessorImpl - Preparing collection initializer : [il.elpisor.lodging.model.ContactData.groups#110]
+15110 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.e.l.i.CollectionLoadContext - 1 collections were found in result set for role: il.elpisor.lodging.model.ContactData.groups
+15110 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.e.l.i.CollectionLoadContext - Collection fully initialized: [il.elpisor.lodging.model.ContactData.groups#110]
+15110 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.e.l.i.CollectionLoadContext - 1 collections initialized for role: il.elpisor.lodging.model.ContactData.groups
+15110 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.l.c.p.AbstractLoadPlanBasedCollectionInitializer - Done loading collection
+15110 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.l.c.p.AbstractLoadPlanBasedCollectionInitializer - Loading collection: [il.elpisor.lodging.model.ContactData.groups#106]
+15110 [TestNG-test=MultiCreatingContacts-1] DEBUG org.hibernate.SQL - select groups0_.id as id1_0_0_, groups0_.group_id as group_id2_0_0_, groupdata1_.group_id as group_id1_2_1_, groupdata1_.group_footer as group_fo2_2_1_, groupdata1_.group_header as group_he3_2_1_, groupdata1_.group_name as group_na4_2_1_ from address_in_groups groups0_ inner join group_list groupdata1_ on groups0_.group_id=groupdata1_.group_id where groups0_.id=?
+15111 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.l.p.e.p.i.ResultSetProcessorImpl - Preparing collection initializer : [il.elpisor.lodging.model.ContactData.groups#106]
+15111 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.e.l.i.CollectionLoadContext - 1 collections were found in result set for role: il.elpisor.lodging.model.ContactData.groups
+15111 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.e.l.i.CollectionLoadContext - Collection fully initialized: [il.elpisor.lodging.model.ContactData.groups#106]
+15111 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.e.l.i.CollectionLoadContext - 1 collections initialized for role: il.elpisor.lodging.model.ContactData.groups
+15112 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.l.c.p.AbstractLoadPlanBasedCollectionInitializer - Done loading collection
+15112 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.e.t.internal.TransactionImpl - committing
+15112 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.e.i.AbstractFlushingEventListener - Processing flush-time cascades
+15112 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.e.i.AbstractFlushingEventListener - Dirty checking collections
+15112 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.engine.internal.Collections - Collection found: [il.elpisor.lodging.model.ContactData.groups#106], was: [il.elpisor.lodging.model.ContactData.groups#106] (initialized)
+15112 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.engine.internal.Collections - Collection found: [il.elpisor.lodging.model.ContactData.groups#110], was: [il.elpisor.lodging.model.ContactData.groups#110] (initialized)
+15112 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 insertions, 0 updates, 0 deletions to 2 objects
+15112 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 (re)creations, 0 updates, 0 removals to 2 collections
+15112 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.internal.util.EntityPrinter - Listing entities:
+15112 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.internal.util.EntityPrinter - il.elpisor.lodging.model.ContactData{lastName=_LastName01, notes=, BDay=0, firstEMail=, nickName=, companyName=, secondAddress=, groups=[], photo=, telWork=, title=, homePage=, BMonth=-, firstName=Modify_FirstName01, BYear=, telMobile=, middleName=_MiddleName01, secondEMail=, telHome=, id=106, firstAddress=, thirdEMail=}
+15112 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.internal.util.EntityPrinter - il.elpisor.lodging.model.ContactData{lastName=gen_last_name 1, notes=, BDay=0, firstEMail=, nickName=, companyName=, secondAddress=, groups=[], photo=, telWork=, title=, homePage=, BMonth=-, firstName=gen_first_name 1, BYear=, telMobile=, middleName=, secondEMail=, telHome=, id=110, firstAddress=, thirdEMail=}
+15112 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.r.j.i.LogicalConnectionManagedImpl - Initiating JDBC connection release from afterTransaction
+15113 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.r.j.i.LogicalConnectionManagedImpl - Initiating JDBC connection release from afterTransaction
+15136 [TestNG-test=MultiCreatingContacts-1] INFO  il.elpisor.lodging.tests.TestBase - Finished 'testCreationContact' with parameters: [ContactData{id=110, firstName='gen_first_name 1', lastName='gen_last_name 1', telMobile=''}]
+15832 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.internal.SessionFactoryImpl - HHH000031: Closing
+15832 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.t.spi.TypeConfiguration$Scope - Un-scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration$Scope@7820cb1c] from SessionFactory [org.hibernate.internal.SessionFactoryImpl@3843a231]
+15832 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.s.i.AbstractServiceRegistryImpl - Implicitly destroying ServiceRegistry on de-registration of all child ServiceRegistries
+15832 [TestNG-test=MultiCreatingContacts-1] INFO  o.hibernate.orm.connections.pooling - HHH10001008: Cleaning up connection pool [jdbc:mysql://localhost:3306/lodging]
+15862 [TestNG-test=MultiCreatingContacts-1] DEBUG o.h.b.r.i.BootstrapServiceRegistryImpl - Implicitly destroying Boot-strap registry on de-registration of all child ServiceRegistries

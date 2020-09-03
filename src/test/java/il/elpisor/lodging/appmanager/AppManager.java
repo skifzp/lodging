@@ -20,6 +20,7 @@ import java.util.Properties;
 import java.util.concurrent.TimeUnit;
 
 public class AppManager {
+
     protected WebDriver wd;
     private GroupHelper groupHelper;
     private NavigationHelper navigationHelper;
@@ -73,6 +74,8 @@ public class AppManager {
     }
 
     private void setWd() throws MalformedURLException {
+        //System.out.println("browser is " + System.getProperty("browser"));
+
         if("".equals(properties.getProperty("selenium.server"))) {
             if (browser.equals(BrowserType.FIREFOX)) {
                 wd = new FirefoxDriver();
@@ -91,7 +94,6 @@ public class AppManager {
         }
         wd.manage().timeouts().implicitlyWait(2, TimeUnit.SECONDS);
         wd.get(properties.getProperty("web.baseUrl"));
-        //System.out.println("browser is " + System.getProperty("browser"));
     }
 
 }

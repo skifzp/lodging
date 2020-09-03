@@ -135,7 +135,7 @@ public class ContactHelper extends HelperBase {
     public Contacts all() {
         int id;
         String firstName, lastName, phones, addressFirst, emails;
-        //String[] phones;
+
         Contacts contacts = new Contacts();
 
         List<WebElement> elements = wd.findElements(By.name("entry"));

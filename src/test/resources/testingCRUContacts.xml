@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="Suite1" verbose="1" thread-count="1">
+    <test name="Contacts">
+        <classes>
+            <class name="il.elpisor.lodging.tests.ContactCreation" />
+            <class name="il.elpisor.lodging.tests.ContactModification" />
+            <class name="il.elpisor.lodging.tests.ContactDelete" />
+            <class name="il.elpisor.lodging.tests.JoinGroupToContact" />
+            <class name="il.elpisor.lodging.tests.UnJoinGroupFromContactTest" />
+        </classes>
+    </test>
+
+</suite>

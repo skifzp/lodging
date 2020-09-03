@@ -9,6 +9,7 @@ import static org.hamcrest.CoreMatchers.equalTo;
 import static org.hamcrest.MatcherAssert.assertThat;
 
 public class GroupModification extends TestBase {
+
     @BeforeMethod
     public void ensurePreconditions() {
         app().goTo().groupPage();
@@ -28,8 +29,8 @@ public class GroupModification extends TestBase {
         Groups after = app().db().groups();
 
         assertThat(app().group().count(), equalTo(before.size()));
-        //assertThat(after, equalTo(before.withOut(beforeGroup).withAdded(newGroup)));
         assertThat(after, equalTo(before.withOut(beforeGroup)));
+
         // will be started only with -VM_option '-DverifyUI=true'
         verifyGroupListInUI();
     }

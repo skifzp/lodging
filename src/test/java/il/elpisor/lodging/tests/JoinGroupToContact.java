@@ -34,12 +34,12 @@ public class JoinGroupToContact extends TestBase {
 
         // JOIN 'groupToJoin' to 'contact'
         groupToJoin = groupsUI.iterator().next();
-        //but if 'contact.getGroups().size() != 0' then we need redefine 'groupToJoin'
+        // but if 'contact.getGroups().size() != 0' then we need redefine 'groupToJoin'
         //      - we find the groups that is't joined with the 'contact'
         //      OR
         //      - if the 'contact' already joined to all existing groups, we need to create a new group
         if (contact.getGroups().size() != 0) {
-            //we keep the groups that is't joined with contact
+            // we keep the groups that is't joined with contact
             groupsUI.removeAll(contact.getGroups().stream()
                     .map((g) -> g.withFooter("").withHeader(""))
                     .collect(Collectors.toSet()));
@@ -59,10 +59,10 @@ public class JoinGroupToContact extends TestBase {
             }
         }
 
-        //join 'contact' to Group 'groupToJoin'
+        // join 'contact' to Group 'groupToJoin'
         app().contact().joinContactToGroup(contact, groupToJoin);
 
-        //check-> the upper adding
+        // checking what was done above
         ContactData joinedContact = app().db().contacts().stream().filter((c) -> c.getId() == contact.getId()).findFirst().get();
 
         assertThat(
@@ -83,7 +83,7 @@ public class JoinGroupToContact extends TestBase {
         if (groupsDB.size() > 0) {
             // create a new group in case the selected contact is joined to all existing groups
             setUniqueGroup(groupsDB);
-        } else if (groupsDB.size() == 0) { // if no group exists, we will create same group
+        } else if (groupsDB.size() == 0) { // if no group exists, we will create some group
             app().goTo().groupPage();
             app().group().create(this.newGroup);
             app().goTo().homePage();

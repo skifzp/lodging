@@ -47,7 +47,7 @@ public class ContactCreation extends TestBase {
     @Test(enabled = true, dataProvider = "dataProviderFromJsonFile")
     // if we want to execute in 3 threads 6 times this method:
     //@Test(enabled = true, dataProvider = "dataProviderFromJsonFile", threadPoolSize = 3, invocationCount = 6)
-    // end we have to change annotation @BeforeClass to @BeforeMethod in TestBase->setUp(tearDown)
+    // and we have to change annotation @BeforeClass to @BeforeMethod in TestBase->setUp(tearDown)
     public void testCreationContact(ContactData newContact) throws Exception {
         Contacts before = app().db().contacts();
         app().contact().create(newContact);

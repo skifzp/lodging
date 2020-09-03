@@ -9,6 +9,7 @@ import static org.hamcrest.CoreMatchers.equalTo;
 import static org.hamcrest.MatcherAssert.assertThat;
 
 public class ContactModification extends TestBase {
+
     @BeforeMethod
     public void ensurePreconditions() {
         app().goTo().homePage();

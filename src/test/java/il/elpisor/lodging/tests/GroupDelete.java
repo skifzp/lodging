@@ -10,10 +10,11 @@ import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.Matchers.equalTo;
 
 public class GroupDelete extends TestBase {
+
     @BeforeMethod
     public void ensurePreconditions() {
         app().goTo().groupPage();
-        if (app().db().groups().size() == 0) { // if no group exists, we will create same group
+        if (app().db().groups().size() == 0) { // if no group exists, we will create a default group
             app().group().create(new GroupData().withName("default_group_01"));
         }
     }
