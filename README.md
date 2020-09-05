@@ -22,6 +22,7 @@
 -	GSON
 -	AllureReport
 
-![alt text](https://github.com/skifzp/lodging/blob/master/architecture.jpg)
+![architecture scheme](https://github.com/skifzp/lodging/blob/master/architecture.jpg)
 
+#### Please pay attention:
 `In this demo project I has used ThreadLocal to create object AppManager only to show how we can launch test suites in multithread mode. Here it is no correct to use multithread`
